@@ -3,7 +3,8 @@
 ## Adenovirus Konjunktivitis
 ---
 ### Interview
-{introduction}
+{% include introduction.md %}
+
 {datacollection}
 {Ursachenabklärung}
 * Sind in Ihrem Umfeld andere Personen erkrankt?
