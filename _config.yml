@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+remote_theme: skinny-bones-jekyll
 title: IfSK
 description: Infektionsschutz Kompendium
 show_downloads: false
