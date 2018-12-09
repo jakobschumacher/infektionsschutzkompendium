@@ -3,8 +3,8 @@
 ## Adenovirus Konjunktivitis
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Sind in Ihrem Umfeld andere Personen erkrankt?
 _Diese Frage ist wichtig um diese Person auch auf Schutzmaßnahmen hinzuweisen, etwas über die Übertragung der Erkrankung herauszufinden und gegebenenfalls eine Ausbruchsuntersuchung zu starten._
@@ -48,8 +48,8 @@ _Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach
 ## Borreliose
 ---
 ## Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -73,8 +73,8 @@ _Nicht sinnvoll_
 ## Campylobacter
 ---
 ## Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Haben Sie in den letzten XXX Tagen außerhalb Geflügelfleisch gegessen? Wenn Ja, wo genau?
 * Haben Sie in den letzten XXX Tagen in zu Hause Geflügelfleisch gegessen?
@@ -97,8 +97,8 @@ _Nicht sinnvoll_
 ## Clostridium difficile
 ---
 ## Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Wo haben Sie zuletzt Antibiotika bekommen?
 _Antibiotika ist ein Hauptgrund für eine Clostridium difficile Diarrhoe_
@@ -140,8 +140,8 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 ## EHEC
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -156,8 +156,8 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 ## FSME
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -172,8 +172,8 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 ## Giardia
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -188,8 +188,8 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 ## Grippe
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 _Eine Ursachenabklärung ist nicht notwendig, da die Erfassung der Transmissionkette keinen Vorteil bringt._
 {Weiterverbreitung abschätzen}
@@ -208,8 +208,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hand-Fuß-Mund-Krankheit
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -236,8 +236,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Haemophilus influenzae
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -252,8 +252,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hepatitis A
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -268,8 +268,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hepatitis B
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -284,8 +284,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hepatitis C
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -300,8 +300,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hepatitis E
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -316,8 +316,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Impetigo contagiosa
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -332,8 +332,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Keuchhusten
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -348,10 +348,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Krätze
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
-{Ursachenabklärung}{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
+{Ursachenabklärung}{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -366,8 +366,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Röteln
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -382,8 +382,8 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Rotavirus
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
@@ -410,8 +410,8 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Salmonellen
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -426,8 +426,8 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Scharlach
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -442,8 +442,8 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Shigellose
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 
 
@@ -482,8 +482,8 @@ Dieser Fall sollte vom Zetrum für Tuberkulose-Erkrankungen befragt werden.
 ## Windpocken/Görtelrose
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
@@ -571,8 +571,8 @@ Nun sage ich Ihnen was Sie in der nächsten Zeit unbedingt beachten sollen
 ## Läuse
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -587,8 +587,8 @@ Nun sage ich Ihnen was Sie in der nächsten Zeit unbedingt beachten sollen
 ## Legionellen
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -603,8 +603,8 @@ Nun sage ich Ihnen was Sie in der nächsten Zeit unbedingt beachten sollen
 ---
 
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Hat die erkrankte Person Kontakt zu Rattenurin, z.B. durch Rattenhaltung oder Feldarbeit
 _Dies ist die wahrscheinlichste Quelle für eine Erkrankung. Hierdurch lässt sich gegebenenfalls die Quelle abstellen._
@@ -633,8 +633,8 @@ _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
 ## Listeriose
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -649,8 +649,8 @@ _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
 ## Masern
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
@@ -683,8 +683,8 @@ _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
 ## Meningokokken
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * In den letzten 10 Tagen vor Erkrankungsbeginn, wen haben Sie getroffen?
 * Sind Sie irgendwie mit Speichel in Berührung gekommen?
@@ -718,8 +718,8 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 ## MRGN Acinetobacter und Enterobacteriaceae
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Ist Ihnen bekannt, wo Sie sich angesteckt haben?
 * Falls Sie im Krankenhaus liegen: wurde bei Ihnen ein Abstrich bei der Aufnahme gemacht?
@@ -738,8 +738,8 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 ## MRSA
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -754,8 +754,8 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 ## Mumps
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Wo waren Sie in den letzten XXX Tagen
 {Weiterverbreitung abschätzen}
@@ -781,8 +781,8 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 ## Norovirus
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Gab es weitere Erkrankungen im Umfeld?
 _Diese Frage ist wichtig um herauszufinden, ob ein Ausbruch vorliegt. Beispielsweise könnte eine Person berichten, sie sei bei einem Schulausflug gewesen und die Hälfte der Schülerinnen und Schüler sei erkrankt. Das würde eine Ausbruchsuntersuchung rechtfertigen._
@@ -804,8 +804,8 @@ Das ist wichtig um einen Ausbruch zu erkennen. Beispielsweise könnten mehrere P
 ## Ringelröteln
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -820,8 +820,8 @@ Das ist wichtig um einen Ausbruch zu erkennen. Beispielsweise könnten mehrere P
 ## Röteln
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -836,8 +836,8 @@ Das ist wichtig um einen Ausbruch zu erkennen. Beispielsweise könnten mehrere P
 ## Rotavirus
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
@@ -864,8 +864,8 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Salmonellen
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -880,8 +880,8 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Scharlach
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 {Weiterverbreitung abschätzen}
 {Empfehlungen}
@@ -890,6 +890,7 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ### Maßnahmen
 
 ### Weitere Informationen
+
 
 
 
@@ -905,8 +906,8 @@ Dieser Fall sollte vom Zetrum für Tuberkulose-Erkrankungen befragt werden.
 ## Windpocken/Görtelrose
 ---
 ### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
+{introduction}
+{datacollection}
 {Ursachenabklärung}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
