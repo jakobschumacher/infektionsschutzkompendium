@@ -1,8 +1,4 @@
 
-# Über diese Seite
-Hier steht der Eingangstext
-
-
 ---
 ## Adenovirus Konjunktivitis
 ---
