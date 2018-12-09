@@ -4,7 +4,6 @@
 
 ### Interview
 {% include introduction.md %}
-
 {% include datacollection.md %}
 {% include causes.md %}
 * Sind in Ihrem Umfeld andere Personen erkrankt?
@@ -14,7 +13,6 @@ _Eine Übertragung durch eine Behandlung der Augen ist eine bekannte Übertragun
 * Leben oder arbeiten Sie in einer Gemeinschaft mit vielen anderen Menschen?
 _Falls die erkrankte Person in einer Gemeinschafts/Massenunterkunft lebt sollte erwogen werden diese zu begehen, falls das möglich ist. Übertragungen in einer Gemeinschafts/Massenunterkunft können zum Beispiel durch gemeinsam gebrauchte Handtücher entstehen. Möglicherweise ist eine Isolation der erkrankten Person in der Einrichtung sinnvoll._
 * Waren Sie in den zwei Wochen vor der Erkrankung (genauer 5 bis 12 Tage) in einem Schwimmbad?
-
 _Eine Übertragung durch Schwimmbeckenwasser ist eine bekannte Übertragungsart._
 
 {% include estimatetransmission.md %}
@@ -24,7 +22,6 @@ _Eine Übertragung durch Schwimmbeckenwasser ist eine bekannte Übertragungsart.
 _Adenoviren werden hauptsächlich über die Hände übertragen. Händewaschen oder Händedesinfizieren hilft._
 
 * Vermeiden Sie einen Hand-Auge-Kontakt!
-
 _Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach solch einem Kontakt wäre es am besten die Hände zu waschen oder zu desinfizieren._
 
 * Nutzen Sie Ihre Hygieneartikel nur für sich selber. Mit Hygieneartikel meine ich Handtücher, Waschlappen und so weiter!
@@ -48,8 +45,8 @@ _Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach
 
 ## Borreliose
 
-## Interview
-{introduction}
+### Interview
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -58,10 +55,10 @@ _Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach
 * Wenn Sie eine Zecke finden, entfernen Sie diese möglichst rasch, also innerhalb von 24h!
 {% include exit.md %}
 
-## Maßnahmen
+### Maßnahmen
 _Nicht sinnvoll_
-## Weitere Informationen
-## Wichtig zu wissen
+### Weitere Informationen
+### Wichtig zu wissen
 * Etwa 5–35% der Zecken sind mit Borrelien befallen
 * In Deutschland ist nach einem Zeckenstich bei 1,5–6% der Betroffenen mit einer Infektion zu rechnen (einschließlich der klinisch inapparenten Fälle)
 * Bei 1% der Fälle ist nach einem Zeckenstich mit einer manifesten Erkrankung zu rechnen.
@@ -69,12 +66,10 @@ _Nicht sinnvoll_
 * Es gibt viele falsch-positive Befunde (zum Beispiel bei Autoimmunerkrankungen, Syphilis, Epstein-BarrVirus-Infektion, Herpes-Virus-Infektionen und viele weitere)
 * Eine generelle prophylaktische Antibiotikagabe nach Zeckenstich wird nicht empfohlen.
 
-
-
 ## Campylobacter
 
-## Interview
-{introduction}
+### Interview
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Haben Sie in den letzten XXX Tagen außerhalb Geflügelfleisch gegessen? Wenn Ja, wo genau?
@@ -85,20 +80,20 @@ _Nicht sinnvoll_
 * Achten Sie auf Küchenhygiene, zum Beispiel: Hände, Messer und Brettchen nach dem Fleisschneiden waschen. Gerne schicke ich Ihnen einen Link: https://www.infektionsschutz.de/hygienetipps/kuechen-und-lebensmittelhygiene/
 {% include exit.md %}
 
-## Maßnahmen
+### Maßnahmen
 * Information über Küchenhygiene
 * Außerhäuslichen Essensort in einen öffentlichen Kommentar bei SurvNet eintragen.
-## Weitere Informationen
+### Weitere Informationen
 
-## Wichtig zu wissen
+### Wichtig zu wissen
 
 
 
 
 ## Clostridium difficile
 
-## Interview
-{introduction}
+### Interview
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Wo haben Sie zuletzt Antibiotika bekommen?
@@ -141,7 +136,7 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 ## EHEC
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -157,7 +152,7 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 ## FSME
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -173,7 +168,7 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 ## Giardia
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -189,7 +184,7 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 ## Grippe
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 _Eine Ursachenabklärung ist nicht notwendig, da die Erfassung der Transmissionkette keinen Vorteil bringt._
@@ -209,7 +204,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hand-Fuß-Mund-Krankheit
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -237,7 +232,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Haemophilus influenzae
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -253,7 +248,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hepatitis A
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -269,7 +264,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hepatitis B
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -285,7 +280,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hepatitis C
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -301,7 +296,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Hepatitis E
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -317,7 +312,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Impetigo contagiosa
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -333,7 +328,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Keuchhusten
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -349,9 +344,9 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Krätze
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
-{% include causes.md %}{introduction}
+{% include causes.md %}{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -367,7 +362,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Röteln
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -383,7 +378,7 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 ## Rotavirus
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
@@ -411,7 +406,7 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Salmonellen
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -427,7 +422,7 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Scharlach
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -443,7 +438,7 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Shigellose
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 
@@ -483,7 +478,7 @@ Dieser Fall sollte vom Zetrum für Tuberkulose-Erkrankungen befragt werden.
 ## Windpocken/Görtelrose
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
@@ -572,7 +567,7 @@ Nun sage ich Ihnen was Sie in der nächsten Zeit unbedingt beachten sollen
 ## Läuse
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -588,7 +583,7 @@ Nun sage ich Ihnen was Sie in der nächsten Zeit unbedingt beachten sollen
 ## Legionellen
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -604,7 +599,7 @@ Nun sage ich Ihnen was Sie in der nächsten Zeit unbedingt beachten sollen
 
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Hat die erkrankte Person Kontakt zu Rattenurin, z.B. durch Rattenhaltung oder Feldarbeit
@@ -634,7 +629,7 @@ _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
 ## Listeriose
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -650,7 +645,7 @@ _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
 ## Masern
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
@@ -684,7 +679,7 @@ _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
 ## Meningokokken
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * In den letzten 10 Tagen vor Erkrankungsbeginn, wen haben Sie getroffen?
@@ -719,7 +714,7 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 ## MRGN Acinetobacter und Enterobacteriaceae
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Ist Ihnen bekannt, wo Sie sich angesteckt haben?
@@ -739,7 +734,7 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 ## MRSA
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -755,7 +750,7 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 ## Mumps
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Wo waren Sie in den letzten XXX Tagen
@@ -782,7 +777,7 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 ## Norovirus
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Gab es weitere Erkrankungen im Umfeld?
@@ -805,7 +800,7 @@ Das ist wichtig um einen Ausbruch zu erkennen. Beispielsweise könnten mehrere P
 ## Ringelröteln
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -821,7 +816,7 @@ Das ist wichtig um einen Ausbruch zu erkennen. Beispielsweise könnten mehrere P
 ## Röteln
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -837,7 +832,7 @@ Das ist wichtig um einen Ausbruch zu erkennen. Beispielsweise könnten mehrere P
 ## Rotavirus
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
@@ -865,7 +860,7 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Salmonellen
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -881,7 +876,7 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ## Scharlach
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 {% include estimatetransmission.md %}
@@ -907,7 +902,7 @@ Dieser Fall sollte vom Zetrum für Tuberkulose-Erkrankungen befragt werden.
 ## Windpocken/Görtelrose
 
 ### Interview
-{introduction}
+{% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
