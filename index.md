@@ -892,8 +892,6 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 ### Weitere Informationen
 
 
-{% include shigellosis.md %}
-
 
 ---
 ## Tuberkulose
