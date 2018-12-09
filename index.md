@@ -17,8 +17,8 @@ _Falls die erkrankte Person in einer Gemeinschafts/Massenunterkunft lebt sollte 
 
 _Eine Übertragung durch Schwimmbeckenwasser ist eine bekannte Übertragungsart._
 
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
 * Vermeiden Sie den Kontakt zu Immunsupprimierten!
 * Waschen Sie sich zwei Wochen nach Erkrankungsbeginn (noch besser 3 Wochen) die Hände nachdem Sie Ihre Augen berührt haben. Besser noch, verwenden Sie ein __viruzides__ Desinfektionsmittel!
 _Adenoviren werden hauptsächlich über die Hände übertragen. Händewaschen oder Händedesinfizieren hilft._
@@ -30,8 +30,8 @@ _Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach
 * Nutzen Sie Ihre Hygieneartikel nur für sich selber. Mit Hygieneartikel meine ich Handtücher, Waschlappen und so weiter!
 * Erzählen Sie Personen, mit denen Sie in den letzten XXX tagen Kontakt hatten, dass Sie möglicherweise Augenprobleme bekommen können!
 * Wenn Sie einen Arzt besuchen, rufen Sie vorher an und weisen ihn darauf hin, dass Sie eine Adenoviren-Konjunktivitis haben!
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 
 ### Maßnahmen
 * Begehung einer Augenarztpraxis oder einer ähnlichen Einrichtung, falls die erkrankte Person sich dort angesteckt haben könnte.
@@ -52,12 +52,12 @@ _Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
 * Wenn Sie Kontakt zu bodennahen Pflanzen haben ziehen Sie lange Kleidung an und benutzen sie Insektenspray! Bodennahe Pflanzen heißt hohes Gras, Kraut, Farne, Strauchwerk.
 * Wenn Sie eine Zecke finden, entfernen Sie diese möglichst rasch, also innerhalb von 24h!
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ## Maßnahmen
 _Nicht sinnvoll_
 ## Weitere Informationen
@@ -80,11 +80,11 @@ _Nicht sinnvoll_
 * Haben Sie in den letzten XXX Tagen außerhalb Geflügelfleisch gegessen? Wenn Ja, wo genau?
 * Haben Sie in den letzten XXX Tagen in zu Hause Geflügelfleisch gegessen?
 * Sind weitere Personen in Ihrem Umfeld erkrankt?
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
 * Achten Sie auf Küchenhygiene, zum Beispiel: Hände, Messer und Brettchen nach dem Fleisschneiden waschen. Gerne schicke ich Ihnen einen Link: https://www.infektionsschutz.de/hygienetipps/kuechen-und-lebensmittelhygiene/
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ## Maßnahmen
 * Information über Küchenhygiene
 * Außerhäuslichen Essensort in einen öffentlichen Kommentar bei SurvNet eintragen.
@@ -103,8 +103,8 @@ _Nicht sinnvoll_
 {% include causes.md %}
 * Wo haben Sie zuletzt Antibiotika bekommen?
 _Antibiotika ist ein Hauptgrund für eine Clostridium difficile Diarrhoe_
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
 * Gespräch zwischen Hygienereferent/in und behandelnder Ärztin/behandelndem Arzt
 _Inhalte des Gesprächs:
 1. Warum hat die erkrante Person Antibiotika bekommen?
@@ -112,8 +112,8 @@ _Inhalte des Gesprächs:
 3. Gibt es im Krankenhaus Antibiotika-Guidelines?
 4. Gibt es im Haus eine CDAD-Erfassung, z.B. über CDAD-KISS?
 5. Ist die erkrankte Person adäquat isoliert nach RKI-Ratgeber?_
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 
 ### Gut zu wissen
 
@@ -144,10 +144,10 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -160,10 +160,10 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -176,10 +176,10 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -193,14 +193,14 @@ Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des
 {% include datacollection.md %}
 {% include causes.md %}
 _Eine Ursachenabklärung ist nicht notwendig, da die Erfassung der Transmissionkette keinen Vorteil bringt._
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 * Sind Sie häufig in einem Krankenhaus oder Pflegeheim, zum Beispiel weil Sie dort arbeiten oder dort betreut werden?
 _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legionellen-Nachweis und die Meldung dauern üblicherweise so lange, dass eine Weiterverbreitung schon stattgefunden hat._
-{Empfehlungen}
+{% include recommendations.md %}
 * Kennen Sie die Impfempfehlungen für Influenza?
 * Kennen Sie die Hygienetipps der BZgA?
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ### Maßnahmen
 * Begehung der Einrichtung
 ### Weitere Informationen
@@ -212,14 +212,14 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
 * Sie werden für Wochen den Erreger ausscheidet (Oral, Fäkal, Tröpfchen)
 * Sie sollten größere Menschenansammlungen vermeiden.
 * Es ist gesetzlich nicht vorgeschrieben, dass Sie einer Gemeinschaftseinrichtung fernbleiben, es kann aber eine Weiterverbreitung verlangsamen.
 * Verwenden Sie Einmaltaschentücher so lange Sie krank sind.
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 
 ### Maßnahmen
 * In einer Gemeinschaftseinrichtung sollte die Händehygiene und die Oberflächendesinfektion intensiviert werden
@@ -240,10 +240,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -256,10 +256,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -272,10 +272,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -288,10 +288,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -304,10 +304,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -320,10 +320,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -336,10 +336,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -354,10 +354,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {% include causes.md %}{introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -370,10 +370,10 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -388,14 +388,14 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 * Die erkrankte Person sollte alle Kontaktpersonen aus der Zeit nenne, in der er ansteckend war.
 _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer möglichen Infektion geimpft werden sollten._
-{Empfehlungen}
+{% include recommendations.md %}
 * Die erkrankte Person sollte folgende Information bekommen: Eine Impfung ist für alle Kinder empfohlen.
 * Die erkankte Person sollte den Erregersteckbrief zu Rotavirus erhalten.
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ### Maßnahmen
 * Andere betroffene Gesundheitsämter informieren.
 
@@ -414,10 +414,10 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -430,10 +430,10 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -448,13 +448,13 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 {% include causes.md %}
 
 
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 * Arbeiten Sie mit Lebensmitteln?
 * Haben Sie Verbindung zu Einrichtungen in denen Kinder betreut werden?
-{Empfehlungen}
+{% include recommendations.md %}
 *
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ### Maßnahmen
 * Laufende Desinfektion (Leib- und Bettwäsche, Taschen- und Handtücher sind im Kochwaschgang, mindestens jedoch bei 60 °C zu waschen. Bei nicht hitzebeständiger Wäsche oder falls Maschinenwäsche nicht möglich ist, ist die Wäsche 12 Stunden in geeignete Desinfektionslösungen einzulegen und anschließend wie normale Haushaltswäsche zu waschen. Toilettensitz, Toilettendeckel sowie Bettgestell, Waschbecken und Badewanne sind in Gesundheitseinrichtungen täglich zu desinfizieren.)
 * Händedesinfektion
@@ -488,17 +488,17 @@ Dieser Fall sollte vom Zetrum für Tuberkulose-Erkrankungen befragt werden.
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 * Die erkrankte Person sollte alle Kontaktpersonen aus der Zeit nenne, in der er ansteckend war.
 _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer möglichen Infektion geimpft werden sollten._
 
-{Empfehlungen}
+{% include recommendations.md %}
 
 * Die erkrankte Person sollte keine Kontakt zu ungeschützten Menschen haben.
 * Die erkrankte Person sollte folgende Information bekommen: Eine Impfung ist für alle Kinder empfohlen.
 * Die erkankte Person sollte den Erregersteckbrief zu Windpocken erhalten.
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ### Maßnahmen
 * Andere betroffene Gesundheitsämter informieren.
 
@@ -527,10 +527,10 @@ Alle Rickettsiosen
 # Nicht namentliche Meldepflichtige Erkrankungen
 HIV/Gonorrhö/Syphilis/Toxoplasmose/Zytomegalievirus
 
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -550,7 +550,7 @@ Jetzt stelle ich Ihnen Fragen um herauszufinden, woher sie die Erkrankungen viel
 * Sind andere Personen in Ihrer Umgebung erkrankt?
 * Waren sie im Ausland außerhalb von Europa?
 
-Jetzt folgen Fragen um die Gefahr der Weiterverbreitung abzuschätzen?
+{% include estimatetransmission.md %}
 * Sind Sie in einer Einrichtung in der Kinder- und Jugendliche betreut werden?
 * Arbeiten Sie mit Lebensmitteln?
 * Arbeiten Sie in einem Badebetrieb?
@@ -575,10 +575,10 @@ Nun sage ich Ihnen was Sie in der nächsten Zeit unbedingt beachten sollen
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -591,10 +591,10 @@ Nun sage ich Ihnen was Sie in der nächsten Zeit unbedingt beachten sollen
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -614,11 +614,11 @@ _Hier müsste gegebenenfalls das Veterinäramt informiert werden. Falls es sich 
 * Gibt es im Umfeld weitere ähnliche Erkrankungsfälle
 * Hatte die erkrankte Person zu unsauberem Badewasser?
 _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
 * Die erkrankte Person sollte darauf achten, dass für zwei Wochen Niemand mit ihrem/seinem Urin in Berührung kommt.
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 
 ## Maßnahmen
 * Überprüfung der Rattenkontrolle im Umfeld der erkrankten Person
@@ -637,10 +637,10 @@ _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -655,18 +655,18 @@ _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 * Die erkrankte Person sollte alle Kontaktpersonen aus der Zeit nenne, in der er ansteckend war. Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer möglichen Infektion geimpft werden sollten.
 
-{Empfehlungen}
+{% include recommendations.md %}
 
 * Die erkrankte Person sollte keine Kontakt zu ungeschützten Menschen haben.
 
 * Die erkrankte Person sollte folgende Information bekommen: Eine Impfung ist für alle empfohlen, die nach 1970 geboren sind.
 * Die erkankte Person sollte den Erregersteckbrief zu Masern erhalten.
 
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ### Maßnahmen
 * Eine Probe sollte an das Nationale Referenzlabor für Masern gehen. [Details zum Versand](https://www.rki.de/DE/Content/Infekt/NRZ/MMR/leistungen/leistungen_node.html;jsessionid=C15D4EB79B4C9EE72BFB2CCD774E3C0B.1_cid372)
 * Andere Mitarbeiterinnen des Gesundheitsamtes sollten wissen, dass es einen Masernfall gab.
@@ -692,11 +692,11 @@ _Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser._
 * Sind Sie geipmft
 * Falls Sie geimpft sind, gegen welchen Serotyp sind sie geimpft
 * Ist jemand anders erkrankt?
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung gekommen sein?
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 * Chemoprophylaxe für enge Kontaktpersonen nach Ratgeber für Ärzte Definition
 * Tätigkeitsverobte/Teilnahmeverbote bis 24h nach Chemoprophylaxe
@@ -724,11 +724,11 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 {% include causes.md %}
 * Ist Ihnen bekannt, wo Sie sich angesteckt haben?
 * Falls Sie im Krankenhaus liegen: wurde bei Ihnen ein Abstrich bei der Aufnahme gemacht?
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 * Wenn Sie im Krankenhaus oder Pflegeheim sind, Sind sie in einem Einzelzimmer oder haben die Leute im gleichen Zimmer den gleichen Erreger?
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 * Begehung. Das Stationsteam sollte auf die Bedeutung der Händehygiene hingewiesen werden.
 * Ausbruchssuche: Sind im Krankenhaus in diesem und im letzten Jahr noch weitere Personen mit dem gleichen Erreger kolonisiert/erkrankt gewesen?
@@ -742,10 +742,10 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -759,13 +759,13 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 {% include datacollection.md %}
 {% include causes.md %}
 * Wo waren Sie in den letzten XXX Tagen
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 * Besucht die erkrankte Person eine Gemeinschaftseinrichtung. Das ist wichtig für die Entscheidung zu einem Tätigkeits/Teilnahmeverbot
 * Leben Sie zusammen mit anderen Personen? Für Personen aus dem gleichen Haushalt gilt ebenfalls ein Tätigkeits/Teilnahmeverbot je na Impfstatus. Dies gilt ggf. auch für andere Personen der Gemeinschaftseinrichtung.
-{Empfehlungen}
+{% include recommendations.md %}
 * Eine Impfung ist kostenlos, sicher und meist wirksam und ist für alle Kinder empfohlen und für Personen in Gemeinschaftseinrichtungen oder dem Gesundheitswesen.
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ### Maßnahmen
 * Eine Oral-Fluid-Probe sollte in jedem Fall an das NRZ gehen
 
@@ -788,10 +788,10 @@ In den letzten 7 Tagen: Wer könnte potentiell mit Ihrem Speichel in Berührung 
 * Gab es weitere Erkrankungen im Umfeld?
 _Diese Frage ist wichtig um herauszufinden, ob ein Ausbruch vorliegt. Beispielsweise könnte eine Person berichten, sie sei bei einem Schulausflug gewesen und die Hälfte der Schülerinnen und Schüler sei erkrankt. Das würde eine Ausbruchsuntersuchung rechtfertigen._
 
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 
 ### Maßnahmen
 Gibt es eine Häufung von Norovirus-Fällen?
@@ -808,10 +808,10 @@ Das ist wichtig um einen Ausbruch zu erkennen. Beispielsweise könnten mehrere P
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -824,10 +824,10 @@ Das ist wichtig um einen Ausbruch zu erkennen. Beispielsweise könnten mehrere P
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -842,14 +842,14 @@ Das ist wichtig um einen Ausbruch zu erkennen. Beispielsweise könnten mehrere P
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 * Die erkrankte Person sollte alle Kontaktpersonen aus der Zeit nenne, in der er ansteckend war.
 _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer möglichen Infektion geimpft werden sollten._
-{Empfehlungen}
+{% include recommendations.md %}
 * Die erkrankte Person sollte folgende Information bekommen: Eine Impfung ist für alle Kinder empfohlen.
 * Die erkankte Person sollte den Erregersteckbrief zu Rotavirus erhalten.
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ### Maßnahmen
 * Andere betroffene Gesundheitsämter informieren.
 
@@ -868,10 +868,10 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -884,10 +884,10 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 {introduction}
 {% include datacollection.md %}
 {% include causes.md %}
-{Weiterverbreitung abschätzen}
-{Empfehlungen}
-{Verabschiedung}
-{Datenschutz}
+{% include estimatetransmission.md %}
+{% include recommendations.md %}
+{% include exit.md %}
+
 ### Maßnahmen
 
 ### Weitere Informationen
@@ -912,17 +912,17 @@ Dieser Fall sollte vom Zetrum für Tuberkulose-Erkrankungen befragt werden.
 {% include causes.md %}
 * Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
 
-{Weiterverbreitung abschätzen}
+{% include estimatetransmission.md %}
 * Die erkrankte Person sollte alle Kontaktpersonen aus der Zeit nenne, in der er ansteckend war.
 _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer möglichen Infektion geimpft werden sollten._
 
-{Empfehlungen}
+{% include recommendations.md %}
 
 * Die erkrankte Person sollte keine Kontakt zu ungeschützten Menschen haben.
 * Die erkrankte Person sollte folgende Information bekommen: Eine Impfung ist für alle Kinder empfohlen.
 * Die erkankte Person sollte den Erregersteckbrief zu Windpocken erhalten.
-{Verabschiedung}
-{Datenschutz}
+{% include exit.md %}
+
 ### Maßnahmen
 * Andere betroffene Gesundheitsämter informieren.
 
