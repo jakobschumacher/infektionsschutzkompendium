@@ -2,36 +2,44 @@
 
 ## Interview
 {% include introduction.md %}
-{% include datacollection.md %}
+
 {% include causes.md %}
-_Sind in Ihrem Umfeld andere Personen erkrankt?_
+> Sind in Ihrem Umfeld andere Personen erkrankt?
+
 Diese Frage ist wichtig um diese Person auch auf Schutzmaßnahmen hinzuweisen, etwas über die Übertragung der Erkrankung herauszufinden und gegebenenfalls eine Ausbruchsuntersuchung zu starten.
 
-_Wurden Sie in den zwei Wochen vor der Erkrankung  (genauer 5 bis 12 Tage) an den Augen behandelt? Zum Beispiel durch eine Ärztin/Arzt aber auch Heilpraktiker, Apotheker, Pflegekraft._
+> Wurden Sie in den zwei Wochen vor der Erkrankung  (genauer 5 bis 12 Tage) an den Augen behandelt? Zum Beispiel durch eine Ärztin/Arzt aber auch Heilpraktiker, Apotheker, Pflegekraft.
+
 Eine Übertragung durch eine Behandlung der Augen ist eine bekannte Übertragungsart.
 
-_Leben oder arbeiten Sie in einer Gemeinschaft mit vielen anderen Menschen?_
+> Leben oder arbeiten Sie in einer Gemeinschaft mit vielen anderen Menschen?
+
 Falls die erkrankte Person in einer Gemeinschafts/Massenunterkunft lebt sollte erwogen werden diese zu begehen, falls das möglich ist. Übertragungen in einer Gemeinschafts/Massenunterkunft können zum Beispiel durch gemeinsam gebrauchte Handtücher entstehen. Möglicherweise ist eine Isolation der erkrankten Person in der Einrichtung sinnvoll.
 
-_Waren Sie in den zwei Wochen vor der Erkrankung (genauer 5 bis 12 Tage) in einem Schwimmbad?_
+> Waren Sie in den zwei Wochen vor der Erkrankung (genauer 5 bis 12 Tage) in einem Schwimmbad?
+
 Eine Übertragung durch Schwimmbeckenwasser ist eine bekannte Übertragungsart.
 
 {% include estimatetransmission.md %}
+
 {% include recommendations.md %}
-_Vermeiden Sie den Kontakt zu Immunsupprimierten!_
+> Vermeiden Sie den Kontakt zu Immunsupprimierten!
 
-_Waschen Sie sich zwei Wochen nach Erkrankungsbeginn (noch besser 3 Wochen) die Hände nachdem Sie Ihre Augen berührt haben. Besser noch, verwenden Sie ein __viruzides__ Desinfektionsmittel!_
-Adenoviren werden hauptsächlich über die Hände übertragen. Händewaschen oder Händedesinfizieren hilft._
+> Waschen Sie sich zwei Wochen nach Erkrankungsbeginn (noch besser 3 Wochen) die Hände nachdem Sie Ihre Augen berührt haben. Besser noch, verwenden Sie ein viruzides Desinfektionsmittel!
 
-> Vermeiden Sie einen Hand-Auge-Kontakt!_
+Adenoviren werden hauptsächlich über die Hände übertragen. Händewaschen oder Händedesinfizieren hilft.
+
+> Vermeiden Sie einen Hand-Auge-Kontakt!
 
 Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach solch einem Kontakt wäre es am besten die Hände zu waschen oder zu desinfizieren.
 
-> Nutzen Sie Ihre Hygieneartikel nur für sich selber. Mit Hygieneartikel meine ich Handtücher, Waschlappen und so weiter!_
+> Nutzen Sie Ihre Hygieneartikel nur für sich selber. Mit Hygieneartikel meine ich Handtücher, Waschlappen und so weiter!
 
-_Erzählen Sie Personen, mit denen Sie in den letzten XXX tagen Kontakt hatten, dass Sie möglicherweise Augenprobleme bekommen können!_
+> Erzählen Sie Personen, mit denen Sie in den letzten XXX tagen Kontakt hatten, dass Sie möglicherweise Augenprobleme bekommen können!
 
-_Wenn Sie einen Arzt besuchen, rufen Sie vorher an und weisen ihn darauf hin, dass Sie eine Adenoviren-Konjunktivitis haben!_
+> Wenn Sie einen Arzt besuchen, rufen Sie vorher an und weisen ihn darauf hin, dass Sie eine Adenoviren-Konjunktivitis haben!
+
+{% include datacollection.md %}
 
 {% include exit.md %}
 

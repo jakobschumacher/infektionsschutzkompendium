@@ -1,1 +1,1 @@
-__Begrüßung:__ Guten Tag! ich arbeite im Gesundheitsamt. Uns wurde gemeldet, dass bei Ihnen ansteckende Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern. Das mache ich auf gesetzlicher Grundlage. Fragen zum Gesetz oder Datenschutz kann ich Ihnen gerne beantworten.
+> Guten Tag! Ich arbeite im Gesundheitsamt. Uns wurde gemeldet, dass bei Ihnen ansteckende Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern.
