@@ -1,6 +1,6 @@
 ## Adenovirus Konjunktivitis
 
---
+```
 ### Interview
 {% include introduction.md %}
 {% include datacollection.md %}
@@ -35,7 +35,7 @@ _Wenn Sie einen Arzt besuchen, rufen Sie vorher an und weisen ihn darauf hin, da
 
 {% include exit.md %}
 
---
+```
 
 ### Maßnahmen
 Begehung einer Augenarztpraxis oder einer ähnlichen Einrichtung, falls die erkrankte Person sich dort angesteckt haben könnte.
