@@ -15,6 +15,18 @@ _Inhalte des Gesprächs:
 3. Gibt es im Krankenhaus Antibiotika-Guidelines?
 4. Gibt es im Haus eine CDAD-Erfassung, z.B. über CDAD-KISS?
 5. Ist die erkrankte Person adäquat isoliert nach RKI-Ratgeber?_
+
+
+
+* Hat die erkrankte Person Protonenpumpeninhibitoren eingenommen? Wenn ja, kann es abgesetzt werden?
+
+* Wieviele Patienten auf der Station nehmen Antibiotika ein?
+
+* Wie erfolgen die Isolierungsmaßnahmen auf Station?
+
+* Wie ist die korrekte Händedesfinfektion bei Clostridium difficile?
+
+
 {% include exit.md %}
 
 
