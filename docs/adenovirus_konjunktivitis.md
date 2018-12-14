@@ -1,7 +1,6 @@
-## Adenovirus Konjunktivitis
+# Adenovirus Konjunktivitis
 
-```
-### Interview
+## Interview
 {% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
@@ -24,10 +23,11 @@ _Vermeiden Sie den Kontakt zu Immunsupprimierten!_
 _Waschen Sie sich zwei Wochen nach Erkrankungsbeginn (noch besser 3 Wochen) die Hände nachdem Sie Ihre Augen berührt haben. Besser noch, verwenden Sie ein __viruzides__ Desinfektionsmittel!_
 Adenoviren werden hauptsächlich über die Hände übertragen. Händewaschen oder Händedesinfizieren hilft._
 
-_Vermeiden Sie einen Hand-Auge-Kontakt!_
+> Vermeiden Sie einen Hand-Auge-Kontakt!_
+
 Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach solch einem Kontakt wäre es am besten die Hände zu waschen oder zu desinfizieren.
 
-_Nutzen Sie Ihre Hygieneartikel nur für sich selber. Mit Hygieneartikel meine ich Handtücher, Waschlappen und so weiter!_
+> Nutzen Sie Ihre Hygieneartikel nur für sich selber. Mit Hygieneartikel meine ich Handtücher, Waschlappen und so weiter!_
 
 _Erzählen Sie Personen, mit denen Sie in den letzten XXX tagen Kontakt hatten, dass Sie möglicherweise Augenprobleme bekommen können!_
 
@@ -35,13 +35,6 @@ _Wenn Sie einen Arzt besuchen, rufen Sie vorher an und weisen ihn darauf hin, da
 
 {% include exit.md %}
 
-```
-
-- [ ] Das ist eine Checkbox
-- [ ] Und noch eine Checkbox
-
-
-[ ] Und noch eine Checkbox3
 
 ### Maßnahmen
 Begehung einer Augenarztpraxis oder einer ähnlichen Einrichtung, falls die erkrankte Person sich dort angesteckt haben könnte.
