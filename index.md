@@ -1,150 +1,22 @@
 
-[Adenovirus Konjunktivitis](adenovirus.html)
-[Borreliose](borreliose.html)
-[Campylobacter](campylobacter.html)
+# Infektionsschutzfälle
+* [Adenovirus Konjunktivitis](adenovirus.html)
+* [Borreliose](borreliose.html)
+* [Campylobacter](campylobacter.html)
+* [Clostridium difficile](clostridium.html)
+* [Diphtherie](diphtherie.html)
+* [EHEC](ehec.html)
+* [Grippe](influenza.html)
+* [Hand-Fuß-Mund-Krankheit](handfussmund.html)
+* [FSME](fsme.html)
+* [Giardia](giardia.html)
+* [Rotavirus](rotavirus.html)
 
 
 
 
 
 
-## Clostridium difficile
-
-### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
-{% include causes.md %}
-* Wo haben Sie zuletzt Antibiotika bekommen?
-_Antibiotika ist ein Hauptgrund für eine Clostridium difficile Diarrhoe_
-{% include estimatetransmission.md %}
-{% include recommendations.md %}
-* Gespräch zwischen Hygienereferent/in und behandelnder Ärztin/behandelndem Arzt
-_Inhalte des Gesprächs:
-1. Warum hat die erkrante Person Antibiotika bekommen?
-2. Hat die erkrankte Person Protonen-Pumpen-Inhibitoren bekommen und wenn ja aufgrund welcher Indikation?
-3. Gibt es im Krankenhaus Antibiotika-Guidelines?
-4. Gibt es im Haus eine CDAD-Erfassung, z.B. über CDAD-KISS?
-5. Ist die erkrankte Person adäquat isoliert nach RKI-Ratgeber?_
-{% include exit.md %}
-
-
-### Gut zu wissen
-
-* Krankheitsauslösend wirken die Virulenzfaktoren Enterotoxin A und Cytotoxin B
-* Beim Menschen ist der Erreger häufig im Darm von Kleinkindern (bis zu 80%) aber vergleichsweise selten im Darm von Erwachsenen (≤ 5%)
-* Bei etwa einem von 100 antibiotisch behandelten Patienten muss mit einer C.-difficile-Infektion (CDI)* gerechnet werden
-* Nosokomialen Infektionen üblicherweise durch Ribotyp 001. Ribotyp 027 ist eine schlimmere Variante
-* Unter pragmatischen Gesichtspunkten sollten Isolierungsmaßnahmen noch für einen Zeitraum von 48 h nach Sistieren der Durchfälle aufrechterhalten werden
-* Letalität 1–2%
-* Klinisch schwerer Verlauf wenn Krankenhausaufnahme, ITS-Aufnahme, Notwendigkeit operativen Eingriffs, Tod
-* Definition Rückfall CDI innerhalb 2 Monate nach sistieren der Symptome
-* Antibiotika: Clindamycin, Ampicilin, Cephalosporine dachte man früher, heute sagt man:alle
-* Diagnostik durch Enzymimmunoessay innerhalb weniger Stunden
-
-
-## Diphtherie
-
-Ein Diphtherie-Fall sollte durch die Hygienereferentin/den Hygienereferenten des Gesundheitsamtes bearbeitet werden.
-
-### Weitere Informationen
-
-
-
-
-## EHEC
-
-### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
-{% include causes.md %}
-{% include estimatetransmission.md %}
-{% include recommendations.md %}
-{% include exit.md %}
-
-### Maßnahmen
-
-### Weitere Informationen
-
-
-
-## FSME
-
-### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
-{% include causes.md %}
-{% include estimatetransmission.md %}
-{% include recommendations.md %}
-{% include exit.md %}
-
-### Maßnahmen
-
-### Weitere Informationen
-
-
-
-## Giardia
-
-### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
-{% include causes.md %}
-{% include estimatetransmission.md %}
-{% include recommendations.md %}
-{% include exit.md %}
-
-### Maßnahmen
-
-### Weitere Informationen
-
-
-
-## Grippe
-
-### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
-{% include causes.md %}
-_Eine Ursachenabklärung ist nicht notwendig, da die Erfassung der Transmissionkette keinen Vorteil bringt._
-{% include estimatetransmission.md %}
-* Sind Sie häufig in einem Krankenhaus oder Pflegeheim, zum Beispiel weil Sie dort arbeiten oder dort betreut werden?
-_Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legionellen-Nachweis und die Meldung dauern üblicherweise so lange, dass eine Weiterverbreitung schon stattgefunden hat._
-{% include recommendations.md %}
-* Kennen Sie die Impfempfehlungen für Influenza?
-* Kennen Sie die Hygienetipps der BZgA?
-{% include exit.md %}
-
-### Maßnahmen
-* Begehung der Einrichtung
-### Weitere Informationen
-
-
-## Hand-Fuß-Mund-Krankheit
-
-### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
-{% include causes.md %}
-{% include estimatetransmission.md %}
-{% include recommendations.md %}
-* Sie werden für Wochen den Erreger ausscheidet (Oral, Fäkal, Tröpfchen)
-* Sie sollten größere Menschenansammlungen vermeiden.
-* Es ist gesetzlich nicht vorgeschrieben, dass Sie einer Gemeinschaftseinrichtung fernbleiben, es kann aber eine Weiterverbreitung verlangsamen.
-* Verwenden Sie Einmaltaschentücher so lange Sie krank sind.
-{% include exit.md %}
-
-
-### Maßnahmen
-* In einer Gemeinschaftseinrichtung sollte die Händehygiene und die Oberflächendesinfektion intensiviert werden
-* Eine Gemeinschaftseinrichtung sollte andere Eltern per Aushang darüber informieren, dass ihr Kind ggf. an Hand-Fuß-Mund erkrankt
-
-### Weitere Informationen
-[Hand-Fuß-Mund-Krankheit Ratgeber für Ärzte des Robert Koch-Instituts](https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_HFMK.html)
-
-### Gut zu wissen
-* Mehr als 80% der Erkrankungen verlaufen asymptomatisch
-* Schwerwiegende Verläufe sind sehr sehr selten, Säuglinge in den ersten zwei Wochen haben die größte Gefahr
-* Enteroviren sind unbehüllte Viren und werden deshalb nur von einem viruziden Desinfektionsmittel zuverlässig abgetötet
 
 
 ## Haemophilus influenzae
@@ -291,33 +163,6 @@ _Eine Weiterverbreitung abzuschätzen ist bei Grippe nicht sinnvoll. Der Legione
 
 ### Weitere Informationen
 
-
-
-## Rotavirus
-
-### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
-{% include causes.md %}
-* Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
-
-{% include estimatetransmission.md %}
-* Die erkrankte Person sollte alle Kontaktpersonen aus der Zeit nenne, in der er ansteckend war.
-_Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer möglichen Infektion geimpft werden sollten._
-{% include recommendations.md %}
-* Die erkrankte Person sollte folgende Information bekommen: Eine Impfung ist für alle Kinder empfohlen.
-* Die erkankte Person sollte den Erregersteckbrief zu Rotavirus erhalten.
-{% include exit.md %}
-
-### Maßnahmen
-* Andere betroffene Gesundheitsämter informieren.
-
-### Weitere Informationen
-* [Ratgeber für Ärzte des Robert Koch-Instituts - Windpocken](https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Windpocken.html)
-
-* [Erregersteckbrief](https://www.infektionsschutz.de/erregersteckbriefe/windpocken/)
-
-* [Empfehlungen der STIKO zu Masern (Seite 341) inklusive Postexpositionsprophylaxe (Seite 357)](https://www.rki.de/DE/Content/Infekt/EpidBull/Archiv/2017/Ausgaben/34_17.pdf?__blob=publicationFile)
 
 
 
