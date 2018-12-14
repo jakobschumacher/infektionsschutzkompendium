@@ -12,3 +12,9 @@ Lade dir eine Krankheitsdatei herunter. Die Struktur ist einfach zu verstehen. D
 
 ## Komplizierte Variante
 Besorg dir einen github account, klone das Repositorium, füge Änderungen hinzu und mache einen Pull-Request.
+
+
+# Mitwirkende
+Jakob Schumacher, Gesundheitsamt Reinickendorf, Berlin
+Kathrin Schaten, Gesundheitsamt Mitte, Berlin
+Marius Hausner, Gesundheitsamt Mitte, Berlin
