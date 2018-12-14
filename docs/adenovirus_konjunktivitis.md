@@ -3,10 +3,9 @@
 ## Interview
 {% include introduction.md %}
 
-{% include causes.md %}
 > Sind in Ihrem Umfeld andere Personen erkrankt?
 
-Diese Frage ist wichtig um diese Person auch auf Schutzmaßnahmen hinzuweisen, etwas über die Übertragung der Erkrankung herauszufinden und gegebenenfalls eine Ausbruchsuntersuchung zu starten.
+<small>Diese Frage ist wichtig um diese Person auch auf Schutzmaßnahmen hinzuweisen, etwas über die Übertragung der Erkrankung herauszufinden und gegebenenfalls eine Ausbruchsuntersuchung zu starten.</small>
 
 > Wurden Sie in den zwei Wochen vor der Erkrankung  (genauer 5 bis 12 Tage) an den Augen behandelt? Zum Beispiel durch eine Ärztin/Arzt aber auch Heilpraktiker, Apotheker, Pflegekraft.
 
@@ -20,12 +19,10 @@ Falls die erkrankte Person in einer Gemeinschafts/Massenunterkunft lebt sollte e
 
 Eine Übertragung durch Schwimmbeckenwasser ist eine bekannte Übertragungsart.
 
-{% include estimatetransmission.md %}
-
 {% include recommendations.md %}
 > Vermeiden Sie den Kontakt zu Immunsupprimierten!
 
-> Waschen Sie sich zwei Wochen nach Erkrankungsbeginn (noch besser 3 Wochen) die Hände nachdem Sie Ihre Augen berührt haben. Besser noch, verwenden Sie ein viruzides Desinfektionsmittel!
+> Waschen Sie sich zwei bis drei Wochen nach Erkrankungsbeginn die Hände nachdem Sie Ihre Augen berührt haben. Besser noch, verwenden Sie ein viruzides Desinfektionsmittel!
 
 Adenoviren werden hauptsächlich über die Hände übertragen. Händewaschen oder Händedesinfizieren hilft.
 
@@ -33,11 +30,27 @@ Adenoviren werden hauptsächlich über die Hände übertragen. Händewaschen ode
 
 Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach solch einem Kontakt wäre es am besten die Hände zu waschen oder zu desinfizieren.
 
-> Nutzen Sie Ihre Hygieneartikel nur für sich selber. Mit Hygieneartikel meine ich Handtücher, Waschlappen und so weiter!
+> Verwenden Sie alle Ihre Hygieneartikel nur für sich selber! Augenmittel, Augenpipetten, Handtücher, Waschlappen und andere Dinge, die mit der Augenregion in Kontakt kommt.
 
-> Erzählen Sie Personen, mit denen Sie in den letzten XXX tagen Kontakt hatten, dass Sie möglicherweise Augenprobleme bekommen können!
+> Bedecken Sie Ihren Mund und Nase beim Niesen mit einem Taschentuch, das danach direkt entsorgt werden sollte.
+
+> Vermeiden Sie es andere Personen zu küssen
+
+> Reinigen Sie regelmäßig Dinge, mit denen Sie häufig in Kontakt kommen: Türklinken, Handgriffe, Telefone. Besser noch ist eine Desinfektion mit einem viruziden Desinfektionsmittel.
+
+> Klären Sie andere Menschen, die sich möglicherweise angesteckt haben können über die Erkrankung auf!
+
+Kontaktpersonen entwickeln möglicherweise die gleiche Krankheit. Wenn Sie das Risiko kennen können sie sich besser verhalten und eine Weiterverbreitung möglicherweise verhindern.
+
+> Vermeiden Sie den Kontakt zu Personen mit einem schlechten Immunsystem!
 
 > Wenn Sie einen Arzt besuchen, rufen Sie vorher an und weisen ihn darauf hin, dass Sie eine Adenoviren-Konjunktivitis haben!
+
+Ärztlich Tätige können die Weiterverbreitung in Ihrer Praxis einschränken, wenn Ihnen die Erkrankung bewusst ist. Sie können spezielle Termine legen und spezielle Desinfektionsmaßnahmen einleiten.
+
+> Gehen Sie nicht ins Schwimmbad bis 2 (besser 3) Wochen nach Erkrankungsbeginn!
+
+<small>In Schwimmbädern können Adenoviren übers Wasser weiterverbreitet werden.</small>
 
 {% include datacollection.md %}
 
@@ -45,11 +58,10 @@ Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach 
 
 
 ### Maßnahmen
-Begehung einer Augenarztpraxis oder einer ähnlichen Einrichtung, falls die erkrankte Person sich dort angesteckt haben könnte.
-
-Begehung einer Gemeinschaftseinrichtung falls die erkrankte Person sich dort angesteckt haben könnte
-
-Teilnahmeverbot (z.B. für Gemeinschaftseinrichtung, medizinisches Personal)
+* Weitergabe von Informationsmaterial an die erkrankte Person
+* Begehung einer Augenarztpraxis oder einer ähnlichen Einrichtung, falls die erkrankte Person sich dort angesteckt haben könnte.
+* Begehung einer Gemeinschaftseinrichtung falls die erkrankte Person sich dort angesteckt haben könnte
+* Tätigkeits-/Teilnahmeverbot kann gemäß § 28/§ 31 erwogen werden. Dies gilt insbesondere für Personen in Gemeinschaftseinrichtungen, medzinisches Personal oder für Massenunterkünfte.
 
 ### Weitere Informationen
 * [Adenovirus Ratgeber für Ärzte des Robert Koch-Instituts](https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Adenovirus_Konjunktivitis.html)
