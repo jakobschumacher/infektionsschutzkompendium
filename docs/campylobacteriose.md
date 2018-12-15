@@ -39,7 +39,7 @@ function myFunction2() {
 
 > Haben Sie in den letzten 5 Tagen bevor dem Beginn der Erkrankung außwärts Geflügelfleisch gegessen? Wenn Ja, wo genau?
 
-<span class="comment"> Wenn die Person außwärts Geflügelfleisch essen war, sollte der Name des Essensortes in einem öffentlichen Kommentar vermerkt werden. Das hilft der Landestelle einem Ausbruch auf die Spur zu kommen </span>
+<div class="comment"> Wenn die Person außwärts Geflügelfleisch essen war, sollte der Name des Essensortes in einem öffentlichen Kommentar vermerkt werden. Das hilft der Landestelle einem Ausbruch auf die Spur zu kommen </div>
 
 > Haben Sie in den letzten fünf Tagen vor der Erkrankung zu Hause Geflügelfleisch gegessen?
 
