@@ -1,7 +1,7 @@
 
-## MRGN (Acinetobacter und Enterobacteriaceae)
+# MRGN (Acinetobacter und Enterobacteriaceae)
 
-### Interview
+## Interview
 {% include introduction.md %}
 {% include datacollection.md %}
 {% include causes.md %}
@@ -12,8 +12,19 @@
 {% include recommendations.md %}
 {% include exit.md %}
 
-### Maßnahmen
+## Maßnahmen
 * Begehung. Das Stationsteam sollte auf die Bedeutung der Händehygiene hingewiesen werden.
 * Ausbruchssuche: Sind im Krankenhaus in diesem und im letzten Jahr noch weitere Personen mit dem gleichen Erreger kolonisiert/erkrankt gewesen?
 
-### Weitere Informationen
+## Weitere Informationen
+
+
+Hat sich die erkrankte/kolonisierte Person im Krankenhaus angesteckt?
+Diese Frage ist wichtig um zu eruieren wo Maßnahmen versagt haben
+
+Welche Maßnahmen im Krankenhaus sind bei der erkrankten Person erfolgt?
+Es sollten mindestens die folgenden Dinge passiert sein:
+- Die erkrankte/kolonisierte Person wurde isoliert (gegebenenfalls auch als Kohorte, d.h. mit anderen Personen)
+- Das Stationsteam sollte auf die Bedeutung der Händehygiene hingewiesen werden.
+
+Sind im Krankenhaus in diesem und im letzten Jahr noch weitere Personen mit dem gleichen Erreger kolonisiert/erkrankt gewesen?

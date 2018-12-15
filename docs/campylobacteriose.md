@@ -43,3 +43,25 @@
 * Die Erkrankung dauert in der Regel bis zu eine Woche, mitunter auch länger.
 * Seltene Folgeerkrankungen einer Campylobacter-Infektion können reaktive Arthritis und das Guillain-Barré-Syndrom sein.
 * Die Patienten sind 2–4 Wochen infektös. Bei Kleinkindern und Immungeschwächten noch länger.
+
+
+
+
+# Campylobacter
+
+## Interview
+* Waren Sie 2-5 Tage vor Erkrankungsbeginn in einem weiter entfernten Land mit potentiell niedrigen hygienischen Standards?
+
+Campylobacter wird im Ausland vielfach durch Wasser übertragen. Die erkrankte Person sollte beim nächsten Aufenthalt die wichtigsten Regeln kennen: zum Trinken, Zähneputzen usw. nur Wasser aus originalverpackten Flaschen verwenden. Gemüse schälen oder mit originalverpacktem Wasser waschen und Fleisch sollte nur gut durchgegart gegessen werden.
+
+* Waren Sie 2-5 Tage vor Erkrankungsbeginn auswärts Geflügelfleisch essen?
+
+Wenn dies der Fall ist, eine Meldung an das zuständige Lebensmittelaufsichtsamt.
+
+* Haben Sie 2-5 Tage vor Erkrankungsbeginn Rohmilch getrunken?
+
+Wenn dies der Fall ist, sollte eine Meldung an das zuständige Lebensmittelaufsichtsamt erfolgen. Die erkrankte Person sollte Wissen, das Rohmilch vor dem Konsum unbedingt abgekocht werden sollte. In der Vergangenheit hat es Ausbrüche durch Rohmilch gegeben.
+
+*
+
+*
