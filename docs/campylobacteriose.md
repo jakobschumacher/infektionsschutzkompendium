@@ -1,11 +1,32 @@
 # Campylobacter-Enteritis
 
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<button onclick="myFunction()">Click Me</button>
+
+<div id="myDIV">
+ This is my DIV element.
+</div>
+
+
 ## Interview
 <a href="docs/einleitung.html">Einleitende Worte</a>
 
 > Haben Sie in den letzten 5 Tagen bevor dem Beginn der Erkrankung außwärts Geflügelfleisch gegessen? Wenn Ja, wo genau?
 
-<small> Wenn die Person außwärts Geflügelfleisch essen war, sollte der Name des Essensortes in einem öffentlichen Kommentar vermerkt werden. Das hilft der Landestelle einem Ausbruch auf die Spur zu kommen </small>
+<span class="comment"> Wenn die Person außwärts Geflügelfleisch essen war, sollte der Name des Essensortes in einem öffentlichen Kommentar vermerkt werden. Das hilft der Landestelle einem Ausbruch auf die Spur zu kommen </span>
 
 > Haben Sie in den letzten fünf Tagen vor der Erkrankung zu Hause Geflügelfleisch gegessen?
 
