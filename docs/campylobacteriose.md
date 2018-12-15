@@ -11,10 +11,23 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+
+function myFunction2() {
+  var x = document.getElementsByClassName("comment");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
 </script>
 
 
 <button onclick="myFunction()">Click Me</button>
+<button onclick="myFunction2()">Hide comments</button>
+
 
 <div id="myDIV">
  This is my DIV element.
