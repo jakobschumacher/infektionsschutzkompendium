@@ -14,6 +14,18 @@ _Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer mögliche
 * Die erkankte Person sollte den Erregersteckbrief zu Rotavirus erhalten.
 {% include exit.md %}
 
+
+
+* Die erkrankte Person sollte alle Kontaktpersonen aus der Zeit nenne, in der er ansteckend war. Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer möglichen Infektion geimpft werden sollten.
+
+* Die erkrankte Person sollte keine Kontakt zu ungeschützten Menschen haben.
+
+* Die erkrankte Person sollte folgende Information bekommen: Eine Impfung ist für alle Kinder empfohlen.
+
+* Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
+
+* Die erkankte Person sollte den Erregersteckbrief zu Windpocken erhalten.
+
 ### Maßnahmen
 * Andere betroffene Gesundheitsämter informieren.
 
