@@ -39,6 +39,10 @@
         <p class="view"><a href="{{ site.github.repository_url }}">Mitmachen?  <small>Aber gerne doch - hier lang bitte!</small></a></p>
         {% endif %}
 
+
+           <button onclick="hidecomments()">Hide comments</button>
+           <button onclick="showcomments()">Show comments</button>
+
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
@@ -55,7 +59,7 @@
 
          <button onclick="hidecomments()">Hide comments</button>
          <button onclick="showcomments()">Show comments</button>
-         
+
       {{ content }}
 
       </section>

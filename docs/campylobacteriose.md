@@ -1,16 +1,5 @@
 # Campylobacter-Enteritis
-<script>
-function hidecomments() {
-document.querySelectorAll(".comment").forEach(a=>a.style.display = "none");
-}
-function showcomments() {
-document.querySelectorAll(".comment").forEach(a=>a.style.display = "block");
-}
-</script>
 
-
-<button onclick="hidecomments()">Hide comments</button>
-<button onclick="showcomments()">Show comments</button>
 
 
 ## Interview
@@ -26,13 +15,13 @@ document.querySelectorAll(".comment").forEach(a=>a.style.display = "block");
 
 > Sind weitere Personen in Ihrem Umfeld erkrankt?
 
-<small> Wenn mehrere Personen erkrankt sind, kann eine Ausbruchsuntersuchung erwogen werden </small>
+<div class="comment">  Wenn mehrere Personen erkrankt sind, kann eine Ausbruchsuntersuchung erwogen werden </div>
 
 > Achten Sie auf Küchenhygiene, zum Beispiel: Hände, Messer und Brettchen nach dem Fleisschneiden waschen. Gerne schicke ich Ihnen einen Link: https://www.infektionsschutz.de/hygienetipps/kuechen-und-lebensmittelhygiene/
 
 > Arbeiten Sie mit Lebensmitteln?
 
-<small>Ein Tätigkeitsverbot sollte nach § 42 I 1. erfolgen. Dabei kann unterschieden werden zwischen Personen, die besonders intensiv mit gefährlichen Lebensmitteln arbeiten (z.B. ein Koch, der Salat oder andere rohe Produkte zubereitet) oder eine Person, die das nicht tut (z.B. jemand in der Essensausgabe)</small>
+<div class="comment"> Ein Tätigkeitsverbot sollte nach § 42 I 1. erfolgen. Dabei kann unterschieden werden zwischen Personen, die besonders intensiv mit gefährlichen Lebensmitteln arbeiten (z.B. ein Koch, der Salat oder andere rohe Produkte zubereitet) oder eine Person, die das nicht tut (z.B. jemand in der Essensausgabe)</div>
 
 
 > Zur Verhinderung von Campylobacter folgen Sie den folgenden Regeln für Küchenhygiene! Vor dem Essen Händewaschen. Nach der Verarbeitung von von rohem Fleisch, Hände, Bretter und Messer abwaschen. Geflügel gut durcherhitzen. Rohe Lebensmittel vor Verzehr gut waschen. Die meisten Campylobacterfälle entstehen vermutlich im eigenen Haushalt. Hygienetipps können helfen. https://www.infektionsschutz.de/hygienetipps/kuechen-und-lebensmittelhygiene/
