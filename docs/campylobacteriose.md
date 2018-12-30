@@ -1,52 +1,17 @@
 # Campylobacter-Enteritis
 
-
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
-function myFunction2() {
-  var x = document.getElementsByClassName("comment");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
-function myFunction3() {
-  var myClasses = document.querySelectorAll('.comment'),
-      i = 0,
-      l = myClasses.length;
-
-  for (i; i < l; i++) {
-      myClasses[i].style.display = 'none';
-  }
-}
-
-function myFunction4() {
+function hidecomments() {
 document.querySelectorAll(".comment").forEach(a=>a.style.display = "none");
+}
+function showcomments() {
+document.querySelectorAll(".comment").forEach(a=>a.style.display = "block");
 }
 
 </script>
 
 
-<button onclick="myFunction()">Click Me</button>
-<button onclick="myFunction2()">Hide comments2</button>
-<button onclick="myFunction3()">Hide comments3</button>
-<button onclick="myFunction4()">Hide comments4</button>
-
-
-<div id="myDIV">
- This is my DIV element.
-</div>
+<button onclick="hidecomments()">Hide comments</button>
+<button onclick="showcomments()">Show comments</button>
 
 
 ## Interview
