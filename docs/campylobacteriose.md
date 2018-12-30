@@ -21,12 +21,19 @@ function myFunction2() {
   }
 }
 
+function myFunction3() {
+$(".myButton").each(function(index, element) {
+    // element is a node with the desired class name
+});
+}
+
 
 </script>
 
 
 <button onclick="myFunction()">Click Me</button>
-<button onclick="myFunction2()">Hide comments</button>
+<button onclick="myFunction2()">Hide comments2</button>
+<button onclick="myFunction3()">Hide comments3</button>
 
 
 <div id="myDIV">
@@ -43,7 +50,7 @@ function myFunction2() {
 
 > Haben Sie in den letzten fünf Tagen vor der Erkrankung zu Hause Geflügelfleisch gegessen?
 
-<small> Wenn das der Fall ist, könnte sich die erkrankte Person dort angesteckt haben. Insbesondere wenn die Person selber gekoch hat</small>
+<div class="comment">  Wenn das der Fall ist, könnte sich die erkrankte Person dort angesteckt haben. Insbesondere wenn die Person selber gekoch hat</div>
 
 > Sind weitere Personen in Ihrem Umfeld erkrankt?
 
