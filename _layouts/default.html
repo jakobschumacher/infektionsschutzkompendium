@@ -7,6 +7,16 @@
 
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script>
+ function hidecomments() {
+ document.querySelectorAll(".comment").forEach(a=>a.style.display = "none");
+ }
+ function showcomments() {
+ document.querySelectorAll(".comment").forEach(a=>a.style.display = "block");
+ }
+ </script>
+
+
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
@@ -43,6 +53,9 @@
       </header>
       <section>
 
+         <button onclick="hidecomments()">Hide comments</button>
+         <button onclick="showcomments()">Show comments</button>
+         
       {{ content }}
 
       </section>
