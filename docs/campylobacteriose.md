@@ -22,11 +22,18 @@ function myFunction2() {
 }
 
 function myFunction3() {
-$(".myButton").each(function(index, element) {
-    // element is a node with the desired class name
-});
+  var myClasses = document.querySelectorAll('.comment'),
+      i = 0,
+      l = myClasses.length;
+
+  for (i; i < l; i++) {
+      myClasses[i].style.display = 'none';
+  }
 }
 
+function myFunction4() {
+document.querySelectorAll(".comment").forEach(a=>a.style.display = "none");
+}
 
 </script>
 
@@ -34,6 +41,7 @@ $(".myButton").each(function(index, element) {
 <button onclick="myFunction()">Click Me</button>
 <button onclick="myFunction2()">Hide comments2</button>
 <button onclick="myFunction3()">Hide comments3</button>
+<button onclick="myFunction4()">Hide comments4</button>
 
 
 <div id="myDIV">
