@@ -7,7 +7,7 @@
 * [BSE](docs/bse.html)
 * [Campylobacter-Enteritis](docs/campylobacteriose.html)
 * [Cholera](docs/choleara.html)
-* [Clostridium difficile](docs/clostridium_difficile.html)
+* Clostridium difficile [Interview](docs/clostridium_difficile_interview.html), [Maßanahmen](docs/clostridium_difficile_massnahmen.html), [Fortbildung](docs/clostridium_difficile_fortbildung.html)
 * [Dengue Fieber](docs/dengue.html)
 * [Diphtherie](docs/diphtherie.html)
 * [Ebola Fieber](docs/ebola_fieber.html)
