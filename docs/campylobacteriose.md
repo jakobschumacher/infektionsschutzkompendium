@@ -1,6 +1,5 @@
 ---
 title: Campylobacter-Enteritis
-permalink: campylobacter/
 ---
 
 
