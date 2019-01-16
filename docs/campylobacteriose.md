@@ -1,6 +1,11 @@
+---
+title: Campylobacter-Enteritis
+permalink: campylobacter/
+---
+
+
+
 # Campylobacter-Enteritis
-
-
 
 ## Interview
 <a href="docs/einleitung.html">Einleitende Worte</a>
