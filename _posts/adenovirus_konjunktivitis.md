@@ -1,8 +1,8 @@
 ---
 title: Adenovirus Konjunktivitis
-layout: interview
+layout: post
 date: 2019-02-08
-categories: disease interview comments
+categories: [disease, interview, comments, update]
 ---
 
 ## Interview
