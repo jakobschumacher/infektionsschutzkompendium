@@ -1,6 +1,6 @@
 ---
-layout: presentation
 title: Botulismus
+layout: presentation
 ---
 
 # Botulismus

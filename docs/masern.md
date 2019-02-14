@@ -1,5 +1,10 @@
+---
+title: Masern
+layout: interview
+date: 2019-02-08
+categories: disease interview comments
+---
 
-## Masern
 
 ### Interview
 {% include introduction.md %}

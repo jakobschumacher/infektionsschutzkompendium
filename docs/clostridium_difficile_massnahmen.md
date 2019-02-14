@@ -1,3 +1,9 @@
+---
+title: Clostridium difficile
+layout: Maßnahmen
+date: 2019-02-08
+categories: disease massnahmen comments
+---
 
 * Gespräch zwischen Hygienereferent/in und behandelnder Ärztin/behandelndem Arzt
 _Inhalte des Gesprächs:

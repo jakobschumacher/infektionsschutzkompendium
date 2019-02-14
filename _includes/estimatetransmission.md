@@ -1,1 +1,1 @@
-> Jetzt folgen Fragen um die Gefahr der Weiterverbreitung abzuschätzen.
+Jetzt folgen Fragen um die Gefahr der Weiterverbreitung abzuschätzen.

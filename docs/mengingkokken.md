@@ -1,5 +1,10 @@
+---
+title: Mengingokokken
+layout: interview
+date: 2019-02-08
+categories: disease interview comments
+---
 
-## Meningokokken
 
 ### Interview
 {% include introduction.md %}

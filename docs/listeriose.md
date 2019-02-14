@@ -1,5 +1,10 @@
+---
+title: Listeriose
+layout: interview
+date: 2019-02-08
+categories: disease interview comments
+---
 
-## Listeriose
 
 ### Interview
 {% include introduction.md %}

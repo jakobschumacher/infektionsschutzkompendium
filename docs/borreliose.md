@@ -1,19 +1,24 @@
-## Borreliose
+---
+title: Borreliose
+layout: interview
+date: 2019-02-08
+categories: disease interview comments
+---
+
 
 ### Interview
 {% include introduction.md %}
-{% include datacollection.md %}
-{% include causes.md %}
-{% include estimatetransmission.md %}
+
 {% include recommendations.md %}
-* Wenn Sie Kontakt zu bodennahen Pflanzen haben ziehen Sie lange Kleidung an und benutzen sie Insektenspray! Bodennahe Pflanzen heißt hohes Gras, Kraut, Farne, Strauchwerk.
+Wenn Sie Kontakt zu bodennahen Pflanzen haben ziehen Sie lange Kleidung an und benutzen sie Insektenspray! Bodennahe Pflanzen heißt hohes Gras, Kraut, Farne, Strauchwerk.
 
-* Zur Verhinderung einer weiteren Infektion befolgen Sie die folgenden Regeln: Erstens Tragen Sie lange Kleidung bei einem Aufenthalt in einem Gelände mit hohem Bewuchs! Zweitens Suchen Sie nach einem Aufenthalt im Freien vom Frühling bis Herbst sich selber nach Zecken ab!
+Zur Verhinderung einer weiteren Infektion befolgen Sie die folgenden Regeln: Erstens Tragen Sie lange Kleidung bei einem Aufenthalt in einem Gelände mit hohem Bewuchs! Zweitens Suchen Sie nach einem Aufenthalt im Freien vom Frühling bis Herbst sich selber nach Zecken ab!
 
+Wenn Sie eine Zecke finden, entfernen Sie diese möglichst rasch, also innerhalb von 24h!
 
+Wenn Sie von einer Zecke befallen worden sind, entfernen Sie die Zecke ohne sie zu quetschen, am besten mit einer speziellen Pinzette!
 
-* Wenn Sie eine Zecke finden, entfernen Sie diese möglichst rasch, also innerhalb von 24h!
-* Wenn Sie von einer Zecke befallen worden sind, entfernen Sie die Zecke ohne sie zu quetschen, am besten mit einer speziellen Pinzette!
+{% include datacollection.md %}
 
 {% include exit.md %}
 

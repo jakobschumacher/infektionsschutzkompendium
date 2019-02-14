@@ -1,5 +1,10 @@
+---
+title: MRGN (Acinetobacter und Enterobacteriaceae)
+layout: interview
+date: 2019-02-08
+categories: disease interview comments
+---
 
-# MRGN (Acinetobacter und Enterobacteriaceae)
 
 ## Interview
 {% include introduction.md %}

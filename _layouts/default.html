@@ -5,19 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- <script>
- function hidecomments() {
- document.querySelectorAll(".comment").forEach(a=>a.style.display = "none");
- }
- function showcomments() {
- document.querySelectorAll(".comment").forEach(a=>a.style.display = "block");
- }
- </script>
-
-
-
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -39,10 +26,6 @@
         <p class="view"><a href="{{ site.github.repository_url }}">Mitmachen?  <small>Aber gerne doch - hier lang bitte!</small></a></p>
         {% endif %}
 
-
-           <button onclick="hidecomments()">Hide comments</button>
-           <button onclick="showcomments()">Show comments</button>
-
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
@@ -57,17 +40,11 @@
       </header>
       <section>
 
-         <button onclick="hidecomments()">Hide comments</button>
-         <button onclick="showcomments()">Show comments</button>
-
       {{ content }}
 
       </section>
       <footer>
-        <p><small>Mitwirkende: <br>
-          <a href="https://www.jakiva.de">Jakob Schumacher</a><br>
-          Kathrin Schaten<br>
-          Marius Hausner<br>
+        <p><small>Mitwirkende: <a href="https://www.jakiva.de">Jakob Schumacher</a><br>
         Hosted on <a href="https://pages.github.com/">GitHub Pages</a><br>
         Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
