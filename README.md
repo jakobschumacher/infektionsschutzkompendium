@@ -1,20 +1,20 @@
-# Ziel des Infektionsschutzkompendiums
 
-Das Kompendium soll Gesundheitsaufseherinnen und Gesundheitsaufsehern sowie Hygienereferentinnen und Hygienereferenten helfen Interviews mit erkrankten Personen zu führen und anschließend Maßnahmen zu treffen
+# Für wen ist dieses Dokument?
+Du arbeitest im Gesundheitsamt? Du bearbeitest Meldungen von Infektionskrankheiten? Dann bist du hier richtig!
 
-# So kannst du helfen
+Die Seite schlägt für jede Erkrankung ein Gesprächsleitfaden vor. In einem Gesprächsleitfaden sind wichtige Fragen vermerkt. Außerdem sind mögliche Maßnahmen aufgeschrieben. Diese Seite soll dabei unterstützen seinen eigenen Stil zu finden. Zusätzlich soll diese Seite dabei helfen nichts zu vergessen. Das letztendliche Ziel des Kompendiums ist es den Infektionsschutz zu verbessern
 
-## Die leichteste Variante
-Schreib eine E-Mail mit Verbesserungsvorschlägen
+# Wie du helfen kannst!
 
-## Mittelere Variante
-Lade dir eine Krankheitsdatei herunter. Die Struktur ist einfach zu verstehen. Die Datei ist in [markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/) geschrieben.
+Helfen ist einfach möglich. Schreib einfach eine E-Mail mit Verbesserungsvorschlägen. Wenn du keine Angst vor Computer hast kannst du dir auch einen Github-Account besorgen. Dann klone das Repositorium, füge Änderungen hinzu und mache einen Pull-Request. Die Inhalte sind in den Krankheitsdateien hinterlegt. Die Struktur ist einfach zu verstehen. Die Datei ist in [markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/) geschrieben.
 
-## Komplizierte Variante
-Besorg dir einen github account, klone das Repositorium, füge Änderungen hinzu und mache einen Pull-Request.
+# Wie gehts weiter?
+1. Erstellung eines Vorschlags (Das ist der aktuelle Schritt)
+2. Veröffentlichung als Alpha-Version
+3. Testung in einem Gesundheitsamt
+4. Veröffentlichung als Beta-Version
+5. Verbreitung in Berlin
+6. Veröffentlichung als finale Version
 
-
-# Mitwirkende
-Jakob Schumacher, Gesundheitsamt Reinickendorf, Berlin
-Kathrin Schaten, Gesundheitsamt Mitte, Berlin
-Marius Hausner, Gesundheitsamt Mitte, Berlin
+# Wer erstellt diese Seite?
+Jakob Schumacher

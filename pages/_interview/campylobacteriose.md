@@ -1,12 +1,16 @@
 ---
 title: Campylobacter-Enteritis
+<<<<<<< HEAD:pages/_interview/campylobacteriose.md
 layout: interview
 date: 2019-02-08
 categories: disease interview comments
+=======
+>>>>>>> 96a5a45cb32e9c3b10bac1a74f95490e76518e0f:docs/campylobacteriose.md
 ---
 
 
 
+# Campylobacter-Enteritis
 
 ## Interview
 <a href="docs/einleitung.html">Einleitende Worte</a>
