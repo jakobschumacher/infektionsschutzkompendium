@@ -1,6 +1,6 @@
 ---
 title: Clostridium difficile
-layout: Maßnahmen
+layout: aktion
 date: 2019-02-08
 categories: disease massnahmen comments
 ---
