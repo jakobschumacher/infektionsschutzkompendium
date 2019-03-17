@@ -1,0 +1,41 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.comment {
+margin-bottom:1em;
+}
+
+ul.smalllist {
+  list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+span.blockstyle {
+  float: left;
+}
+
+span.blockstyle a {
+  display: inline;
+  padding: 10px;
+  font-weight:normal;
+}
+
+.toggle {display:none;}
+.show {display:visible;}
+
+h3 {
+  margin-bottom:0.2em;
+  margin-top:0.5em;
+}
+
+h3 a {
+  color:black;
+}
+
+h3 a:hover {
+  color:black;
+}

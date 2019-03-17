@@ -3,6 +3,8 @@ title: Infektionsschutz Kompendium
 description: Wissen für Gesundheitsämter
 show_downloads: false
 github: github.com/jakobschumacher
+baseurl: /infektionsschutzkompendium
+logo: assets/img/logo.png
 
 collections:
   overview:

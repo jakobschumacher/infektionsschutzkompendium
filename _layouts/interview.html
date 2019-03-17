@@ -7,13 +7,27 @@ layout: blank
              <button onclick="showcomments()">Show comments</button>
 </div>
 <br>
-<h1>Leitfaden für ein Interview mit einem Fall von {{ page.title }}</h1>
 
-{% for topic in page.interview %}
-<h3> {{ topic.title }} </h3>
-  {% for entry in topic.subfolderitems %}
-           <b>{{ entry.keyword }}: </b>
-           {{ entry.question }}<br>
-           <ul><i>{{ entry.comment }}</i></ul>
-         {% endfor %}
-{% endfor %}
+<h1>Interviewleitfaden für ein Fall von {{ page.title }}</h1>
+<br><br><strong>Gesprächsbeginn</strong><br>
+  Guten Tag! Ich arbeite im Gesundheitsamt. Uns wurde gemeldet, dass bei Ihnen ansteckende Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern. Ich stelle Ihnen jetzt einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 min.
+{% if page.abklaerung %}
+<br><br><strong>Abklärung</strong><br>
+{% for entry in page.abklaerung %}
+       <b>{{ entry.keyword }} </b>
+       {{ entry.question }}<br>
+       <i class="comment">{{ entry.comment }}</i><br><br>
+     {% endfor %}
+{% endif %}
+
+{% if page.empfehlungen %}
+<br><br><strong>Empfehlung</strong><br>
+{% for entry in page.empfehlungen %}
+       <b>{{ entry.keyword }} </b>
+       {{ entry.question }}<br>
+       <i class="comment">{{ entry.comment }}</i><br><br>
+     {% endfor %}
+     {% endif %}
+
+<br><br><strong>Gesprächsende</strong><br>
+     Vielen Dank für das Gespräch. Von meiner Seite aus bin ich fertig. Haben Sie noch Fragen?

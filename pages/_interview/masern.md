@@ -1,38 +1,18 @@
 ---
 title: Masern
 layout: interview
-date: 2019-02-08
-categories: disease interview comments
+abklaerung:
+ - question: Wo waren Sie in den letzten 14 Tagen?
+   comment:
+   keyword: Inkubationszeit
+ - question: Die erkrankte Person sollte alle Kontaktpersonen aus der Zeit nenne, in der er ansteckend war.
+   comment: Diese Kontaktpersonen sollten wenn sie ungeschützt sind einen Impfschutz nachholen. Gegebenenfalls sollten sie ein Teilnahmeverbot oder Tätigkeitsverbot bekommen.
+   keyword: Kontaktpersonensuche
+empfehlungen:
+ - question: Solange bis Sie nicht mehr ansteckend sind, sollten sie keine Kontakt zu ungeschützten Menschen haben.
+   comment: Als ungeschützt gelten alle, die kein Masern durchgemacht haben oder nicht geimpft sind
+   keyword: Ungeschützte meiden.
+ - question: Kennen Sie die Impfempfehlungen? Vielleicht könnten Sie diese weitererzählen.
+   comment: Eine Impfung ist für alle empfohlen, die nach 1970 geboren sind.
+   keyword: Impfempfehlungen
 ---
-
-
-### Interview
-{% include introduction.md %}
-{% include datacollection.md %}
-{% include causes.md %}
-* Die erkrankte Person sollte möglichst detailliert angeben, wo sie in der Inkubationszeit war.
-
-{% include estimatetransmission.md %}
-* Die erkrankte Person sollte alle Kontaktpersonen aus der Zeit nenne, in der er ansteckend war. Dies ist wichtig, da diese Personen bis spätestens 5 Tage nach einer möglichen Infektion geimpft werden sollten.
-
-{% include recommendations.md %}
-
-* Die erkrankte Person sollte keine Kontakt zu ungeschützten Menschen haben.
-
-* Die erkrankte Person sollte folgende Information bekommen: Eine Impfung ist für alle empfohlen, die nach 1970 geboren sind.
-* Die erkankte Person sollte den Erregersteckbrief zu Masern erhalten.
-
-{% include exit.md %}
-
-### Maßnahmen
-* Eine Probe sollte an das Nationale Referenzlabor für Masern gehen. [Details zum Versand](https://www.rki.de/DE/Content/Infekt/NRZ/MMR/leistungen/leistungen_node.html;jsessionid=C15D4EB79B4C9EE72BFB2CCD774E3C0B.1_cid372)
-* Andere Mitarbeiterinnen des Gesundheitsamtes sollten wissen, dass es einen Masernfall gab.
-* Andere betroffene Gesundheitsämter informieren.
-
-### Organisatorisches
-
-
-### Weitere Informationen
-* [Ratgeber für Ärzte des Robert Koch-Instituts - Masern](https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Masern.html)
-* [Erregersteckbrief](https://www.infektionsschutz.de/erregersteckbriefe/masern/)
-* [Empfehlungen der STIKO zu Masern (Seite 341) inklusive Postexpositionsprophylaxe (Seite 357)](https://www.rki.de/DE/Content/Infekt/EpidBull/Archiv/2017/Ausgaben/34_17.pdf?__blob=publicationFile)

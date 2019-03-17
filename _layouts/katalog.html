@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2><br>
+<h3>Inhalte im Infektionsschutzkompendium</h3>
+<ul>
+{% if page.interview %}
+<li class="blockstyle"><a href="{{ page.interview }}">Interviewleitfaden</a></li>
+{% endif %}
+{% if page.aktion %}
+<li class="blockstyle"><a href="{{ page.aktion }}">Maßnahmen</a></li>
+{% endif %}
+{% if page.fortbildung %}
+<li class="blockstyle"><a href="{{ page.fortbildung }}">Minifortbildung</a></li>
+{% endif %}
+{% if page.merkblatt contains 'merkblatt/'%}
+  <li class="blockstyle"><a href="{{ page.merkblatt }}">Merkblatt</a></li>
+{% endif %}
+
+</ul>
+<h3>Links zu Informationen im Netz</h3>
+<ul>
+{% if page.merkblatt contains 'https://www.infektionsschutz.de'%}
+  <li class="blockstyle"><a href="{{ page.merkblatt }}">Merkblatt</a></li>
+{% endif %}
+{% if page.ratgeber %}
+<li class="blockstyle"><a href="{{ page.ratgeber }}">Ratgeber des RKI</a></li>
+{% endif %}
+{% if page.ecdc %}
+<li class="blockstyle"><a href="{{ page.ecdc }}">European center for disease control</a></li>
+{% endif %}
+{% if page.cdc %}
+<li class="blockstyle"><a href="{{ page.cdc }}">USA Center for diesease control</a></li>
+{% endif %}
+</ul>
