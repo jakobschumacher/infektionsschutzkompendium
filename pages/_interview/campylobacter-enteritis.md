@@ -1,5 +1,7 @@
 ---
 title: Campylobacter-Enteritis
+lastupdated: 2019-03-19
+author: Jakob Schumacher
 layout: interview
 abklaerung:
         - question: Sind in Ihrem Umfeld andere Personen erkrankt?

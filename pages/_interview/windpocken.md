@@ -1,5 +1,7 @@
 ---
 title: Windpocken
+lastupdated: 2019-03-19
+author: Jakob Schumacher
 layout: interview
 abklaerung:
   - question: Wo waren Sie in den letzten 8 bis 21 Tagen

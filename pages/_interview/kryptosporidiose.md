@@ -1,5 +1,7 @@
 ---
 title: Kryptosporidiose
+lastupdated: 2019-03-19
+author: Jakob Schumacher
 layout: interview
 abklaerung:
  - question: Waren Sie in den letzten 10 Tagen im Schwimmbad? Arbeiten Sie in einem Badebetrieb?

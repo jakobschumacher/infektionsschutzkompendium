@@ -1,5 +1,7 @@
 ---
 title: Hand-Fuß-Mund-Krankheit
+lastupdated: 2019-03-19
+author: Jakob Schumacher
 layout: interview
 empfehlungen:
   - question: Sie werden für Wochen den Erreger ausscheidet

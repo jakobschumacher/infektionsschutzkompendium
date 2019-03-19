@@ -1,7 +1,8 @@
 ---
 title: Adenovirus Konjunktivitis
+lastupdated: 2019-03-19
+author: Jakob Schumacher
 layout: interview
-date: 2019-02-08
 abklaerung:
         - question: Sind in Ihrem Umfeld andere Personen erkrankt?
           comment: Diese Frage ist wichtig um diese Person auch auf Schutzmaßnahmen hinzuweisen, etwas über die Übertragung der Erkrankung herauszufinden und gegebenenfalls eine Ausbruchsuntersuchung zu starten.

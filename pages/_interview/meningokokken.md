@@ -1,5 +1,7 @@
 ---
 title: Mengingokokken
+lastupdated: 2019-03-19
+author: Jakob Schumacher
 layout: interview
 abklaerung:
         - question: In den letzten 10 Tagen vor Erkrankungsbeginn, wen haben Sie getroffen?

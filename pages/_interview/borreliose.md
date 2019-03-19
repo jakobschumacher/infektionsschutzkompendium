@@ -1,7 +1,7 @@
 ---
 title: Borreliose
-date: 2019-02-08
-categories: [disease, interview, comments, update]
+lastupdated: 2019-03-19
+author: Jakob Schumacher
 layout: interview
 empfehlungen:
     - question: Tragen Sie lange Kleidung bei einem Aufenthalt in einem Gelände mit bodennahen Pflanzen! Bodennahe Pflanzen heißt hohes Gras, Kraut, Farne, Strauchwerk.

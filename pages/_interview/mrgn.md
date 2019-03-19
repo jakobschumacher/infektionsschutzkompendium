@@ -1,5 +1,7 @@
 ---
 title: MRGN (Acinetobacter und Enterobacteriaceae)
+lastupdated: 2019-03-19
+author: Jakob Schumacher
 layout: interview
 abklaerung:
  - question: Ist Ihnen bekannt, wo Sie sich angesteckt haben?

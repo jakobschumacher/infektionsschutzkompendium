@@ -1,5 +1,7 @@
 ---
 title: Leptospirose
+lastupdated: 2019-03-19
+author: Jakob Schumacher
 layout: interview
 abklaerung:
  - question: Hat die erkrankte Person Kontakt zu Nagetierurin, z.B. durch Rattenhaltung oder Feldarbeit

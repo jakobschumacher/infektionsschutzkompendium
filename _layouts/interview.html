@@ -3,31 +3,37 @@ layout: blank
 ---
 
 <div style="text-align: right">
-             <button onclick="hidecomments()">Hide comments</button>
-             <button onclick="showcomments()">Show comments</button>
+  <button onclick="showcomments()">Kommentare einblenden</button>
+  <button onclick="hidecomments()">Kommentare ausblenden</button>
 </div>
 <br>
-
 <h1>Interviewleitfaden für ein Fall von {{ page.title }}</h1>
-<br><br><strong>Gesprächsbeginn</strong><br>
-  Guten Tag! Ich arbeite im Gesundheitsamt. Uns wurde gemeldet, dass bei Ihnen ansteckende Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern. Ich stelle Ihnen jetzt einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 min.
+<h4>Gesprächsbeginn</h4>
+  <p>Guten Tag! Ich arbeite im Gesundheitsamt. Uns wurde gemeldet, dass bei Ihnen ansteckende Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern. Ich stelle Ihnen jetzt einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 min.</p>
 {% if page.abklaerung %}
-<br><br><strong>Abklärung</strong><br>
+<h4>Abklärung</h4>
 {% for entry in page.abklaerung %}
-       <b>{{ entry.keyword }} </b>
+      {% if entry.keyword2 %}
+       {{ entry.keyword }}:
+         {% endif %}
        {{ entry.question }}<br>
-       <i class="comment">{{ entry.comment }}</i><br><br>
+       <i class="comment">{{ entry.comment }}</i></p>
      {% endfor %}
 {% endif %}
 
 {% if page.empfehlungen %}
-<br><br><strong>Empfehlung</strong><br>
+<h4>Empfehlung</h4>
 {% for entry in page.empfehlungen %}
-       <b>{{ entry.keyword }} </b>
+       <p>{{ entry.keyword }}
        {{ entry.question }}<br>
-       <i class="comment">{{ entry.comment }}</i><br><br>
+       <i class="comment">{{ entry.comment }}</i></p>
      {% endfor %}
      {% endif %}
 
-<br><br><strong>Gesprächsende</strong><br>
-     Vielen Dank für das Gespräch. Von meiner Seite aus bin ich fertig. Haben Sie noch Fragen?
+<h4>Gesprächsende</h4>
+     <p>Vielen Dank für das Gespräch. Von meiner Seite aus bin ich fertig. Haben Sie noch Fragen?</p>
+<br><br><br>
+     <div style="text-align: right">
+       Letztes Update: {{ page.lastupdated }}<br>
+       Autoren: {{ page.author }}
+     </div>
