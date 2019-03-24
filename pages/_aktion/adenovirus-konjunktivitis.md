@@ -2,8 +2,11 @@
 title: Adenovirus Konjunktivitis
 layout: aktion
 aktionsliste:
-  - aktion: Weitergabe von Informationsmaterial an die erkrankte Person
+  - aktion: Aufklärung der erkrankten Person über Verhaltensweisen die zur Verminderung der Übertragung führen können
+  - aktion: Aufklärung von Haushaltsmitbewohnern und ähnlich engen Kontakten über die Erkrankung
   - aktion: Begehung einer Augenarztpraxis oder einer ähnlichen Einrichtung, falls die erkrankte Person sich dort angesteckt haben könnte.
-  - aktion: Begehung einer Gemeinschaftseinrichtung falls die erkrankte Person sich dort angesteckt haben könnte  
-  - aktion: Tätigkeits-/Teilnahmeverbot kann gemäß § 28/§ 31 erwogen werden. Dies gilt insbesondere für Personen in Gemeinschaftseinrichtungen, medzinisches Personal oder für Massenunterkünfte.  
+  - aktion: Begehung einer Gemeinschaftseinrichtung, falls die erkrankte Person sich dort angesteckt haben könnte  
+  - aktion: Tätigkeitsverbote für augenärztliches Personal gemäß § 28/§ 31 sollte wenn möglich durchgeführt werden.
+  - aktion: Tätigkeits-/Teilnahmeverbote für Personen in Gemeinschaftseinrichtungen, anderes medzinisches Personal oder für Massenunterkünfte kann erwogen werden.  
+  - aktion: Ausbruchsuntersuchung 
 ---

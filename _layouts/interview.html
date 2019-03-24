@@ -3,35 +3,45 @@ layout: blank
 ---
 
 <div style="text-align: right">
-  <button onclick="showcomments()">Kommentare einblenden</button>
-  <button onclick="hidecomments()">Kommentare ausblenden</button>
+  <button id="togglekeyword">Schlagwort ein</button>
+  <button id="toggletext">Sprachtext</button>
+  <button id="togglecomment">Kommentar</button>
 </div>
 <br>
 <h1>Interviewleitfaden für ein Fall von {{ page.title }}</h1>
-<h4>Gesprächsbeginn</h4>
-  <p>Guten Tag! Ich arbeite im Gesundheitsamt. Uns wurde gemeldet, dass bei Ihnen ansteckende Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern. Ich stelle Ihnen jetzt einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 min.</p>
+<h4>Gesprächsbeginn</h4><ul>
+  <strong>Guten Tag! Ich arbeite im Gesundheitsamt. Uns wurde gemeldet, dass bei Ihnen ansteckende Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern. Ich stelle Ihnen jetzt einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 min.</strong>
+  </ul>
 {% if page.abklaerung %}
-<h4>Abklärung</h4>
+<h4>Abklärung</h4><ul>
 {% for entry in page.abklaerung %}
-      {% if entry.keyword2 %}
-       {{ entry.keyword }}:
+<p>
+      {% if entry.keyword %}
+       <mark>{{ entry.keyword }}:</mark>
          {% endif %}
-       {{ entry.question }}<br>
-       <i class="comment">{{ entry.comment }}</i></p>
+       <strong>{{ entry.question }}</strong>
+       <em><br>{{ entry.comment }}</em>
+</p>
      {% endfor %}
+     </ul>
 {% endif %}
 
 {% if page.empfehlungen %}
-<h4>Empfehlung</h4>
+<h4>Empfehlung</h4><ul>
 {% for entry in page.empfehlungen %}
-       <p>{{ entry.keyword }}
-       {{ entry.question }}<br>
-       <i class="comment">{{ entry.comment }}</i></p>
+<p>
+      {% if entry.keyword %}
+       <mark>{{ entry.keyword }}:</mark>
+         {% endif %}
+       <strong>{{ entry.question }}</strong>
+       <em><br>{{ entry.comment }}</em>
+</p>
      {% endfor %}
+     </ul>
      {% endif %}
 
-<h4>Gesprächsende</h4>
-     <p>Vielen Dank für das Gespräch. Von meiner Seite aus bin ich fertig. Haben Sie noch Fragen?</p>
+<h4>Gesprächsende</h4><ul>
+     <strong>Vielen Dank für das Gespräch. Von meiner Seite aus bin ich fertig. Haben Sie noch Fragen?</strong></ul>
 <br><br><br>
      <div style="text-align: right">
        Letztes Update: {{ page.lastupdated }}<br>

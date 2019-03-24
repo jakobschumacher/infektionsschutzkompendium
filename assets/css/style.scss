@@ -7,6 +7,19 @@
 margin-bottom:1em;
 }
 
+.main {
+  display: none;
+}
+
+strong {
+  font-weight:normal;
+}
+
+mark {
+  background-color: white;
+  font-weight: bold;
+}
+
 ul.smalllist {
   list-style-type: none;
    margin: 0;
