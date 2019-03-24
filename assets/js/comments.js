@@ -1,9 +1,3 @@
-function hidecomments() {
-document.querySelectorAll(".comment").forEach(a=>a.style.display = "none");
-}
-function showcomments() {
-document.querySelectorAll(".comment").forEach(a=>a.style.display = "block");
-}
 
 $(document).ready(function(){
   $("#togglekeyword").click(function(){
@@ -15,11 +9,13 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#toggletext").click(function(){
     $("strong").toggleClass("main");
+        $(this).text($(this).text() == 'Sprachtext ein' ? 'Sprachtext aus' : 'Sprachtext ein');
   });
 });
 
 $(document).ready(function(){
   $("#togglecomment").click(function(){
     $("em").toggleClass("main");
+            $(this).text($(this).text() == 'Kommentar ein' ? 'Kommentar aus' : 'Kommentar ein');
   });
 });

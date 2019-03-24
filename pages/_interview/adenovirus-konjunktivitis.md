@@ -2,6 +2,9 @@
 title: Adenovirus Konjunktivitis
 lastupdated: 2019-03-19
 author: Jakob Schumacher
+sources:
+  - source: Ratgeber für Ärzte
+  - source: CDC
 layout: interview
 abklaerung:
         - question: Sind in Ihrem Umfeld andere Personen erkrankt?

@@ -3,21 +3,25 @@ layout: blank
 ---
 
 <div style="text-align: right">
-  <button id="togglekeyword">Schlagwort ein</button>
-  <button id="toggletext">Sprachtext</button>
-  <button id="togglecomment">Kommentar</button>
+  <button id="togglekeyword">Schlagwort aus</button>
+  <button id="toggletext">Sprachtext aus</button>
+  <button id="togglecomment">Kommentar aus</button>
 </div>
 <br>
 <h1>Interviewleitfaden für ein Fall von {{ page.title }}</h1>
 <h4>Gesprächsbeginn</h4><ul>
-  <strong>Guten Tag! Ich arbeite im Gesundheitsamt. Uns wurde gemeldet, dass bei Ihnen ansteckende Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern. Ich stelle Ihnen jetzt einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 min.</strong>
+  <strong>Guten Tag!</strong><br><br>
+  <mark>Vorstellung </mark> <strong>Ich arbeite im Gesundheitsamt. </strong><br><br>
+  <mark>Anruferklärung </mark><strong> Uns wurde gemeldet, dass bei Ihnen ansteckende Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern. </strong><br><br>
+  <mark>Ausblick </mark><strong>Ich stelle Ihnen einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 min.</strong><br><br>
+  <mark>Verständnischeck </mark><strong>Aber bevor ich loslege. Haben Sie noch Fragen? Können Sie mich gut verstehen?</strong>
   </ul>
 {% if page.abklaerung %}
 <h4>Abklärung</h4><ul>
 {% for entry in page.abklaerung %}
 <p>
       {% if entry.keyword %}
-       <mark>{{ entry.keyword }}:</mark>
+       <mark>{{ entry.keyword }}</mark>
          {% endif %}
        <strong>{{ entry.question }}</strong>
        <em><br>{{ entry.comment }}</em>
@@ -31,7 +35,7 @@ layout: blank
 {% for entry in page.empfehlungen %}
 <p>
       {% if entry.keyword %}
-       <mark>{{ entry.keyword }}:</mark>
+       <mark>{{ entry.keyword }}</mark>
          {% endif %}
        <strong>{{ entry.question }}</strong>
        <em><br>{{ entry.comment }}</em>
@@ -41,9 +45,15 @@ layout: blank
      {% endif %}
 
 <h4>Gesprächsende</h4><ul>
-     <strong>Vielen Dank für das Gespräch. Von meiner Seite aus bin ich fertig. Haben Sie noch Fragen?</strong></ul>
+     <strong>Vielen Dank für das Gespräch. Von meiner Seite aus bin ich fertig. Sollten sich noch neue Anhaltspunkte ergeben melde ich mich nochmal. Das könnte zum Beispiel der Fall sein, wenn uns noch viele weitere Fälle gemeldet werden und wir einen Ausbruch vermutetn. Haben Sie noch Fragen? Soll ich Ihnen die rechtlichen Grundlagen erläutern? Soll ich Ihnen mitteilen, was mit Ihren Daten passiert? </strong></ul>
 <br><br><br>
-     <div style="text-align: right">
+
+
+<div style="text-align: right">
        Letztes Update: {{ page.lastupdated }}<br>
-       Autoren: {{ page.author }}
+       Autoren: {{ page.author }}<br><br>
+       Qualitätsprüfung anhand von:<br>
+       {% for items in page.sources %}
+        {{ items.source }}<br>
+       {% endfor %}
      </div>
