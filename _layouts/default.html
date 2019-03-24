@@ -11,9 +11,6 @@ layout: blank
         {% endif %}
 
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">Mitmachen?  <small>Aber gerne doch - hier lang bitte!</small></a></p>
-        {% endif %}
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
@@ -34,6 +31,9 @@ layout: blank
       </section>
       <footer>
         <p><small>
+          {% if site.repository_url %}
+          <p class="view"><a href="{{ site.repository_url }}">Mitmachen?  <small>Aber gerne doch - hier lang bitte!</small></a></p>
+          {% endif %}
           <!--Mitwirkende: <a href="https://www.jakiva.de">Jakob Schumacher</a><br>-->
         Hosted on <a href="https://pages.github.com/">GitHub Pages</a><br>
         Theme by <a href="https://github.com/orderedlist">orderedlist</a>
