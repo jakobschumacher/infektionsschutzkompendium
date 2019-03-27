@@ -5,7 +5,7 @@ interview: interview/shigellose.html
 aktion: aktion/shigellose.html
 fortbildung: fortbildung/shigellose.html
 ratgeber: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Shigellose.html
-merkblatt:
+merkblatt: merkblatt/shigellose.html
 ecdc: https://ecdc.europa.eu/en/shigellosis
 wikipedia:
 cdc: https://www.cdc.gov/shigella/index.html
