@@ -3,7 +3,7 @@ title: Adenovirus Konjunktivitis
 lastupdated: 2019-03-19
 author: Jakob Schumacher
 sources:
-  - source: Ratgeber für Ärzte
+  - source: RKI
   - source: CDC
 layout: interview
 abklaerung:

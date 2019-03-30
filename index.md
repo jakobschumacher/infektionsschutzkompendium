@@ -2,6 +2,12 @@
 title:  "Infektionsschutzkompendium"
 layout: default
 ---
+<!-- <form action="{{ site.baseurl }}/search.html" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form> -->
+
 
 {% assign items = site.katalog | sort: 'title' %}
 {% for item in items %}
@@ -11,7 +17,7 @@ layout: default
 {% else %}
 <h3><a href="katalog/{{ item.title | downcase  | replace: ' ', '-' }}.html">{{ item.title }}</a></h3>
 {% endif %}
-
+<!--
 <ul class="smalllist">
 {% if item.interview %}
 <span class="blockstyle"><a href="{{ item.interview }}">Interviewleitfaden</a></span>
@@ -23,4 +29,5 @@ layout: default
 <span class="blockstyle"><a href="{{ item.fortbildung }}">Minifortbildung</a></span>
 {% endif %}
 </ul>
+-->
 {% endfor %}

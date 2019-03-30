@@ -1,21 +1,21 @@
 ---
 title: Brucellose
 layout: merkblatt
-was_ist: Die Leptospirose ist eine Infektionskrankheit. Die Krankheit wird durch Bakterien hervorgerufen. Sie wird insbesondere von Mäusen und Ratten auf den Menschen übertragen. In den Tropen gibt es die Krankheit häufig, in Deutschland ist sie sehr selten. In Deutschland erkranken die meisten im Sommer oder im Frühherbst.
-uebertragen: Nagetiere zählen als sogenanntes Reservoir. Das heißt sie haben Bakterien in sich und können diese verbreiten. Der Urin der Nagetiere ist dann sehr ansteckend. Der Urin wird zum Beispiel durch Regen auf den Feldern verteilt.  Dort können dann Menschen den Erreger durch kleine Wunden aufnehmen. Wenn es stark geregnet hat, kann der Erreger auch in Flüssen und Seen sein. Hunde, Pferde, Rinder, Schafe und andere Nutztiere können ebenfalls erkranken. Eine Übertragung von Mensch zu Mensch ist nicht ausgeschlossen, aber unwahrscheinlich.
-krankheitszeichen: Das Krankheitsbild ist sehr unterschiedlich. Etwa 9 von 10 Erkrankten haben Krankheitszeichen wie bei einer Grippe. Das heißt Fieber, Gelenkschmerzen, Muskelschmerzen, Abgeschlagenheit. Häufig tritt das Fieber nach einer Besserung erneut auf. Die grippeähnliche Erkrankung kann auch unbemerkt ablaufen. Bei etwa 1 von 10 Erkrankten kann es zu schwerwiegenden Komplikationen kommen. Diese können fast jedes Organ im Körper betreffen.  Häufig sind die Schäden an der Niere, der Leber,  der Milz und der Lunge. Auch das Herz und die Blutbildung können betroffen sein, ebenso die Hirnhäute.  Erkrankte Personen können lange mit der Erkrankung zu tun haben.
-wann_und_wie_lange: Die Erkrankung beginnt im Regelfall 1-2 Wochen nach der Infektion. Der Erreger wird in den ersten zwei Wochen der Erkrankung ausgeschieden.
-gefaehrdete: Männer erkranken häufiger als Frauen. Personen zwischen 30 und 60 Jahren erkranken am häufigsten. Besonders betroffen sind Personen, die im Freien arbeiten. Typischerweise betroffen sind Personen, die auf dem Feld arbeiten. Auch Personen, die in unsauberem Wasser schwimmen erkranken häufiger. Das betrifft zum Beispiel Triathleten.
+was_ist: Brucellose ist eine Erkrankung durch Bakterien. Die Erkrankung kommt weltweit vor. Besonders häufig ist die Erkrankung in der Türkei und angrenzenden Ländern. Die Erkrankung wird von Tieren auf Menschen übertragen. Die Erkrankung verläuft häufig unbemerkt, kann in seltenen Fällen aber auch zum Tode führen. In Deutschland werden üblicherweise weniger als 100 Erkrankungsfälle pro Jahr gefunden.
+uebertragen: Das Bakterium lebt üblicherweise in Rindern, Ziegen, Schafen, Hausschweine, Wildschweinen. In Deutschland sind Tiere üblicherweise frei von dem Bakterium, da die Tiere kontrolliert werden. Die meisten Ansteckungen erfolgen im Ausland. Personen können erkranken, wenn sie nicht genügend erhitztes Fleisch von befallenen Tieren essen oder Rohmilch trinken. Auch Rohmilchkäse kann ansteckend sein. Eine Infektion kann auch erfolgen, wenn der Erreger in die Augen, die Atemwege oder auf Wunden kommt. Nur in Einzelfällen wird die Erkrankung von Mensch zu Mensch übertragen. Dies kann zum Beispiel beim Stillen, Geschlechtsverkehr, Bluttransfusionen oder Knochenmarks-Transplantationen geschehen.  
+krankheitszeichen: Die Erkrankung hat sehr viele unterschiedliche Verläufe. 9 von 10 infizierten Personen haben keine Krankheitszeichen. Akut erkrankte Personen haben Fieber, Übelkeit, Müdigkeit, Nachtschweiß. Langfristige Verläufe können sehr verschiedene Krankheitszeichen hervorrufen und fast jedes Organ betreffen, zum Beispiel Auge, Gelenke, Herz, Leber, Bauchspeicheldrüse, Bauchfell, Hirnhäute, Knochenmark. Wenn erkrankte Personen nicht behandelt werden versterben 2 von 100 erkrankten Personen.
+wann_und_wie_lange: Die Erkrankung bricht zwischen 5 und 60 Tagen nach der Infektion aus. Eine Weitergabe der Krankheit ist unwahrscheinlich.
+gefaehrdete: Besonders gefährdet sind Personen, die im Ausland Kontakt zu Nutztieren haben. Oder Personen, die im Ausland nicht-erhitzte Milch, oder Rohmilchkäse oder ähnliche Produkte essen. Tierärzte und Fleischer können in direktem Kontakt mit erkrankten Tieren kommen.
 verhaltenshinweise: |
-  - Erkrankte sollten sich auf jeden Fall ärztlich behandeln lassen.
-  - Eine Therapie mit einem Antibiotikum kann in vielen Fällen hilfreich sein
-  - Erkrankte Personen müssen nicht isoliert werden.
-  - Der Urin von erkrankten Personen kann infektiös sein. Personen, die mit Urin von Erkrankten in Berührung gekommen sind, sollten sich die Hände desinfizieren.
+    - Personen, die an Brucellose erkrankt sind sollten sich dringend in ärztliche Behandlung begeben.
+    - Erkrankte Mütter sollten ihr Baby nicht stillen.
+    - Erkrankte Personen sollten nicht Blut oder Knochenmark spenden.
+    - Erkrankte Personen sollten zur Sicherheit auf ungeschützten Geschlechtsverkehr verzichten.
+    - Isolierungsmaßnahmen im Krankenhaus sind nicht notwendig.
 schutz: |
-  * Handschuhe bei der Feldarbeit anziehen. Insbesondere wenn es kleinere   Verletzungen an der Hand gibt
-  * Nach Starkregen sollte man nicht in Seen oder Flüssen schwimmen gehen.
-  * Bei Kontakt mit verdächtigem Gewässer sollten Wunden wasserdicht geschützt   werden.
-  * Hunde sollten gegen die Erkrankung geimpft werden. Für Menschen gibt es   leider keine Impfung.
-  * Reisende in tropische Länder sollten frühzeitig einen Arzt aufsuchen, wenn   sie typische Krankheitszeichen haben. Insbesondere wenn Sie in   Überschwemmungsgebieten waren.
-informationen: Ihre Hausärztin oder ihr Hausarzt kann Ihnen kompetent weiterhelfen. Infektiologen sind auf die Erkrankung spezialisiert. Das örtliche Gesundheitsamt steht Ihnen für Beratung zur Verfügung. Weitere (Fach-) Informationen finden Sie auch im Internet auf den Seiten des Robert Koch-Institutes.
+    - Vermeiden Sie im Ausland Kontakt zu Rindern, Ziegen, Schafen, Hausschweine, Wildschweinen und Hunden. Dies gilt ganz besonders in Ländern, in denen Brucellose häufig ist, zum Beispiel der Türkei. Wenn das nicht möglich ist versuchen Sie sich nach dem Kontakt mit dem Tier nicht in die Augen oder den Mundbereich zu fassen und waschen Sie sich die Hände.
+    - Vermeiden Sie Rohmilch und Produkte davon. Rohmilch ist jede Milch die nicht ausreichend erhitzt wurde. Typische Rohmilchprodukte sind Käse. Dies gilt ganz besonders in Ländern, in denen Brucellose häufig ist, zum Beispiel der Türkei.
+    - Vermeiden Sie nicht ausreichend erhitztes Fleisch. Dies gilt ganz besonders in Ländern, in denen Brucellose häufig ist, zum Beispiel der Türkei.
+    - Personen, die beruflich in Kontakt mit möglicherweise infizierten Rindern, Ziegen, Schafen, Hausschweine, Wildschweinen und Hunden kommen sollten Handschuhe tragen. Nach Kontakt sollten sie sich die Hände desfinizieren. Salben können einen zusätzlichen Schutz bieten. Es sollte Arbeitskleidung getragen werden.
+informationen: "Ihre Hausärztin oder ihr Hausarzt kann Ihnen kompetent weiterhelfen. Das örtliche Gesundheitsamt steht Ihnen für weitere Beratung zur Verfügung. Weitere (Fach-) Informationen finden Sie auch im Internet auf den Seiten des [Robert Koch-Institutes](https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Brucellose.html)."
 ---

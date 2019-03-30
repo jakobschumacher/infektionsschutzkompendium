@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2><br>
+<h2>{{ page.title }}</h2>
 <h3>Inhalte im Infektionsschutzkompendium</h3>
 <ul>
 {% if page.interview %}
@@ -22,21 +22,33 @@ layout: default
 <h3>Links zu Informationen im Netz</h3>
 <ul>
 {% if page.merkblatt contains 'https://www.infektionsschutz.de'%}
-  <li class="blockstyle"><a href="{{ page.merkblatt }}">Merkblatt</a></li>
+  <li class="blockstyle"><a href="{{ page.merkblatt }}">Erregersteckbrief</a></li>
 {% endif %}
 {% if page.ratgeber %}
 <li class="blockstyle"><a href="{{ page.ratgeber }}">Ratgeber des RKI</a></li>
 {% endif %}
+{% if page.who %}
+<li class="blockstyle"><a href="{{ page.who }}">World Health Organisation (englisch)</a></li>
+{% endif %}
 {% if page.ecdc %}
-<li class="blockstyle"><a href="{{ page.ecdc }}">European center for disease control</a></li>
+<li class="blockstyle"><a href="{{ page.ecdc }}">European center for disease control (englisch)</a></li>
+{% endif %}
+{% if page.phe %}
+<li class="blockstyle"><a href="{{ page.phe }}">Public Health England (englisch)</a></li>
 {% endif %}
 {% if page.cdc %}
-<li class="blockstyle"><a href="{{ page.cdc }}">USA Center for diesease control</a></li>
+<li class="blockstyle"><a href="{{ page.cdc }}">USA Center for diesease control (englisch)</a></li>
+{% endif %}
+{% if page.pubmed %}
+<li class="blockstyle"><a href="{{ page.pubmed }}">Pubmed (Fachartikel englisch)</a></li>
 {% endif %}
 {% if page.aerzteblatt %}
 <li class="blockstyle"><a href="{{ page.aerzteblatt }}">Ärzteblatt</a></li>
 {% endif %}
 {% if page.wikipedia %}
-<li class="blockstyle"><a href="{{ page.wikipedia }}">Ärzteblatt</a></li>
+<li class="blockstyle"><a href="{{ page.wikipedia }}">Wikipedia</a></li>
+{% endif %}
+{% if page.apothekenumschau %}
+<li class="blockstyle"><a href="{{ page.apothekenumschau }}">Apotheken Umschau</a></li>
 {% endif %}
 </ul>

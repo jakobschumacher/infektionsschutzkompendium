@@ -1,14 +1,11 @@
 ---
 title: Hepatitis B
-lastupdated: 2019-03-19
+lastupdated: 2019-03-28
 author: Jakob Schumacher
 layout: interview
-date: 2019-02-08
+ausbruch: TRUE
 categories: disease interview comments
 abklaerung:
-        - question: "Sind weitere Personen im Umfeld erkrankt?"
-          comment: "Liegt ein Ausbruch vor"
-          keyword: "Andere Personen?"
         - question: "Gehören Sie zu einer der folgenden Risikogruppen? MSM, IDU?"
           comment: "Die Antwort ist wichtig für SurvNet"
           keyword: "Risikogruppe?"

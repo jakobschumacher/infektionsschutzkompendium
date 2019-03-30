@@ -1,15 +1,15 @@
 ---
 title: Brucellose
 layout: katalog
-interview:
+interview: interview/brucellose.html
 aktion:
 fortbildung:
 ratgeber: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Brucellose.html
 merkblatt: merkblatt/brucellose.html
-ecdc: 
+ecdc: https://ecdc.europa.eu/en/brucellosis
 wikipedia: https://de.wikipedia.org/wiki/brucellose
-cdc:
-phe:
-pubmed:
-who: https://apps.who.int/iris/bitstream/handle/10665/42667/WHO_CDS_CSR_EPH_2002.23.pdf;jsessionid=23DDE9D9F7F66F977B4701E5D332E6CA?sequence=1
+cdc: https://www.cdc.gov/brucellosis/index.html
+phe: https://www.gov.uk/guidance/brucellosis
+pubmed: https://www.ncbi.nlm.nih.gov/pubmed?term=%22Brucellosis%22%5BMesh%5D
+who: https://www.who.int/topics/brucellosis/en/
 ---
