@@ -31,3 +31,10 @@ layout: default
 </ul>
 -->
 {% endfor %}
+
+{% comment %}
+{% for staff_member in site.merkblatt %}
+  <h2>{{ staff_member.title }} - {{ staff_member.position }}</h2>
+  <p>{{ staff_member.content | markdownify }}</p>
+{% endfor %}
+{% endcomment %}
