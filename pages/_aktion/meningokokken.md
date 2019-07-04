@@ -2,10 +2,19 @@
 title: Mengingokokken
 layout: aktion
 aktionsliste:
-  - aktion: Chemoprophylaxe für enge Kontaktpersonen nach Ratgeber für Ärzte Definition
-  - aktion: Tätigkeitsverobte/Teilnahmeverbote bis 24h nach Chemoprophylaxe
-  - aktion: Information der Bevölkerung
-  - aktion: Impfungen für Haushaltskontakte
-  - aktion: Ein Stamm sollte ans NRZ gehen
-  - aktion: Sicherstellung einer adäquaten Isolation im Krankenhaus
+  - aktion: Kontaktperson eruieren
+  - aktion: Krankheitsverdächtige Kontaktpersonen stationär unterbringen
+  - aktion: Kontaktpersonen informieren
+  - aktion: Enge Kontaktpersonen eine Chemoprophylaxe geben
+  - aktion: Enge Kontaktpersonen Tätigkeits/Teilnahmeverbot bis 24h nach Chemoprophylaxe nach § 34 IfSG
+  - aktion: Haushaltskontakte impfen
+  - aktion: Isolation der erkrankten Person bis 24h nach Beginn der Antibiose
+  - aktion: Quellensuche
+  - aktion: Quellen auf Trägerstatus testen / Chemoprophylaxe geben
+  - aktion: Information der Gesundheitsämtern, Landesstelle, Robert Koch-Institut
+  - aktion: IfSG-Meldung
+  - aktion: Information an die politische Leitung, der Presseabteilung
+  - aktion: Informationsbereitstellung auf der Webseite
+  - aktion: [Probe ans NRZ](http://www.meningococcus.uni-wuerzburg.de/startseite/versand/)
+  - aktion: Impfempfehlungen verbreiten
 ---
