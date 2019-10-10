@@ -15,6 +15,6 @@ aktionsliste:
   - aktion: IfSG-Meldung
   - aktion: Information an die politische Leitung, der Presseabteilung
   - aktion: Informationsbereitstellung auf der Webseite
-  - aktion: [Probe ans NRZ](http://www.meningococcus.uni-wuerzburg.de/startseite/versand/)
+  - aktion: Probe ans NRZ
   - aktion: Impfempfehlungen verbreiten
 ---

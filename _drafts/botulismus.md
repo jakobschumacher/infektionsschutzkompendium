@@ -1,4 +1,0 @@
----
-title: Botulismus
-layout: interview
----
