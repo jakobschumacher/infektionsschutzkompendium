@@ -2,55 +2,67 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<h3>Inhalte im Infektionsschutzkompendium</h3>
+    <ul>  
+      {%- if page.title -%}
+      <h1 class="page-heading">{{ page.title }}</h1>
+      {%- endif -%}
+
+
+<div class="post-meta">
+  <ul class="post-categories">
+    {%- for tag in page.categories -%}
+    <li>{{ tag }}</li>
+    {%- endfor -%}
+  </ul>
+  <div class="post-date"><i class="icon-calendar"></i>Letztes Update am: {{ page.lastupdated | date: date_format }}</div>
+</div>
+
+
+
+
+  
+  
+  <h1 id="posts-label">Allgemeine Informationen</h1>
+
+
+
+  <details markdown="block">
+    <summary>
+      <h1 id="posts-label">Mögliche Maßnahmen des Gesundheitsamtes</h1>
+    </summary>
+    {% for aktion in page.aktionsliste %}
+    <ul>
+      <li><form style="display:inline;"><input type="checkbox"> {{ aktion.aktion  }}</form></li>
+    </ul>
+    {% endfor %}
+  </details>
+
+
+
+<h1 id="posts-label">Stichpunkte für Interview</h1>
+  <ul>
+  {% if page.interview %}
+  <li><a href="{{ page.interview | relative_url }}">Interviewleitfaden</a> </li>
+  {% endif %}
+  {% if page.aktion %}
+  <li><a href="{{ page.aktion  | relative_url }}">Maßnahmen</a></li>
+  {% endif %}
+  {% if page.fortbildung %}
+  <li><a href="{{ page.fortbildung | relative_url }}">Minifortbildung</a></li>
+  {% endif %}
+  {% if page.merkblatt contains 'merkblatt/'%}
+  <li><a href="{{ page.merkblatt | relative_url }}">Merkblatt</a></li>
+  {% endif %}
+  </ul>
+
+
+<h1 id="posts-label">Links zu Informationen im Netz</h1>
+
 <ul>
-{% if page.interview %}
-<li class="blockstyle"><a href="{{ page.interview | relative_url }}">Interviewleitfaden</a> </li>
-{% endif %}
-{% if page.aktion %}
-<li class="blockstyle"><a href="{{ page.aktion  | relative_url }}">Maßnahmen</a></li>
-{% endif %}
-{% if page.fortbildung %}
-<li class="blockstyle"><a href="{{ page.fortbildung | relative_url }}">Minifortbildung</a></li>
-{% endif %}
-{% if page.merkblatt contains 'merkblatt/'%}
-  <li class="blockstyle"><a href="{{ page.merkblatt | relative_url }}">Merkblatt</a></li>
-{% endif %}
+{% for menu_link in page.sources %}
+  {% for item in menu_link %}
+    <li><a class="menu-item" href="{{ item[1] }}">{{ item[0] }}</a></li>
+  {% endfor %}
+{% endfor %}
 
 </ul>
-<h3>Links zu Informationen im Netz</h3>
-<ul>
-{% if page.merkblatt contains 'https://www.infektionsschutz.de'%}
-  <li class="blockstyle"><a href="{{ page.merkblatt }}">Erregersteckbrief</a></li>
-{% endif %}
-{% if page.ratgeber %}
-<li class="blockstyle"><a href="{{ page.ratgeber }}">Ratgeber des RKI</a></li>
-{% endif %}
-{% if page.who %}
-<li class="blockstyle"><a href="{{ page.who }}">World Health Organisation (englisch)</a></li>
-{% endif %}
-{% if page.ecdc %}
-<li class="blockstyle"><a href="{{ page.ecdc }}">European center for disease control (englisch)</a></li>
-{% endif %}
-{% if page.phe %}
-<li class="blockstyle"><a href="{{ page.phe }}">Public Health England (englisch)</a></li>
-{% endif %}
-{% if page.cdc %}
-<li class="blockstyle"><a href="{{ page.cdc }}">USA Center for diesease control (englisch)</a></li>
-{% endif %}
-{% if page.pubmed %}
-<li class="blockstyle"><a href="{{ page.pubmed }}">Pubmed (Fachartikel englisch)</a></li>
-{% endif %}
-{% if page.aerzteblatt %}
-<li class="blockstyle"><a href="{{ page.aerzteblatt }}">Ärzteblatt</a></li>
-{% endif %}
-{% if page.wikipedia %}
-<li class="blockstyle"><a href="{{ page.wikipedia }}">Wikipedia</a></li>
-{% endif %}
-{% if page.apothekenumschau %}
-<li class="blockstyle"><a href="{{ page.apothekenumschau }}">Apotheken Umschau</a></li>
-{% endif %}
-</ul>
-
-

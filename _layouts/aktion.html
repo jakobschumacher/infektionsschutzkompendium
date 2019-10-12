@@ -2,24 +2,17 @@
 layout: default
 Ausbruchsuntersuchung: Durchführung einer Ausbruchsuntersuchung
 ---
+
+
 <h1>Maßnahmen bei einem Fall von {{ page.title }}</h1>
 {% for aktion in page.aktionsliste %}
 <ul>
   <li>{{ aktion.aktion | markdownify }}</li>
- </ul>
+</ul>
 {% endfor %}
 
 {% for item in page.aktionsbausteine %}
-  {% for test in item.aktion %}
-    {{ layout.Ausbruchsuntersuchung }}
-  {% endfor %}
+{% for test in item.aktion %}
+{{ layout.Ausbruchsuntersuchung }}
 {% endfor %}
-
-
-<script src="https://utteranc.es/client.js"
-        repo="jakobschumacher/infektionsschutzkompendium"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+{% endfor %}
