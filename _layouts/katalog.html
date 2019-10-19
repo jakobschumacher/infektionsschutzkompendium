@@ -2,28 +2,27 @@
 layout: default
 ---
 
-    <ul>  
-      {%- if page.title -%}
-      <h1 class="page-heading">{{ page.title }}</h1>
-      {%- endif -%}
+
+<ul>
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
 
 
-<div class="post-meta">
-  <ul class="post-categories">
-    {%- for tag in page.categories -%}
-    <li>{{ tag }}</li>
-    {%- endfor -%}
-  </ul>
-  <div class="post-date"><i class="icon-calendar"></i>Letztes Update am: {{ page.lastupdated | date: date_format }}</div>
-</div>
+  <div class="post-meta">
+    <ul class="post-categories">
+      {%- for tag in page.categories -%}
+      <li>{{ tag }}</li>
+      {%- endfor -%}
+    </ul>
+  </div>
 
-
-
-
-  
-  
-  <h1 id="posts-label">Allgemeine Informationen</h1>
-
+  <details markdown="block">
+    <summary>
+      <h1 id="posts-label">Allgemeine Informationen</h1>
+    </summary>
+    Die Dauer von der Aufnahme des Erregers bis zum Beginn der Erkrankung beträgt {{ page.Inkubationszeit_min }} bis {{ page.Inkubationszeit_max }} Tage.
+</details>
 
 
   <details markdown="block">
@@ -32,37 +31,89 @@ layout: default
     </summary>
     {% for aktion in page.aktionsliste %}
     <ul>
-      <li><form style="display:inline;"><input type="checkbox"> {{ aktion.aktion  }}</form></li>
+      <li>
+        <form style="display:inline;"><input type="checkbox"> {{ aktion.aktion  }}</form>
+      </li>
     </ul>
     {% endfor %}
   </details>
 
 
+  <details markdown="block">
+    <summary>
+      <h1 id="posts-label">Stichpunkte für Interview</h1>
+    </summary>
+    <ul>
+      <div style="text-align: right">
+        <button id="togglekeyword">Schlagwort aus</button>
+        <button id="toggletext">Sprachtext aus</button>
+        <button id="togglecomment">Kommentar aus</button>
+      </div>
+      <h4>Gesprächsbeginn</h4>
+      <ul>{% for layoutitem in page.beginn %}<p>
+          <mark>{{ layoutitem.keyword }}</mark>
+          <strong>{{ layoutitem.question }}</strong>
+          <em><br>{{ layoutitem.comment }}</em>
+        </p>{% endfor %}</ul>
 
-<h1 id="posts-label">Stichpunkte für Interview</h1>
-  <ul>
-  {% if page.interview %}
-  <li><a href="{{ page.interview | relative_url }}">Interviewleitfaden</a> </li>
-  {% endif %}
-  {% if page.aktion %}
-  <li><a href="{{ page.aktion  | relative_url }}">Maßnahmen</a></li>
-  {% endif %}
-  {% if page.fortbildung %}
-  <li><a href="{{ page.fortbildung | relative_url }}">Minifortbildung</a></li>
-  {% endif %}
-  {% if page.merkblatt contains 'merkblatt/'%}
-  <li><a href="{{ page.merkblatt | relative_url }}">Merkblatt</a></li>
-  {% endif %}
-  </ul>
+      {% if page.abklaerung %}
+      <h4>Abklärung</h4>
+
+      {% if page.ausbruch %}
+      <ul>{% for entry in layout.ausbruch %}<p>
+          <mark>{{ entry.keyword }}</mark>
+          <strong>{{ entry.question }}</strong>
+          <em><br>{{ entry.comment }}</em>
+        </p>{% endfor %}</ul>
+      {% endif %}
+      <ul>{% for entry in page.abklaerung %}<p>
+          <mark>{{ entry.keyword }}</mark>
+          <strong>{{ entry.question }}</strong>
+          <em><br>{{ entry.comment }}</em>
+        </p>{% endfor %}</ul>
+      {% endif %}
+
+      {% if page.empfehlungen %}
+      <h4>Empfehlung</h4>
+      <ul>{% for entry in page.empfehlungen %}<p>
+          <mark>{{ entry.keyword }}</mark>
+          <strong>{{ entry.question }}</strong>
+          <em><br>{{ entry.comment }}</em>
+        </p>{% endfor %}</ul>
+      {% endif %}
 
 
-<h1 id="posts-label">Links zu Informationen im Netz</h1>
+      <h4>Gesprächsende</h4>
+      <ul>{% for layoutitem in layout.ende %}<p>
+          <mark>{{ layoutitem.keyword }}</mark>
+          <strong>{{ layoutitem.question }}</strong>
+          <em><br>{{ layoutitem.comment }}</em>
+        </p>{% endfor %}</ul>
+    </ul>
+  </details>
 
-<ul>
-{% for menu_link in page.sources %}
-  {% for item in menu_link %}
-    <li><a class="menu-item" href="{{ item[1] }}">{{ item[0] }}</a></li>
-  {% endfor %}
-{% endfor %}
 
-</ul>
+
+  <details markdown="block">
+    <summary>
+      <h1 id="posts-label">Links zu Informationen im Netz</h1>
+    </summary>
+    <ul>
+      {% for menu_link in page.sources %}
+      {% for item in menu_link %}
+      <li><a class="menu-item" href="{{ item[1] }}">{{ item[0] }}</a></li>
+      {% endfor %}
+      {% endfor %}
+    </ul>
+  </details>
+
+  <hr>
+
+  <div style="text-align: right">
+    Letztes Update: {{ page.lastupdated }}<br>
+    Autoren: {{ page.author }}<br>
+    Quellen:
+    {% for items in page.sources %}
+    {{ items.source }}
+    {% endfor %}
+  </div>

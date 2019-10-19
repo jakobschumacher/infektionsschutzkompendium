@@ -1,20 +1,17 @@
 ---
 title: Adenovirus-Konjunktivitis
 layout: katalog
-fortbildung: fortbildung/adenovirus-konjunktivitis.html
 lastupdated: 11. Oktober 2019
 author: Jakob Schumacher
-base:
-  - Inkubationszeit: 3-5 Tage
 categories: Virus 
-sources:
-  - Merkblatt: https://www.infektionsschutz.de/erregersteckbriefe/adenoviren/
-  - Ratgeber: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Adenovirus_Konjunktivitis.html
-  - Wikipedia: https://de.wikipedia.org/wiki/Keratoconjunctivitis_epidemica
-  - CDC:  https://www.cdc.gov/adenovirus/index.html
-  - Pubmed: https://www.ncbi.nlm.nih.gov/pubmed/  - ?term=%22Adenovirus+Infections%2C+Human%22%5BMesh%5D
-  - Ärzteblatt: https://www.aerzteblatt.de/archiv/96294/Keratokonjunktivitis-epidemica
-abklaerung:
+
+
+Inkubationszeit_min: 5
+Inkubationszeit_max: 12
+
+
+
+interviewabklaerung:
   - question: Sind in Ihrem Umfeld andere Personen erkrankt?
     comment: Diese Frage ist wichtig um diese Person auch auf Schutzmaßnahmen hinzuweisen, etwas über die Übertragung der Erkrankung herauszufinden und gegebenenfalls eine Ausbruchsuntersuchung zu starten.
     keyword: Andere Personen
@@ -28,7 +25,7 @@ abklaerung:
     comment: Eine Übertragung durch Schwimmbeckenwasser ist eine bekannte Übertragungsart. Die genaue Inkubationszeit beträgt 5-12 Tage.
     keyword: Schwimmbad
 
-empfehlungen:
+interviewempfehlungen:
   - question: Vermeiden Sie einen Hand-Auge-Kontakt!
     comment: Das ist wichtig, da über diesen Weg die Errerger weiterverbreitet werden. Nach solch einem Kontakt wäre es am besten die Hände zu waschen oder zu desinfizieren.
     keyword: Hand-Auge-Kontakt
@@ -68,4 +65,14 @@ aktionsliste:
   - aktion: Tätigkeitsverbote für augenärztliches Personal gemäß § 28/§ 31 sollte wenn möglich durchgeführt werden.
   - aktion: Tätigkeits-/Teilnahmeverbote für Personen in Gemeinschaftseinrichtungen, anderes medzinisches Personal oder für Massenunterkünfte kann erwogen werden.  
   - aktion: Ausbruchsuntersuchung 
+
+
+sources:
+    - Merkblatt: https://www.infektionsschutz.de/erregersteckbriefe/adenoviren/
+    - Ratgeber: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Adenovirus_Konjunktivitis.html
+    - Wikipedia: https://de.wikipedia.org/wiki/Keratoconjunctivitis_epidemica
+    - CDC:  https://www.cdc.gov/adenovirus/index.html
+    - Pubmed: https://www.ncbi.nlm.nih.gov/pubmed/  - ?term=%22Adenovirus+Infections%2C+Human%22%5BMesh%5D
+    - Ärzteblatt: https://www.aerzteblatt.de/archiv/96294/Keratokonjunktivitis-epidemica
+
 ---
