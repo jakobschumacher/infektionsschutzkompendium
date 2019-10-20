@@ -53,16 +53,7 @@ plugins:
 #  - jekyll-feed
 
 collections:
-  overview:
-    output: true
-  merkblatt:
-    output: true
-  interview:
-    output: true
-  aktion:
-    output: true
   fortbildung:
     output: true
   katalog:
     output: true
-collections_dir: pages

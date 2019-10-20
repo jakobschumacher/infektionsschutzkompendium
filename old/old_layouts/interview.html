@@ -1,0 +1,105 @@
+---
+layout: default
+beginn:
+  - question: Guten Tag! Ich arbeite im Gesundheitsamt.
+    comment:
+    keyword: Vorstellung
+  - question: Mit wem spreche ich?
+    comment: Es ist besser, die Person selber ihren Namen sagen zu lassen. Personen tendieren dazu "Ja" zu sagen, wenn sie etwas nicht verstehen. Falls Zweifel an der Identität bestehen, sollte man noch das Geburtsdatum und Adresse abfragen. Bei Kindern unter 18 Jahren sollten primär die Eltern befragt werden.
+    keyword: Personen-Check
+  - question: Uns wurde gemeldet, dass bei Ihnen eine übertragbare Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern.
+    comment:
+    keyword: Erklärung des Anrufs
+  - question: Ich stelle Ihnen einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 min.
+    comment:
+    keyword: Ausblick
+  - question: Haben Sie vorab Fragen? Können Sie mich gut verstehen?
+    comment:
+    keyword: Verständnischeck
+  - question: Zuerst hoffe ich, dass es Ihnen in der Zwischenzeit wieder besser geht.
+    comment:
+    keyword: Besserungswünsche
+ende:
+  - question: Vielen Dank für das Gespräch. Von meiner Seite aus bin ich fertig. Haben Sie noch Fragen?
+    comment:
+    keyword: Noch Fragen?
+  - question: Soll ich Ihnen noch ein Merkblatt zuschicken oder Ihnen sagen, wo sie es im Internet finden können?
+    comment:
+    keyword: Merkblatt
+  - question: Sollten sich noch neue Anhaltspunkte ergeben melde ich mich nochmal. Das könnte zum Beispiel der Fall sein, wenn uns noch viele weitere Fälle gemeldet werden und wir einen Ausbruch vermuten.
+    comment:
+    keyword: Vorwarnung erneuter Anruf
+  - question: Soll ich Ihnen die rechtlichen Grundlagen oder etwas zum Datenschutz erläutern?
+    comment:
+    keyword: Rechtliches und Datenschutz
+ausbruch:
+  - question: Sind in Ihrem Umfeld andere Personen erkrankt?
+    comment: Diese Frage ist wichtig um diese Person auch auf Schutzmaßnahmen hinzuweisen, etwas über die Übertragung der Erkrankung herauszufinden und gegebenenfalls eine Ausbruchsuntersuchung zu starten.
+    keyword: Andere Personen
+---
+
+<div style="text-align: right">
+  <button id="togglekeyword">Schlagwort aus</button>
+  <button id="toggletext">Sprachtext aus</button>
+  <button id="togglecomment">Kommentar aus</button>
+</div>
+<br>
+<h1>Interviewleitfaden für ein Fall von {{ page.title }}</h1>
+<h4>Gesprächsbeginn</h4>
+  <ul>{% for layoutitem in layout.beginn %}<p>
+       <mark>{{ layoutitem.keyword }}</mark>
+       <strong>{{ layoutitem.question }}</strong>
+       <em><br>{{ layoutitem.comment }}</em>
+  </p>{% endfor %}</ul>
+
+  {% if page.abklaerung %}
+  <h4>Abklärung</h4>
+
+  {% if page.ausbruch %}
+  <ul>{% for entry in layout.ausbruch %}<p>
+    <mark>{{ entry.keyword }}</mark>
+    <strong>{{ entry.question }}</strong>
+    <em><br>{{ entry.comment }}</em>
+  </p>{% endfor %}</ul>
+  {% endif %}
+  <ul>{% for entry in page.abklaerung %}<p>
+    <mark>{{ entry.keyword }}</mark>
+    <strong>{{ entry.question }}</strong>
+    <em><br>{{ entry.comment }}</em>
+  </p>{% endfor %}</ul>
+  {% endif %}
+
+{% if page.empfehlungen %}
+<h4>Empfehlung</h4>
+<ul>{% for entry in page.empfehlungen %}<p>
+       <mark>{{ entry.keyword }}</mark>
+       <strong>{{ entry.question }}</strong>
+       <em><br>{{ entry.comment }}</em>
+</p>{% endfor %}</ul>
+{% endif %}
+
+
+<h4>Gesprächsende</h4>
+  <ul>{% for layoutitem in layout.ende %}<p>
+       <mark>{{ layoutitem.keyword }}</mark>
+       <strong>{{ layoutitem.question }}</strong>
+       <em><br>{{ layoutitem.comment }}</em>
+  </p>{% endfor %}</ul>
+
+<div style="text-align: right">
+       Letztes Update: {{ page.lastupdated }}<br>
+       Autoren: {{ page.author }}<br>
+       Quellen:
+       {% for items in page.sources %}
+        {{ items.source }}
+       {% endfor %}
+     </div>
+
+
+ <script src="https://utteranc.es/client.js"
+         repo="jakobschumacher/infektionsschutzkompendium"
+         issue-term="pathname"
+         theme="github-light"
+         crossorigin="anonymous"
+         async>
+ </script>
