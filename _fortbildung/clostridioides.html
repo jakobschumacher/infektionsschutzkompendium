@@ -1,11 +1,11 @@
 ---
-title: Clostridien Enteritis
+title: Clostridioides
 layout: presentation
 ---
 
 class: center, middle
 
-# Minifortbildung zu Clostridien Enteritis
+# Minifortbildung zu {{ page.title }}
 
 ---
 # Vorkommen
@@ -39,3 +39,17 @@ class: center, middle
 # Diagnostik
 
 * Diagnostik durch Enzymimmunoessay innerhalb weniger Stunden
+
+{% assign album = site.katalog 
+    | where_exp:"album", "album.title == 'Clostridioides'" 
+    | first %}
+
+---
+# Maßnahmen
+{% for item in album.aktionsbausteine %}  
+* {{ item.aktion }}{% endfor %}
+ 
+---
+# Interview
+{% for item in album.interview.abklaerung %}  
+* {{ item.keyword }}{% endfor %}    

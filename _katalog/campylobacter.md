@@ -1,5 +1,5 @@
 ---
-title: Campylobacter-Enteritis
+title: Campylobacter
 layout: post
 interview: interview/campylobacter-enteritis.html
 aktion: aktion/campylobacter-enteritis.html

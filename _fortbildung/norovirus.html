@@ -19,10 +19,11 @@ class: center, middle
 ---
 # Über den Erreger
 
-* Der Erreger ist ein {{album.basisdaten.erregertyp}}
-* Reservoir: {{ album.basisdaten.reservoir }}
-* {{ album.basisdaten.vorkommen_welt }}
-* Anzahl der gemeldeten Fälle in Deutschland: {{ album.basisdaten.vorkommen_deu }}
+{% for value in album.basisdaten.erreger %}
+{% for item in value %}
+{{ item[1] }}
+{% endfor %}
+{% endfor %}
 
 ---
 # Übertragungswege
@@ -33,16 +34,16 @@ class: center, middle
 
 ---
 # Zeiten
-* Inkubationszeit: {{ album.basisdaten.inkubationszeit_min }} bis {{ album.basisdaten.inkubationszeit_max }}
-* Ansteckungsfähigkeit: {{ album.basisdaten.ansteckungszeit_normal }} {{ album.basisdaten.ansteckungszeit_lang }}
+* Inkubationszeit: {{ album.basisdaten.zeiten.inkubationszeit_min }} bis {{ album.basisdaten.zeiten.inkubationszeit_max }}
+* Ansteckungsfähigkeit: {{ album.basisdaten.zeiten.ansteckungszeit_normal }} {{ album.basisdaten.zeiten.ansteckungszeit_lang }}
 
 ---
 # Krankheitszeichen
-{% for item in album.basisdaten.symptomatik %} 
+{% for item in album.basisdaten.klinik.symptome %} 
 * {{ item }} 
 {% endfor %}
-* {{ album.basisdaten.asymptomatik }}
-* {{ album.basisdaten.krankheitsdauer }}
+* {{ album.basisdaten.klinik.asymptomatik }}
+* {{ album.basisdaten.klinik.krankheitsdauer }}
 
 
 ---

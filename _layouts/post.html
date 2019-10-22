@@ -11,10 +11,12 @@ layout: default
   {{ page.basisdaten.kurzbeschreibung}} 
   <details markdown="block">
     <summary><h1 id="posts-label">Auflistung wichtiger Daten</h1></summary>
-  {{page.basisdaten.erregertyp}}
-  {{ page.basisdaten.reservoir }}
-  {{ page.basisdaten.vorkommen_welt }}
-  {{ page.basisdaten.vorkommen_deu }}
+    {% for value in page.basisdaten.erreger %}
+    {% for item in value %}
+    {{ item[1] }}
+    {% endfor %}
+    {% endfor %}
+  
   Wichtige Übertragungswege sind
   {% for item in page.basisdaten.uebertragungswege %} {{ item }} 
   {% endfor %}  
@@ -28,7 +30,7 @@ layout: default
   {{ page.basisdaten.krankheitsdauer }}
 
   {% if page.fortbildung %} 
-  <span class="blockstyle"><a href="{% link _fortbildung/norovirus.html %}">Diese Informationen als Präsentation</a></span>
+  <span class="blockstyle"><a href="{{ page.fortbildung | relative_url }}">Diese Informationen als Präsentation</a></span>
   {% endif %}
 
   </details>

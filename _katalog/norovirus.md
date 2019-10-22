@@ -4,26 +4,31 @@ layout: post
 lastupdated: 11. Oktober 2019
 author: Jakob Schumacher
 
-fortbildung: _fortbildung/norovirus.html
+fortbildung: fortbildung/norovirus.html
 
 basisdaten:
-  erregertyp: Der Erreger ist ein Virus. 
   bild: https://upload.wikimedia.org/wikipedia/commons/a/ae/Norovirus_4.jpg
-  kurzbeschreibung: Norovirus verursacht meist Magen-Darm-Erkrankkungen. Norovirus ist der häufigste meldepflichtige Erreger, dementsprechend ist die Ermittlung durch die Gesundheitsämter sehr häufig.
-  vorkommen_deu: 80.000 Fälle werden in Deutschland gemeldet.
-  vorkommen_welt: Der Erreger kommt weltweit vor.
-  reservoir: Das Reservoir ist der Mensch.
-  inkubationszeit_min: 6 Stunden
-  inkubationszeit_max: 48 Stunden
-  ansteckungszeit_normal: Erkrankte Personen sind ansteckend vom Beginn der Krankheitszeichen bis 2 Tage nach Ende der Krankheitszeichen.
-  ansteckungszeit_lang: In vielen Fällen wird der Erreger noch mehrere Wochen ausgeschieden.
-  symptomatik:
-    - Akuter Beginn
-    - Schwallartiges Erbrechen
-    - Wässrige Durchfälle
-    - Starkes Krankheitsgefühl
-  krankheitsdauer: Die Krankheitsdauer beträgt 1 Tag
-  asymptomatik: 4 von 100 Europäern sind asymptomatisch
+  kurzbeschreibung: Norovirus ist der häufigste meldepflichtige Erreger, dementsprechend ist die Ermittlung durch die Gesundheitsämter sehr häufig.
+  erreger:
+    - erregertyp: Der Erreger ist ein Virus. 
+    - erregergruppen: Der Erreger wird unterteilt in die Genogruppen I - V. 
+    - erregergruppenunterschiede:   
+    - vorkommen_deu: 80.000 Fälle werden in Deutschland gemeldet.
+    - vorkommen_welt: Der Erreger kommt weltweit vor.
+    - reservoir: Das Reservoir ist der Mensch.
+  zeiten:
+    inkubationszeit_min: 6 Stunden
+    inkubationszeit_max: 48 Stunden
+    ansteckungszeit_normal: Erkrankte Personen sind ansteckend vom Beginn der Krankheitszeichen bis 2 Tage nach Ende der Krankheitszeichen.
+    ansteckungszeit_lang: In vielen Fällen wird der Erreger noch mehrere Wochen ausgeschieden.
+  klinik:
+    symptome: 
+      - Akuter Beginn
+      - Schwallartiges Erbrechen
+      - Wässrige Durchfälle
+      - Starkes Krankheitsgefühl
+    krankheitsdauer: Die Krankheitsdauer beträgt 1 Tag
+    asymptomatik: 4 von 100 Europäern sind asymptomatisch
   uebertragungswege:
     - Von Mensch-zu-Mensch über Hände
     - Übertragung über Lebensmittel
@@ -51,10 +56,10 @@ interview:
     - question: Wann haben die Krankheitszeichen begonnen?
       keyword: Erkrankungsbeginn?
     - question: Welche Krankheitszeichen haben Sie?
-      keyword: Klinik?
+      keyword: Durchfall oder Erbrechen?
     - question: Gab es weitere Erkrankungen im Umfeld?
       comment: Diese Frage ist wichtig um herauszufinden, ob ein Ausbruch vorliegt. Beispielsweise könnte eine Person berichten, sie sei bei einem Schulausflug gewesen und die Hälfte der Schülerinnen und Schüler sei erkrankt. Das würde eine Ausbruchsuntersuchung rechtfertigen.
-      keyword: Weitere Erkrankungen?
+      keyword: Weitere Erkrankungen im Umfeld?
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts
