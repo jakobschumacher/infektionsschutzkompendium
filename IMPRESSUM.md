@@ -1,3 +1,8 @@
+---
+title: Impressum
+layout: default
+---
+
 # Impressum
 ## Angaben gemäß § 5 Telemediengesetz
 Jakob Schumacher

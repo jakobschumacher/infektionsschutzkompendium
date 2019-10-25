@@ -104,9 +104,7 @@ main {
 	margin-top: 0;
 	li {
 		float: left;
-		i {
-			font-size: 34px;
-		}
+		margin: 5px;
 	}
 }
 
@@ -130,11 +128,14 @@ main {
 	margin-right: 10px;
 	color: #555;
 }
+
+
 .post-meta {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 }
+
 .post-link {
 	text-decoration: none;
 }
@@ -181,4 +182,29 @@ main {
 	letter-spacing: 0.5px;
 	padding-bottom: 10px;
 	font-weight: normal;
+}
+
+
+
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: 0px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+
+}
+
+.circular--square {
+  border-radius: 50%;
 }

@@ -1,53 +1,51 @@
 ---
-title: Campylobacter-Enteritis
+title: E.Coli-Enteritis
 layout: post
 date: 2019-02-08
-fortbildung: fortbildung/campylobacter-enteritis.html
+fortbildung: fortbildung/ecoli-enteritis.html
 
 lastupdated: 22. Oktober 2019
 author: Jakob Schumacher
 
 basisdaten:
-  bild: https://upload.wikimedia.org/wikipedia/commons/a/a4/Campylobacter_fetus_01.jpg
-  kurzbeschreibung: Campylobacter ist der häufigste bakterielle Durchfallerreger. Fast täglich erfolgen Meldungen an das Gesundheitsamt
+  bild: https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/EscherichiaColi_NIAID.jpg/800px-EscherichiaColi_NIAID.jpg
+  kurzbeschreibung: Eschericha Coli ist ein Darmbwohner. Durch Toxine kann er Erkrankungen auslösen. Er kann in mehreren Kategorien gemeldet werden.
 
 inhalte:  
 # Erregerdaten
   - id: erregername
-    text: Campylobacter verursacht die Campylobacter-Enteritis
+    text: E.Coli kann durch bestimmte Toxine eine E.Coli-Enteritis auslösen
     kategorie: erregerdaten
   - id: erregertyp
     text: Der Erreger ist ein Bakterium. 
     kategorie: erregerdaten
   - id: erregergruppen
-    text: Der Erreger wird in Spezies eingeteilt. C. jejuni, C. coli, C. lari, C. fetus und C. upsaliensis sind häufige Krankheitserreger
+    text: E. Coli kann die Eigenschaft erwerben bestimmte Toxine zu bilden. Bei bestimmten Toxinen wird dem Erreger dann ein spezieller Name zugeschrieben. ETEC (produziert Enterotoxin), EHEC (produziert Shigatoxin), EPEC (produziert EAF), EAEC (produziert aggregierende Enterotoxine), EIEC (produziert invasive Enterotoxine).  
     quellename: RKI-Ratgeber 
-    kategorie: erregerdaten
-  - id: 
+    kategorie: erregerdaten hygkowichtig
+  - id: toxine
     text: 
     kategorie: erregerdaten
   - id: erregergruppenunterschiede
-    text: 
+    text: EHEC die Shigatoxin 2 produzieren können ein Hämolytisch-Urämisches-Syndrom hervorrufen
     kategorie: erregerdaten
     
 # Vorkommen
   - id: vorkommen_deu
-    text: Ungefähr 65.000 Fälle werden in Deutschland gemeldet.
+    text: In Deutschland werden etwa 1500 Fälle an EHEC jährlich gemeldet und etwas weniger als 100 HUS Fälle.
     kategorie: vorkommen
     quellename: Survstat
     quelleurl: https://survstat.rki.de/
   - id: vorkommen_welt
-    text: Der Erreger kommt weltweit vor.
+    text: E.Coli kommt weltweit vor.
     kategorie: vorkommen
   - id: reservoir
-    text: Der Erreger kommt in vielen Tierarten vor Wildtiere, Nutztiere und Heimtiere.  
+    text: E.Coli ist ein normaler Darmbewohner des Menschen und vieler Tiere. Erkrankungen durch E.Coli mit Toxinen kommen weltweit vor
     kategorie: vorkommen
     quellename: RKI Ratgeber
-    quelleurl: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Campylobacter.html
   - id: ueberlebensfaehigkeit
-    text: Der Erreger kann sich nur in Organismen vermehren
+    text: 
     quellename: RKI Ratgeber
-    quelleurl: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Campylobacter.html
     
 # Zeiten
   - id: inkubationszeit
@@ -93,7 +91,7 @@ inhalte:
       Der Erreger würde übertragen 
       über Lebensmittel insbesondere Geflügelfleisch, Rohmlich, anderes Fleisch 
       vor allem in anderen Ländern auch über Trinkwasser oder Baden. Bei C. fetus kann eine Mutter ihr Kind intrauterin oder perinatal infizieren.
-    kategorie: 
+    kategorie: uebertragungswege
     quellename: RKI Ratgeber
     quelleurl: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Campylobacter.html
 

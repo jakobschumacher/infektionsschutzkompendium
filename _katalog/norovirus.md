@@ -1,5 +1,5 @@
 ---
-title: Norovirus
+title: Norovirus-Gastroenteritis
 layout: post
 lastupdated: 11. Oktober 2019
 author: Jakob Schumacher
@@ -8,32 +8,90 @@ fortbildung: fortbildung/norovirus.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/a/ae/Norovirus_4.jpg
-  kurzbeschreibung: Norovirus ist der häufigste meldepflichtige Erreger, dementsprechend ist die Ermittlung durch die Gesundheitsämter sehr häufig.
-  erreger:
-    - erregertyp: Der Erreger ist ein Virus. 
-    - erregergruppen: Der Erreger wird unterteilt in die Genogruppen I - V. 
-    - erregergruppenunterschiede:   
-    - vorkommen_deu: 80.000 Fälle werden in Deutschland gemeldet.
-    - vorkommen_welt: Der Erreger kommt weltweit vor.
-    - reservoir: Das Reservoir ist der Mensch.
-  zeiten:
-    inkubationszeit_min: 6 Stunden
-    inkubationszeit_max: 48 Stunden
-    ansteckungszeit_normal: Erkrankte Personen sind ansteckend vom Beginn der Krankheitszeichen bis 2 Tage nach Ende der Krankheitszeichen.
-    ansteckungszeit_lang: In vielen Fällen wird der Erreger noch mehrere Wochen ausgeschieden.
-  klinik:
-    symptome: 
-      - Akuter Beginn
-      - Schwallartiges Erbrechen
-      - Wässrige Durchfälle
-      - Starkes Krankheitsgefühl
-    krankheitsdauer: Die Krankheitsdauer beträgt 1 Tag
-    asymptomatik: 4 von 100 Europäern sind asymptomatisch
-  uebertragungswege:
-    - Von Mensch-zu-Mensch über Hände
-    - Übertragung über Lebensmittel
-    - Übertragung über Trinkwasser
-    - Übertragung über Erbrochenes (Tröpfchen)
+  kurzbeschreibung: Norovirus ist der häufigste meldepflichtige Erreger. Dementsprechend ist die Ermittlung durch die Gesundheitsämter sehr häufig.
+
+inhalte:  
+# Erregerdaten
+  - id: erregername
+    text: Norovirus-Gastroenteritis wird hervorgerufen durch Norovirus
+    kategorie: erregerdaten
+  - id: erregertyp
+    text: Der Erreger ist ein Virus
+    kategorie: erregerdaten
+  - id: erregergruppen
+    text: Der Erreger wird unterteilt in die Genogruppen I - V. 
+    kategorie: erregerdaten
+  - id: 
+    text: 
+    kategorie: erregerdaten
+  - id: erregergruppenunterschiede
+    text: 
+    kategorie: erregerdaten
+    
+# Vorkommen
+  - id: vorkommen_deu
+    text: 80.000 Fälle werden in Deutschland gemeldet.
+    kategorie: vorkommen
+    quellename: Survstat
+    quelleurl: https://survstat.rki.de/
+  - id: vorkommen_welt
+    text: Der Erreger kommt weltweit vor.
+    kategorie: vorkommen
+  - id: reservoir
+    text: Das Reservoir ist der Mensch. 
+    kategorie: vorkommen
+    
+# Zeiten
+  - id: inkubationszeit_false
+    text: Die Inkubationszeit beträg 6 bis 48 Stunden
+    kategorie: zeiten
+  - id: inkubationszeit_min
+    nummer: 6 Stunden
+    kategorie: zeiten
+  - id: inkubationszeit_max
+    nummer: 48 Stunden
+    kategorie: zeiten
+  - id: ansteckungszeit_normal
+    text: Solange eine Person erkrankt ist und noch Wochen danach scheidet sie den Erreger aus (aus pragmatischen Gründen wird empfohlen die Isolierungsmaßnahmen 48h nach Ende der Symptome aufzuheben)
+    kategorie: zeiten
+  - id: ansteckungszeit_lang 
+    text: Erkrankte Personen, insbesondere Personen mit Immunschwäche können den Erreger noch lange Zeit ausscheiden
+    kategorie: zeiten
+
+# Klinik
+  - id: symptome
+    text: Krankheitszeichen sind schwallartiges Erbrechen, wässriger Durchfall, ein akutem Beginn und einem starken Krankheitsgefühl
+    kategorie: klinik
+  - id: komplikationen
+    text: Komplikationen sind pseudomembranöse Colitis und toxisches Megacolon
+    kategorie: klinik
+  - id: krankheitsdauer
+    text: Die Krankheitsdauer beträgt üblicherweise 1-2 Tage
+    kategorie: klinik
+  - id: asymptomatik
+    text: Etwa 4 von 100 Europäern sind asymptomatisch
+    kategorie: klinik
+  - id: letalität
+    text: 
+    kategorie: klinik
+
+# Übertragungswege
+  - id: uebertragungswege
+    text: | 
+      Der Erreger wird übertragen 
+      Von Mensch-zu-Mensch über Hände,
+      über Lebensmittel, 
+      über Trinkwasser,
+      über Erbrochenes (Tröpfchen).
+
+# Meldung
+  - id: Meldepflicht
+    text: Der Norovirus-Nachweis im Labor ist meldepflichtig nach § 7
+    quellename: IfSG
+    quelleurl: https://www.gesetze-im-internet.de/ifsg/
+    kategorie: meldepflicht, hygkowichtig   
+
+
 
 aktionsbausteine:
   - aktion: Informationsbeschaffung zum Fall 
@@ -52,14 +110,16 @@ aktionsbausteine:
   - aktion: Erfassung für das Meldewesen
 
 interview:     
-  abklaerung:
     - question: Wann haben die Krankheitszeichen begonnen?
       keyword: Erkrankungsbeginn?
+      kategorie:  abklaerung
     - question: Welche Krankheitszeichen haben Sie?
       keyword: Durchfall oder Erbrechen?
+      kategorie:  abklaerung
     - question: Gab es weitere Erkrankungen im Umfeld?
       comment: Diese Frage ist wichtig um herauszufinden, ob ein Ausbruch vorliegt. Beispielsweise könnte eine Person berichten, sie sei bei einem Schulausflug gewesen und die Hälfte der Schülerinnen und Schüler sei erkrankt. Das würde eine Ausbruchsuntersuchung rechtfertigen.
       keyword: Weitere Erkrankungen im Umfeld?
+      kategorie:  abklaerung
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts

@@ -40,3 +40,5 @@ collections:
     output: true
   katalog:
     output: true
+  querschnitt:
+    output: true

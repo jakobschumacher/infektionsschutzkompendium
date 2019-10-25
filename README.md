@@ -1,3 +1,8 @@
+---
+title: Readme
+layout: default
+---
+
 
 # Für wen ist dieses Dokument?
 Du arbeitest im Gesundheitsamt? Du bearbeitest Meldungen von Infektionskrankheiten? Dann bist du hier richtig! Hier gehts zur [Webseite Infektionsschutzkompendium](https://jakobschumacher.github.io/infektionsschutzkompendium)

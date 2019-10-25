@@ -7,31 +7,39 @@ layout: default
     <h2 class="post-title">{{ page.title | escape }}</h2>
   </a>
   
+  <div class="post-meta">
+     <ul class="post-categories">
+       {% if page.fortbildung %}
+       <li> <span class="blockstyle"><a href="{{ page.fortbildung | relative_url }}">Präsentation</a></span> </li>
+       {% endif %}
+     </ul>
+     <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
+   </div>
+
+  
+  
+
+  
+  
   <div class="post">
   {{ page.basisdaten.kurzbeschreibung}} 
+  
+{% comment %}  
+  <ul>
+  {% assign inhalte = page.inhalte | where_exp: "item", "item.kategorie == 'erregerdaten'" %}
+    {% for item in inhalte %}
+      <li>{{ item.text | markdownify }} </li>
+    {% endfor %}  
+  </ul>
+  {% endcomment %}  
   <details markdown="block">
     <summary><h1 id="posts-label">Auflistung wichtiger Daten</h1></summary>
-    {% for value in page.basisdaten.erreger %}
-    {% for item in value %}
-    {{ item[1] }}
-    {% endfor %}
-    {% endfor %}
   
-  Wichtige Übertragungswege sind
-  {% for item in page.basisdaten.uebertragungswege %} {{ item }} 
-  {% endfor %}  
-
-  Die Inkubationszeit beträgt {{ page.basisdaten.inkubationszeit_min }} bis {{ page.basisdaten.inkubationszeit_max }}
-  {{ page.basisdaten.ansteckungszeit_normal }} {{ page.basisdaten.ansteckungszeit_lang }}
-
-  Krankheitszeichen sind {% for item in page.basisdaten.symptomatik %} 
-  {{ item }}{% endfor %}
-  {{ page.basisdaten.asymptomatik }}
-  {{ page.basisdaten.krankheitsdauer }}
-
-  {% if page.fortbildung %} 
-  <span class="blockstyle"><a href="{{ page.fortbildung | relative_url }}">Diese Informationen als Präsentation</a></span>
-  {% endif %}
+    {% assign inhalte = page.inhalte  %}
+    {% for item in inhalte %}
+      <li title="Quelle: {{ item.quellename }}"> {{ item.text }} </li>
+    {% endfor %}  
+  
 
   </details>
   
@@ -76,10 +84,6 @@ layout: default
   <div style="text-align: right">
     Letztes Update: {{ page.lastupdated }}<br>
     Autoren: {{ page.author }}<br>
-    Quellen:
-    {% for items in page.sources %}
-    {{ items.source }}
-    {% endfor %}
   </div>
   
   

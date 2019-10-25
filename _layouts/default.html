@@ -6,13 +6,23 @@
 <body>
 	<main class="container">
 		<section class="about">
-			<a href="{{ "/index.html" | relative_url }}"><img src="{{ "/assets/portfolio.png" | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
+			<a href="{{ "/index.html" | relative_url }}">
+				<div class="circular--landscape">
+					{% if page.basisdaten.bild %}
+						<img class="cicular--square", src="{{page.basisdaten.bild | relative_url }}",  alt="{{ site.plainwhite.name }}" />
+					{% else %}		
+						<img class="cicular--square", src="{{ "/assets/portfolio.png" | relative_url }}",  alt="{{ site.plainwhite.name }}" />
+				{% endif %}		
+				</div>
+			</a>
 			<h2>{{ site.title }}</h2>
 			<p class="tagline">{{ site.subtitle }}</p>
 			<ul class="social">
-				<a href="https://github.com/{{ site.plainwhite.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
+				<li><a href="https://github.com/{{ site.plainwhite.social_links.github }}"><i class="fab fa-github fa-lg"></i></a></li>
+				<li><a href="mailto:jakob.schumacher@web.de"><i class="far fa-envelope fa-lg"></i></a></li>
+				<li><a href="{{ site.impressum }}"><i class="fas fa-info-circle fa-lg"></i></a></li>
 			</ul>
-			<p>&copy; 2019</p>
+
 		</section>
 		<section class="content">
 			{{ content }}
