@@ -1,14 +1,14 @@
 ---
 title: Clostridioides-Enteritis 
 layout: post
-fortbildung: fortbildung/clostridioides2.html
+fortbildung: fortbildung/Clostridioides-Enteritis .html
 
 lastupdated: 22. Oktober 2019
 author: Jakob Schumacher
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/1/11/ClostridiumDifficile.jpg
-  kurzbeschreibung: Clostridioides difficile ist ein nosokomialer Erreger, der meist nach einer Antibiotikagabe auftritt. Die Meldungen erfolgen üblicherweise aus einem Krankenhaus.
+  kurzbeschreibung: Clostridioides difficile (früher Clostridium difficile) ist ein nosokomialer Erreger, der meist nach einer Antibiotikagabe auftritt. Die Meldungen erfolgen üblicherweise aus einem Krankenhaus.
 
 inhalte:  
 # Erregerdaten
@@ -81,6 +81,7 @@ inhalte:
       Der Erreger würde übertragen 
       von Mensch-zu-Mensch über die Hände 
       und selten von Tier oder der Umwelt zum Menschen
+    kategorie: uebertragungswege
 
 # Meldung
   - id: Meldepflicht

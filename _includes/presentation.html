@@ -1,0 +1,76 @@
+
+{% assign album = site.katalog | where_exp:"album", "album.title contains page.title" | first %}
+
+class: center, middle
+
+# {{ page.title }}
+
+
+---
+<div class="text-align:center">
+<img src="{{ album.basisdaten.bild }}" width="100%" height="500px">
+</div>
+---
+# Über den Erreger
+<ul>
+{% assign inhalte = album.inhalte | where_exp: "item", "item.kategorie contains 'erregerdaten'" %}
+  {% for item in inhalte  %}
+    {% if item.text %}<li> {{ item.text }}</li>{% endif %}
+  {% endfor %}  
+</ul>
+
+---
+# Übertragungswege
+<ul>
+{% assign inhalte = album.inhalte | where_exp: "item", "item.kategorie contains 'uebertragungswege'" %}
+  {% for item in inhalte  %}
+    {% if item.text %}<li> {{ item.text }}</li>{% endif %}
+  {% endfor %}  
+</ul>
+
+---
+# Zeiten
+<ul>
+{% assign inhalte = album.inhalte | where_exp: "item", "item.kategorie contains 'zeiten'" %}
+  {% for item in inhalte  %}
+    {% if item.text %}<li> {{ item.text }}</li>{% endif %}
+  {% endfor %}  
+</ul>
+
+---
+# Krankheitszeichen
+<ul>
+{% assign inhalte = album.inhalte | where_exp: "item", "item.kategorie contains 'klinik'" %}
+  {% for item in inhalte  %}
+    {% if item.text %}<li> {{ item.text }}</li>{% endif %}
+  {% endfor %}  
+</ul>
+
+{% assign inhalte = album.inhalte | where_exp: "item", "item.kategorie contains 'impfen'" %}
+{% if inhalte.size >0 %}
+---
+# Impfen
+<ul>
+  {% for item in inhalte  %}
+    {% if item.text %}<li> {{ item.text }}</li>{% endif %}
+  {% endfor %}  
+</ul>
+{% endif %}
+
+---
+# Maßnahmen
+{% assign item = album.aktionsbausteine | where_exp: "item", "item.varname != nil" %}
+{% for post in item %}
+{% assign var = site.data.variablen[post.varname] %}* {{ var.text }}{% endfor %}
+
+{% for item in album.aktionsbausteine %}  
+{% if item.keyword %}* {{ item.keyword }}{% endif %}
+{% endfor %}
+ 
+---
+# Interview
+{% assign item = album.interview | where_exp: "item", "item.varname != nil" %}
+{% for post in item %}
+{% assign var = site.data.variablen[post.varname] %}* {{ var.text }}{% endfor %}
+{% for item in album.interview %}
+{% if item.keyword %}* {{ item.question }}{% endif %}{% endfor %}

@@ -15,42 +15,46 @@ layout: default
      </ul>
      <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
    </div>
-
-  
-  
-
-  
   
   <div class="post">
   {{ page.basisdaten.kurzbeschreibung}} 
-  
-{% comment %}  
-  <ul>
-  {% assign inhalte = page.inhalte | where_exp: "item", "item.kategorie == 'erregerdaten'" %}
-    {% for item in inhalte %}
-      <li>{{ item.text | markdownify }} </li>
-    {% endfor %}  
-  </ul>
-  {% endcomment %}  
   <details markdown="block">
     <summary><h1 id="posts-label">Auflistung wichtiger Daten</h1></summary>
-  
-    {% assign inhalte = page.inhalte  %}
+      {% assign inhalte = page.inhalte  %}
     {% for item in inhalte %}
       <li title="Quelle: {{ item.quellename }}"> {{ item.text }} </li>
     {% endfor %}  
   
-
+    {% assign item = page.inhalte | where_exp: "item", "item.varname != nil" %}
+          {% for post in item %}
+          {% assign var = site.data.variablen[post.varname] %}
+            <li title="Quelle: {{ var.beschreibung }}">{{ var.text }}</li>
+          {% endfor %}
   </details>
   
   <details markdown="block">
     <summary>
-      <h1 id="posts-label">Mögliche Maßnahmen des Gesundheitsamtes</h1>
+      <h1 id="posts-label">Übliche Maßnahmen des Gesundheitsamtes</h1>
     </summary>
-    <ul>
+    <ul> 
+      {% assign item = page.aktionsbausteine | where_exp: "item", "item.varname != nil" %}
+            {% for post in item %}
+            {% assign var = site.data.variablen[post.varname] %}
+            <li title="{{ var.beschreibung }}"><form style="display:inline;"><input type="checkbox"> 
+              {{ var.text }}<ul>
+                <li>{{ var.beschreibung | markdownify }}</li>
+                </ul>
+            </form></li>  
+            {% endfor %}
+  
       {% for item in page.aktionsbausteine %}  
-      <li><form style="display:inline;"><input type="checkbox"> {{ item.aktion }}
+      {% if item.aktion %}
+      <li><form style="display:inline;"><input type="checkbox"> 
+        {{ item.aktion }}<ul>
+          <li>{{ item.beschreibung | markdownify}}</li>
+          </ul>
       </form></li>  
+      {% endif %}
         {% endfor %}
     </ul>
   </details>
@@ -61,11 +65,23 @@ layout: default
       <h1 id="posts-label">Stichpunkte für Interview</h1>
     </summary>
     <ul>
-      {% for item in page.interview.abklaerung %}  
-      <li><form style="display:inline;"><input type="checkbox"> {{ item.keyword }}
+      {% assign item = page.interview | where_exp: "item", "item.varname != nil" %}
+            {% for post in item %}
+            {% assign var = site.data.variablen[post.varname] %}
+            <li title="{{ var.beschreibung }}"><form style="display:inline;"><input type="checkbox"> 
+              {{ var.text }}<ul>
+                <li>{{ var.beschreibung }}</li>
+                </ul>
+            </form></li>  
+            {% endfor %}
+      
+      
+      {% for item in page.interview %}  
+          {% if item.keyword %}
+      <li><form style="display:inline;"><input type="checkbox"> {{ item.question }}
       </form></li>  
+        {% endif %}
         {% endfor %}
-
     </ul>
   </details>
 
@@ -79,7 +95,6 @@ layout: default
       {% endfor %}
     </ul>
 </details>
-  <hr>
 
   <div style="text-align: right">
     Letztes Update: {{ page.lastupdated }}<br>

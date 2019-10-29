@@ -6,7 +6,7 @@
 <body>
 	<main class="container">
 		<section class="about">
-			<a href="{{ "/index.html" | relative_url }}">
+			<a href="{{ "index.html" | relative_url }}">
 				<div class="circular--landscape">
 					{% if page.basisdaten.bild %}
 						<img class="cicular--square", src="{{page.basisdaten.bild | relative_url }}",  alt="{{ site.plainwhite.name }}" />
@@ -18,9 +18,9 @@
 			<h2>{{ site.title }}</h2>
 			<p class="tagline">{{ site.subtitle }}</p>
 			<ul class="social">
-				<li><a href="https://github.com/{{ site.plainwhite.social_links.github }}"><i class="fab fa-github fa-lg"></i></a></li>
-				<li><a href="mailto:jakob.schumacher@web.de"><i class="far fa-envelope fa-lg"></i></a></li>
-				<li><a href="{{ site.impressum }}"><i class="fas fa-info-circle fa-lg"></i></a></li>
+				<li><a href="{{ "pages/about.html" | relative_url }}"><i class="fas fa-info-circle fa-lg"></i></a></li>
+				<li><a href="{{ "pages/contact.html" | relative_url }}"><i class="far fa-envelope fa-lg"></i></a></li>
+				<li><a href="{{ "pages/buildupon.html" | relative_url}}"><i class="fas fa-hands-helping"></i></a></li>
 			</ul>
 
 		</section>
