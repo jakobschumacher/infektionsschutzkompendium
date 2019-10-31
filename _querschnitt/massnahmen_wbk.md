@@ -1,6 +1,6 @@
 ---
 title: Sammlung möglicher Maßnahmen (WBK)
-layout: pages
+layout: page
 ---
 
 # Gruppe 1
