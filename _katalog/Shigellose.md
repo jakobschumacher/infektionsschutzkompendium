@@ -121,7 +121,6 @@ interview:
   - varname: IN36EINRICHTUNG
   - varname: LEBENSMITTELARBEIT
   - varname: AUSLANDSAUFENTHALT
-
     
 quellen:
   - name: Ratgeber des Robert Koch-Instituts

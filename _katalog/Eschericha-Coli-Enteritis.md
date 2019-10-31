@@ -25,10 +25,10 @@ inhalte:
     kategorie: erregerdaten hygkowichtig
   - id: toxine
     text: E. Coli kann die Eigenschaft erwerben bestimmte Toxine zu bilden. Bei bestimmten Toxinen wird dem Erreger dann ein spezieller Name zugeschrieben. ETEC (produziert Enterotoxin), EHEC (produziert Shigatoxin), EPEC (produziert EAF), EAEC (produziert aggregierende Enterotoxine), EIEC (produziert invasive Enterotoxine). 
-    kategorie: erregerdaten
+    kategorie: erregerdaten hygkowichtig
   - id: erregergruppenunterschiede
-    text: EHEC die Shigatoxin 2 produzieren können ein Hämolytisch-Urämisches-Syndrom hervorrufen
-    kategorie: erregerdaten
+    text: Insbesondere EHEC die Shigatoxin 2 produzieren, können ein Hämolytisch-Urämisches-Syndrom hervorrufen. 
+    kategorie: erregerdaten hygkowichtig
     
 # Vorkommen
   - id: vorkommen_deu
@@ -40,17 +40,25 @@ inhalte:
     text: E.Coli kommt weltweit vor.
     kategorie: vorkommen
   - id: reservoir
-    text: E.Coli ist ein normaler Darmbewohner des Menschen und vieler Tiere. Erkrankungen durch E.Coli mit Toxinen kommen weltweit vor
-    kategorie: vorkommen
+    text: E.Coli ist ein normaler Darmbewohner des Menschen und vieler Tiere. Erkrankungen durch E.Coli mit Toxinen kommen weltweit vor. Wiederkäuer (z.B. Rinder, Schafe, Ziegen) sind ein wichtiges Reservoir.
+    kategorie: vorkommen hygkowichtig
     quellename: RKI Ratgeber
-  - id: ueberlebensfaehigkeit
-    text: 
+  - id: umweltresistenz
+    text: Der Erreger ist sehr umweltresistent
+    quellename: RKI Ratgeber
+
+# Übertragungswege
+  - id: uebertragungswege
+    text: | 
+      EHEC wird übertragen durch direkten Kontakt zu Wiederkäuern, über Lebensmittel wie z.B. Lammfleisch und Rohwurst, aber auch Salate und Rohmlich. Mensch-zu-Mensch Übertragungen sind im Vergleich zu anderen bakteriellen Durchfallerregern häufiger.
+      In Ländern mit einem niedrigeren Hygienestandard auch über Trinkwasser oder Baden. ETEC, EPEC und andere werden ebenfalls über Lebensmittel, Wasser und von Mensch-zu-Mensch übertragen.
+    kategorie: uebertragungswege hygkowichtig
     quellename: RKI Ratgeber
     
 # Zeiten
   - id: inkubationszeit
     text: Eine Inkubationszeit beträgt im Regelfall 2 bis 10 Tage. Ein HUS beginnt gegebenenfalls 5 bis 12 Tage nach dem Erkrankungsbeginn
-    kategorie: zeiten
+    kategorie: zeiten hygkowichtig
   - id: inkubationszeit_min
     text: 
     nummer: 2 
@@ -60,8 +68,8 @@ inhalte:
     kategorie: zeiten
     nummer: 10 
   - id: ansteckungszeit_normal
-    text: Solange die Person erkrankt ist scheidet sie den Erreger aus. Auch nach dem Ende der Symptome wird der Erreger über Wochen ausgeschieden
-    kategorie: zeiten
+    text: Solange die Person erkrankt ist scheidet sie den Erreger aus. Auch nach dem Ende der Symptome kann der Erreger über Wochen ausgeschieden werden.
+    kategorie: zeiten hygkowichtig
   - id: ansteckungszeit_lang 
     text: 
     kategorie: zeiten
@@ -69,29 +77,22 @@ inhalte:
     
 # Klinik
   - id: symptome
-    text: Typisch sind Prodromi vor dem Auftreten des Durchfalls. Der Durchfall kann auch blutig sein
+    text: Die Krankheitssymptome hängen vom Toxin ab. Üblich ist ein wässriger Durchfall mit Übelkeit, Erbrechen und Abdominalschmerzen
     kategorie: klinik
   - id: komplikationen
-    text: Komplikationen sind Gelenkentzündungen, ein Guillan-Barré-Syndrom. Diskutiert werden Reizdarmsyndrom und chronisch-entzündliche Darmerkrankungen.
-    kategorie: klinik
+    text: Komplikationen sind hämorrhagische Colitis und ein Hämolytisch-Urämisches-Syndrom
+    kategorie: klinik hygkowichtig
   - id: krankheitsdauer
-    text: Die Erkrankung dauert im üblichen Fall eine Woche
+    text: 
     kategorie: klinik
   - id: asymptomatik
-    text: Viele Infektionen verlaufen ohne Krankheitszeichen.
-    kategorie: klinik
+    text: Infektionen mit einem Toxin-produzierenden E.Coli können ohne Krankheitszeichen verlaufen.
+    kategorie: klinik hygkowichtig
   - id: letalität
     text: 
     kategorie: klinik
 
-# Übertragungswege
-  - id: uebertragungswege
-    text: | 
-      Der Erreger würde übertragen 
-      über Lebensmittel insbesondere Geflügelfleisch, Rohmlich, anderes Fleisch 
-      vor allem in anderen Ländern auch über Trinkwasser oder Baden. Bei C. fetus kann eine Mutter ihr Kind intrauterin oder perinatal infizieren.
-    kategorie: uebertragungswege
-    quellename: RKI Ratgeber
+
 
 # Meldung
   - varname: IFSG_6_1_2
@@ -101,16 +102,38 @@ inhalte:
 aktionsbausteine:
   - varname: GETINFO
   - varname: UEBERMITTLUNG
+  - varname: AUSBRUCHSUNTERSUCHUNG
   - varname: UNTERRICHTUNG_GA
+  - varname: UNTERRICHTUNG_LEB
   - varname: KUECHENHYGIENE
   - varname: TOILETTENHYGIENE
   - varname: HAENDEHYGIENE
   - varname: WAESCHEHYGIENE
-  - aktion: Zur Verhinderung zukünftiger Fälle sollten sich Kinder nach dem Berühren von möglicherweise belasteten Tieren die Hände waschen. Dies gilt z.B. für Streichelzoos oder ähnliches.
-  - varname: An EHEC erkrankte Personen sollten darauf hingewiesen, dass sie möglicherweise ein Hämolytisch-Urämisches-Syndrom entwickeln können.
+  - varname: ISOLIERUNG
+  - varname: TV34
+  - varname: TV42
+  - varname: ESSENAUFREISEN
+  - aktion:  Händewaschen nach dem Berühren von möglicherweise belasteten Tieren. 
+    beschreibung: Dies gilt z.B. für Streichelzoos oder ähnliches und geschieht zur Verhinderung zukünftiger Fälle. 
+  - aktion: EHEC bzgl. HUS aufklären
+    beschreibung: An EHEC erkrankte Personen sollten darauf hingewiesen, dass sie möglicherweise ein Hämolytisch-Urämisches-Syndrom entwickeln können.
 
 interview:     
-
+  - varname: KRANKHEITSZEICHEN
+  - varname: ERKRANKUNGSBEGINN
+  - varname: AUSBRUCHSABKLAERUNG
+  - varname: IN33EINRICHTUNG
+  - varname: IN36EINRICHTUNG
+  - varname: LEBENSMITTELARBEIT
+  - varname: AUSLANDSAUFENTHALT
+  - question: Waren sie vor Erkrankungsbeginn im Kontakt mit Wiederkäuern?
+    comment: Wiederkäuer sind Rinder, Schafen, Ziegen und ähnliche Tiere. Wenn dies in der Inkubationszeit erfolgt ist sollte das zuständige Veterinäramt informiert werden.
+    kategorie: abklaerung 
+    keyword: Wiederkäuer
+  - question: Haben Sie vor Erkrankungsbeginn Rohmilch getrunken?
+    comment: Wenn dies in der Inkubationszeit der Fall gewesen ist, sollte eine Meldung an das zuständige Lebensmittelaufsichtsamt erfolgen. Die erkrankte Person sollte Wissen, das Rohmilch vor dem Konsum unbedingt abgekocht werden sollte. In der Vergangenheit hat es Ausbrüche durch Rohmilch gegeben.
+    kategorie: abklaerung
+    keyword: Rohmlich?  
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts

@@ -77,8 +77,7 @@ layout: default
       
       
       {% for item in page.interview %}  
-          {% if item.keyword %}
-      <li><form style="display:inline;"><input type="checkbox"> {{ item.question }}
+          {% if item.keyword %}<li><form style="display:inline;"><input type="checkbox"> {{ item.question }}
       </form></li>  
         {% endif %}
         {% endfor %}

@@ -66,12 +66,12 @@ AUSBRUCHSUNTERSUCHUNG:
 
 TV34:
   text: Tätigkeitsverbot nach § 34
-  beschreibung: Eine Person, die Shigellen ausscheidet darf eine Kinder-Gemeinschaftseinrichtung nicht betreten. Siehe Empfehlungen zur Wiederzulassung der Länder bzw. des RKIs.
+  beschreibung: Eine Person, die den Erreger ausscheidet, darf eine Kinder-Gemeinschaftseinrichtung nicht betreten. Siehe Empfehlungen zur Wiederzulassung der Länder bzw. des RKIs.
 
 
 TV42:
   text: Tätigkeitsverbot nach § 42
-  beschreibung: Eine Person, die Shigellen ausscheidet darf nicht beruflich mit bestimmten Lebensmittel arbeiten. Siehe Empfehlungen zur Wiederzulassung der Länder.
+  beschreibung: Eine Person, die den Erreger ausscheidet, darf nicht beruflich mit bestimmten Lebensmittel arbeiten. Siehe Empfehlungen zur Wiederzulassung der Länder.
 
 ESSENAUFREISEN:
   text: Einhaltung von Lebensmittelhygiene auf Reisen. 
@@ -107,7 +107,7 @@ IN36EINRICHTUNG:
     Beispiele sind: Unterkunft für Asylbewerber, Gefängnis oder Obdachlosenunterkunft. Wenn eine Verbindung zu einer Einrichtung besteht muss diese in die Maßnahmen mit einbezogen werden
 
 IN23EINRICHTUNG:
-  text: Haben Sie eine Verbindung zu mediznischen Einrichtung oder ähnlichen Einrichtung?
+  text: Haben Sie eine Verbindung zu einer mediznischen Einrichtung?
   beschreibung: |
     Beispiel sind Krankenhaus, Pflegeheim, Praxis. Wenn eine Verbindung zu einer Einrichtung besteht muss diese in die Maßnahmen mit einbezogen werden
 

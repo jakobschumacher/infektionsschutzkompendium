@@ -141,10 +141,6 @@ interview:
     keyword: Geflügelfleisch zu Hause?
     kategorie: abklaerung
 
-  - question: Achten Sie auf Küchenhygiene, zum Beispiel Hände, Messer und Brettchen nach dem Fleisschneiden waschen. Gerne schicke ich Ihnen einen Link
-    comment: Küchenhygiene verhinder Campylobacter enteritis
-    kategorie: empfehlungen
-
 quellen:
   - name: Ratgeber des Robert Koch-Instituts
     webseite: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Campylobacter.html

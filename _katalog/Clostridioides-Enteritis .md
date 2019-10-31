@@ -23,10 +23,10 @@ inhalte:
     kategorie: erregerdaten
   - id: 
     text: Nur Toxin-produzierende Clostridioides verursachen eine Erkrankung
-    kategorie: erregerdaten
+    kategorie: erregerdaten hygkowichtig
   - id: erregergruppenunterschiede
     text: Der Ribotyp 027 ist gefährlicher als andere.  
-    kategorie: erregerdaten
+    kategorie: erregerdaten hygkowichtig
     
 # Vorkommen
   - id: vorkommen_deu
@@ -53,7 +53,7 @@ inhalte:
     kategorie: zeiten
   - id: ansteckungszeit_normal
     text: Solange die Person erkrankt ist scheidet sie den Erreger aus  (aus pragmatischen Gründen wird empfohlen die Isolierungsmaßnahmen 48h nach Ende der Symptome aufzuheben)
-    kategorie: zeiten
+    kategorie: zeiten hygkowichtig
   - id: ansteckungszeit_lang 
     text: Erkrankte Personen können den Erreger noch lange Zeit ausscheiden
     kategorie: zeiten
@@ -79,9 +79,9 @@ inhalte:
   - id: uebertragungswege
     text: | 
       Der Erreger würde übertragen 
-      von Mensch-zu-Mensch über die Hände 
-      und selten von Tier oder der Umwelt zum Menschen
-    kategorie: uebertragungswege
+      von Mensch-zu-Mensch über die Hände (meist nosokomial)
+      und selten von Tier oder der Umwelt zum Menschen. Die Erkrankung tritt eigentlich nur auf, wenn zuvor Antibiotika gegeben wurden.
+    kategorie: uebertragungswege hygkowichtig
 
 # Meldung
   - id: Meldepflicht
@@ -91,24 +91,24 @@ inhalte:
     kategorie: meldepflicht, hygkowichtig   
 
 aktionsbausteine:
+  - varname: GETINFO
+  - varname: UEBERMITTLUNG
+  - varname: AUSBRUCHSUNTERSUCHUNG
+  - varname: UNTERRICHTUNG_GA
+  - varname: WAESCHEHYGIENE
+  - varname: ISOLIERUNG
   - aktion: Verhaltenshinweise an medizinische Einrichtung
     beschreibung: Händehygiene ergänzt durch Händewaschen, Isolierung (Heim, Krankenhaus o.ä.), eigene Toilette für erkrankte Personen, Desinfektion (z.B. tägliche Wischdesinfektion), Umstellung auf sporozides Mittel, Steckbettenspüle nach Benutzung sporozid waschen, Minimierung Personalbewegung. Siehe [KRINKO-Empfehlungen zu Clostridioides]() 
-  - aktion: Ausbruchsuntersuchung
-    beschreibung: Das ist selten notwendig, wenn in einer Einrichtung mehrere Personen betroffen sind und dadurch möglicherweise weitere Fälle verhindert werden können
-  - aktion: Informationsweitergabe an Gesundheitsämter
-    beschreibung: Wenn andere Gesundheitsämter betroffen sind
-  - aktion: Erfassung für das Meldewesen
+
 
 interview:     
+  - varname: KRANKHEITSZEICHEN
+  - varname: ERKRANKUNGSBEGINN
+  - varname: AUSBRUCHSABKLAERUNG
+  - varname: IN23EINRICHTUNG
   - question: Wann haben Sie zuletzt Antibiotika genommen und wer hat gesagt, dass Sie Antibiotika einnehmen sollen?
     comment: Antibiotika ist ein Hauptgrund für eine Clostridium difficile Diarrhoe. Die Entscheidung ob ein Antibiotikum gegeben werden sollte oder nicht sollte von einer Ärztin/einem Arzt getroffen werden.
     keyword: Antibiotika?
-    kategorie: abklaerung
-  - question: Waren oder sind Sie im Krankenhaus oder Pflegeheim?
-    keyword: Krankenhausaufenthalt oder Pflegeheim?
-    kategorie: abklaerung
-  - question: Welche Krankheitszeichen haben Sie?
-    keyword: Krankheitszeichen?
     kategorie: abklaerung
 
 quellen:

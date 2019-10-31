@@ -14,8 +14,8 @@ basisdaten:
 inhalte:  
 # Erregerdaten
   - id: erregername
-    text: 
-    kategorie: erregerdaten
+    text: Die Yersiniose wird durch Yersinia enterocolitica und Yersinia pseudotuberculosis hervorgerufen. Yersinia pestis ruft dagegen die Pest hervor.
+    kategorie: erregerdaten hgkowichtig
   - id: erregertyp
     text: Der Erreger ist ein Bakterium. 
     kategorie: erregerdaten
@@ -41,11 +41,12 @@ inhalte:
     kategorie: vorkommen
   - id: reservoir
     text: Reservoir für Y. enterocolitica sind Menschen und Tiere, insbesondere Schweine. Y. pseudotuberculosis kommt überwiegend in Vögeln und Nagetieren vor.
-    kategorie: vorkommen
+    kategorie: vorkommen hygkowichtig
     quellename: RKI Ratgeber
-  - id: ueberlebensfaehigkeit
+  - id: umweltresistenz
     text: Der Erreger kann sich auch bei Kühlschranktemperatur vermehren
     quellename: RKI Ratgeber
+    kategorie: vorkommen hygkowichtig
     
 # Zeiten
   - id: inkubationszeit
@@ -63,9 +64,18 @@ inhalte:
     text: Erkrankte Personen sind ansteckend vom Beginn der Krankheitszeichen bis 2-3 Wochen nach Symptom-Ende
     kategorie: zeiten
   - id: ansteckungszeit_lang 
-    text: Insbesondere immungeschwächte Personen können den Erreger noch lange Zeit ausscheiden
+    text: Längere Ausscheidungszeiten sind möglich.
     kategorie: zeiten
     quellename: RKI Ratgeber
+
+    # Übertragungswege
+  - id: uebertragungswege
+    text: | 
+      Der Erreger wird typischerweise übertragen über Lebensmittel insbesondere Schweinefleisch, Rohmlich, aber auch Salate und andere Rohprodukte 
+      vor allem Ländern mit niedrigeren Hygienestandards auch über Trinkwasser oder Baden. Direkte Übertragungen von Mensch zu Mensch sind selten.
+    kategorie: uebertragungswege hygkowichtig
+    quellename: RKI Ratgeber
+
     
 # Klinik
   - id: symptome
@@ -76,9 +86,9 @@ inhalte:
       Fieber,
       Lymphknotenschwellung,
       Pseudoblinddarmentzündung
-    kategorie: klinik
+    kategorie: klinik hygkowichtig
   - id: komplikationen
-    text: Als Komplikationen können auftreten Gelenkschmerzen, Erythema nodosum und Reizdarmsyndrom
+    text: Als Komplikationen können auftreten Gelenkschmerzen, Erythema nodosum und Reizdarmsyndrom, Organentzündungen
     kategorie: klinik
   - id: krankheitsdauer
     text: Die Erkrankung dauert zwischen 1 und 3 Wochen
@@ -90,49 +100,32 @@ inhalte:
     text: 
     kategorie: klinik
 
-# Übertragungswege
-  - id: uebertragungswege
-    text: | 
-      Der Erreger wird typischerweise übertragen über Lebensmittel insbesondere Schweinefleisch, Rohmlich, aber auch Salate und andere Rohprodukte 
-      vor allem Ländern mit niedrigeren Hygienestandards auch über Trinkwasser oder Baden. Direkte Übertragungen von Mensch zu Mensch sind selten.
-    kategorie: uebertragungswege
-    quellename: RKI Ratgeber
+
 
 # Meldung
-  - id: Meldepflicht
-    text: Ein Labornachweis ist meldepflichtig.
-    quellename: IfSG
-    quelleurl: https://www.gesetze-im-internet.de/ifsg
-    kategorie: meldepflicht
+  - varname: IFSG_6_1_2
+  - varname: IFSG_7
+  - varname: IFSG_34 
 
 aktionsbausteine:
-  - varname: TV31
-    kategorie: aktionsbausteine
   - varname: GETINFO
-    kategorie: aktionsbausteine
-  - aktion: Verhaltenshinweise an erkrankte Person
-    beschreibung: Händehygiene, Küchenhygiene, Desinfektions nach dem Toilettengang
-  - aktion: Verhaltenshinweise an die Einrichtung
-    beschreibung: Bessere Händehygiene, erkrankte Personen länger zu Hause lassen, Küchenhygiene, Speisen durchgaren, ggf. Isolierung (Heim, Krankenhaus o.ä.), eigene Toilette für erkrankte Personen, Desinfektion (z.B. tägliche Wischdesinfektion), Wäsche mindestens 60° plus Desinfektionswaschmittel waschen (nach Desinfektionsmittelliste RKI), Minimierung Personalbewegung.
-  - aktion: Ausbruchsuntersuchung
-    beschreibung: Das ist selten notwendig, wenn mehrere Fälle betroffen sind und dadurch möglicherweise weitere Fälle verhindert werden können
-  - aktion: Informationsweitergabe an Gesundheitsämter
-    beschreibung: Wenn andere Gesundheitsämter betroffen sind
-  - aktion: Informationsweitergabe an die Lebensmittelaufsicht 
-    beschreibung: Das ist notwendig, wenn die Ansteckung ein Lebensmittel als Quelle ergibt
-  - aktion: Erfassung für das Meldewesen
+  - varname: UEBERMITTLUNG
+  - varname: AUSBRUCHSUNTERSUCHUNG
+  - varname: UNTERRICHTUNG_GA
+  - varname: UNTERRICHTUNG_LEB
+  - varname: KUECHENHYGIENE
+  - varname: TOILETTENHYGIENE
+  - varname: HAENDEHYGIENE
+  - varname: WAESCHEHYGIENE
+  - varname: ISOLIERUNG
   
 interview:     
-  - question: Wann haben die Krankheitszeichen begonnen?
-    keyword: Erkrankungsbeginn?
-    kategorie: abklaerung
-  - question: Welche Krankheitszeichen haben Sie?
-    keyword: Krankheitszeichen?
-    kategorie: abklaerung
-  - question: Gab es weitere Erkrankungen im Umfeld?
-    comment: Diese Frage ist wichtig um herauszufinden, ob ein Ausbruch vorliegt. 
-    keyword: Weitere Erkrankungen im Umfeld?
-    kategorie: abklaerung
+- varname: KRANKHEITSZEICHEN
+- varname: ERKRANKUNGSBEGINN
+- varname: AUSBRUCHSABKLAERUNG
+- varname: IN33EINRICHTUNG
+- varname: IN36EINRICHTUNG
+- varname: LEBENSMITTELARBEIT
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts
