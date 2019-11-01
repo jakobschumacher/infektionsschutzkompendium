@@ -126,6 +126,7 @@ interview:
   - varname: IN36EINRICHTUNG
   - varname: IN23EINRICHTUNG
   - varname: LEBENSMITTELARBEIT
+  - varname: HOSPITALISIERUNG
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts

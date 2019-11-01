@@ -78,7 +78,7 @@ inhalte:
 # Übertragungswege
   - id: uebertragungswege
     text: | 
-      Der Erreger würde übertragen 
+      Der Erreger wird übertragen 
       von Mensch-zu-Mensch über die Hände (meist nosokomial)
       und selten von Tier oder der Umwelt zum Menschen. Die Erkrankung tritt eigentlich nur auf, wenn zuvor Antibiotika gegeben wurden.
     kategorie: uebertragungswege hygkowichtig
@@ -102,18 +102,21 @@ aktionsbausteine:
 
 
 interview:     
-  - varname: KRANKHEITSZEICHEN
-  - varname: ERKRANKUNGSBEGINN
-  - varname: AUSBRUCHSABKLAERUNG
-  - varname: IN23EINRICHTUNG
-  - question: Wann haben Sie zuletzt Antibiotika genommen und wer hat gesagt, dass Sie Antibiotika einnehmen sollen?
+  - question: Wann ist der Patient erkrankt?
+  - question: Welche Symptome hat der Patient?
+  - question: Sind die Empfehlungen der KRINKO eingehalten?
+    comment: |
+      Isolierung des Patienten, Umstellung auf sporozide Desinfektions, z.B. bei Steckbetten. [KRINKO-Empfehlungen zu Clostridien](https://www.rki.de/DE/Content/Infekt/Krankenhaushygiene/ThemenAZ/C/Hygiene_CDI_BGBL_62-7-2019.pdf?__blob=publicationFile)
+  - question: Sind noch weitere Fälle im Krankenhaus aufgetreten?
+    comment: Wenn mehr Fälle als üblich auftreten, könnte eine Ausbruchsuntersuchung erfolgen. 
+  - question: Hat der Patient ein Antibiotikum eingenommen und wenn ja aufgrund welcher Indikation?
     comment: Antibiotika ist ein Hauptgrund für eine Clostridium difficile Diarrhoe. Die Entscheidung ob ein Antibiotikum gegeben werden sollte oder nicht sollte von einer Ärztin/einem Arzt getroffen werden.
     keyword: Antibiotika?
     kategorie: abklaerung
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts
-    webseite: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Clostridium-Difficile.html
+    webseite: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Clostridium.html
   - name: Erregersteckbrief
     webseite: https://www.infektionsschutz.de/erregersteckbriefe/clostridium-difficile/
   - name: KRINKO-Empfehlungen

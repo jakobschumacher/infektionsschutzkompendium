@@ -128,6 +128,11 @@ interview:
   - varname: IN36EINRICHTUNG
   - varname: IN23EINRICHTUNG
   - varname: LEBENSMITTELARBEIT
+  - varname: HOSPITALISIERUNG
+  - question: Haben Sie Tiefkühlerdbeeren zu sich genommen?
+    comment: Sofern dies in der Inkubationszeit zu sich genommen wurde sollte der genaue Name des Produktes und weitere Informationen in einen öffentlichen Kommentar eingetragen werden.
+  - question: Haben Sie Muscheln zu sich genommen?
+    comment: Sofern dies in der Inkubationszeit zu sich genommen wurde sollte der genaue Name des Produktes bzw. der Verzehrsort und weitere Informationen in einen öffentlichen Kommentar eingetragen werden.
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts

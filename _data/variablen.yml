@@ -79,6 +79,18 @@ ESSENAUFREISEN:
     Nur Wasser sicheren Ursprungs trinken, Nahrungsmittel kochen oder schälen, Fliegen fernhalten. [Länderspezfische Hinweise auf den Seiten des auswärtigen Amtes](https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/reise-und-sicherheitshinweise)
 
 
+NRZ:
+  text: Erreger an das NRZ
+  beschreibung: |
+    Wenn möglich sollte eine Übersendung des Erregers an das [zuständige Nationale Referenzzenrum](https://www.rki.de/DE/Content/Infekt/NRZ/nrz_liste.pdf?__blob=publicationFile) erfolgen. 
+
+
+
+
+
+
+
+
 
 # Interview    
 KRANKHEITSZEICHEN:
@@ -95,6 +107,11 @@ AUSBRUCHSABKLAERUNG:
   text: Sind in Ihrem Umfeld weitere Personen erkrankt?
   beschreibung: |
     Diese Frage ist wichtig um herauszufinden, ob ein Ausbruch vorliegt. Gegebenenfalls muss eine Ausbruchsuntersuchung erfolgen, gegebenenfalls müssen die anderen Personen nachgemeldet werden.
+
+HOSPITALISIERUNG:
+  text: Mussten Sie aufgrund Ihrer Erkrankung ins Krankenhaus?
+  beschreibung: |
+    Diese Frage dient der Einschätzung des Schweregrades der Erkrankung
     
 IN33EINRICHTUNG:
   text: Haben Sie eine Verbindung zu einer Kita oder ähnlichen Einrichtung?
@@ -111,6 +128,18 @@ IN23EINRICHTUNG:
   beschreibung: |
     Beispiel sind Krankenhaus, Pflegeheim, Praxis. Wenn eine Verbindung zu einer Einrichtung besteht muss diese in die Maßnahmen mit einbezogen werden
 
+KONTAKTIN33:
+  text: Wohnen Sie mit jemand zusammen, der in eine Kita oder Schule geht oder dort arbeitet?
+  beschreibung: |
+    Wenn das der Fall ist sollte ein TV nach §34.3. erwogen werden.
+
+TIERKONTAKT:
+  text: Hatten Sie vor der Erkrankung Kontakt zu Tieren?
+  beschreibung: |
+
+
+    
+
 LEBENSMITTELARBEIT:
   text: Haben Sie beruflich mit Lebensmitteln zu tun?
   beschreibung: |
@@ -121,3 +150,7 @@ AUSLANDSAUFENTHALT:
   beschreibung: |
     Wenn die erkrankte Person während der Inkubationszeit im Ausland war, kann sie sich dort angesteckt haben.
     
+MSM:
+  text: Leben Sie in einer homosexuellen Partnerschaft
+  beschreibung: |
+    Wenn das der Fall ist, sollte die betroffene Person über die Häufung bei MSM aufgeklärt werden und den wahrscheinlichen Übertragungsweg über oro-anale Praktiken.

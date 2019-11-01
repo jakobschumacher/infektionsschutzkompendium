@@ -124,6 +124,7 @@ interview:
   - varname: AUSBRUCHSABKLAERUNG
   - varname: IN33EINRICHTUNG
   - varname: IN36EINRICHTUNG
+  - varname: KONTAKTIN33
   - varname: LEBENSMITTELARBEIT
   - varname: AUSLANDSAUFENTHALT
   - question: Waren sie vor Erkrankungsbeginn im Kontakt mit Wiederkäuern?

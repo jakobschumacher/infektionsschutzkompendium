@@ -1,8 +1,28 @@
 ---
 layout: default
 ---
-{%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+
+{% assign m = page.last_modified_at | date: "%-m" %}
+
+
+
 <div class="post-container">
+  
+  <div class="post-date"><i class="icon-calendar"></i>{{ page.last_modified_at | date: '%d ' }} {% case m %}
+  {% when '1' %}Januar
+  {% when '2' %}Februar
+  {% when '3' %}M&auml;rz
+  {% when '4' %}April
+  {% when '5' %}Mai
+  {% when '6' %}Juni
+  {% when '7' %}Juli
+  {% when '8' %}August
+  {% when '9' %}September
+  {% when '10' %}Oktober
+  {% when '11' %}November
+  {% when '12' %}Dezember
+{% endcase %}{{ page.last_modified_at | date: ' %Y ' }}</div>
+
   <a class="post-link" href="{{ page.url | relative_url }}">
     <h2 class="post-title">{{ page.title | escape }}</h2>
   </a>
@@ -10,11 +30,13 @@ layout: default
   <div class="post-meta">
      <ul class="post-categories">
        {% if page.fortbildung %}
-       <li> <span class="blockstyle"><a href="{{ page.fortbildung | relative_url }}">Präsentation</a></span> </li>
+       <li> <span class="blockstyle"><a class="nounderline" href="{{ page.fortbildung | relative_url }}">Präsentation</a></span> </li>
        {% endif %}
      </ul>
-     <div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
+     
    </div>
+  
+  
   
   <div class="post">
   {{ page.basisdaten.kurzbeschreibung}} 
@@ -95,9 +117,5 @@ layout: default
     </ul>
 </details>
 
-  <div style="text-align: right">
-    Letztes Update: {{ page.lastupdated }}<br>
-    Autoren: {{ page.author }}<br>
-  </div>
   
   

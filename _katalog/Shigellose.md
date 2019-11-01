@@ -84,7 +84,7 @@ inhalte:
 # Übertragungswege
   - id: uebertragungswege
     text: | 
-      Der Erreger würde übertragen 
+      Der Erreger wird übertragen 
       von Mensch-zu-Mensch über die Hände,
       über Lebensmittel,
       über Trinkwasser,
@@ -116,11 +116,14 @@ aktionsbausteine:
 interview:     
   - varname: KRANKHEITSZEICHEN
   - varname: ERKRANKUNGSBEGINN
+  - varname: HOSPITALISIERUNG
   - varname: AUSBRUCHSABKLAERUNG
+  - varname: KONTAKTIN33
   - varname: IN33EINRICHTUNG
   - varname: IN36EINRICHTUNG
   - varname: LEBENSMITTELARBEIT
   - varname: AUSLANDSAUFENTHALT
+  - varname: MSM
     
 quellen:
   - name: Ratgeber des Robert Koch-Instituts

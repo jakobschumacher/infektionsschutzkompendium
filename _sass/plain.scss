@@ -125,6 +125,8 @@ main {
 	}
 }
 .post-date {
+	display: flex;
+	justify-content: flex-end;
 	margin-right: 10px;
 	color: #555;
 }
@@ -207,3 +209,7 @@ main {
 .circular--square {
   border-radius: 50%;
 }
+
+.nounderline {
+	font-decoration: none;
+} 

@@ -118,14 +118,20 @@ aktionsbausteine:
   - varname: HAENDEHYGIENE
   - varname: WAESCHEHYGIENE
   - varname: ISOLIERUNG
-  
+
+
 interview:     
-- varname: KRANKHEITSZEICHEN
-- varname: ERKRANKUNGSBEGINN
-- varname: AUSBRUCHSABKLAERUNG
-- varname: IN33EINRICHTUNG
-- varname: IN36EINRICHTUNG
-- varname: LEBENSMITTELARBEIT
+  - varname: KRANKHEITSZEICHEN
+  - varname: ERKRANKUNGSBEGINN
+  - varname: AUSBRUCHSABKLAERUNG
+  - varname: IN33EINRICHTUNG
+  - varname: IN36EINRICHTUNG
+  - varname: LEBENSMITTELARBEIT
+  - varname: AUSLANDSAUFENTHALT
+  - question: Haben Sie vor der Erkrankung rohes Schweinefleisch gegessen?
+    comment: |
+      Wenn dies der Fall ist sollte der Verzehrsort oder der die Herstellerfirma wenn möglich mit Chargennummer in einen öffentlichen Kommentar in die Meldesoftware eingetragen werden und dem Lebensmittelaufsichtsamt mitgeteilt werden. Wenn mehrere Fälle mit einer ähnlichen Exposition auftreten kann dannn eine Ausbruchsuntersuchung erfolgen.
+
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts
