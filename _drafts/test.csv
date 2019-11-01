@@ -1,0 +1,28 @@
+id;text;kategorie;nummer_2018;quellename;quelleurl;nummer;varname
+erregername;Kryptosporidiose wird durch Kryptopsoridien hervorgerufen.;erregerdaten;;;;;
+erregertyp;Der Erreger ist ein Parasit.;erregerdaten hygkowichtig;;;;;
+erregergruppen;Der Erreger wird unterteilt in Spezies. Häufig sind Cryptosporidium hominis und Cryptosporidium parvum.;erregerdaten;;;;;
+toxin;;erregerdaten;;;;;
+erregergruppenunterschiede;;erregerdaten;;;;;
+umweltresistenz;Kryptosporidien können Dauerformen bilden. Diese heißen Sporozoiten. Sie sind sehr widerstandsfähig.;erreger hygkowichtig;;;;;
+vorkommen_deu;Ungefähr 1800 Fälle werden jährlich in Deutschland gemeldet;vorkommen;1811;Survstat;https://survstat.rki.de/;;
+vorkommen_welt;Der Erreger kommt weltweit vor.;vorkommen;;;;;
+reservoir;Der Erreger kommt im Darm von gesunden Menschen und Tieren vor. In Europa kommt dies bei etwa 1-4% der Menschen vor. C. Parvum kommt bei Rindern, Pferden, Ziegen und Schafen vor. C. Homonis fast nur beim Menschen.;vorkommen hygkowichtig;;;;;
+inkubationszeit;Die Inkubationszeit beträgt 1 bis 12 Tage.;zeiten hygkowichtig;;;;;
+inkubationszeit_min;;zeiten;;;;1;
+inkubationszeit_mean;;zeiten;;;;8;
+inkubationszeit_max;;zeiten;;;;12;
+ansteckungszeit_normal;Erkrankte Personen sind ansteckend vom Beginn der Krankheitszeichen bis Wochen nach Ende der Krankheitszeichen.;zeiten;;;;;
+ansteckungszeit_lang;;zeiten;;;;;
+saisonalitaet;Es gibt eine saisonale Häufung von Juli bis November;zeiten;;;;;
+symptome;Krankheitszeichen bei immunkompetenten Personen sind wässriger Durchfall, Bauchschmerzen und Übelkeit.;klinik hygkowichtig;;;;;
+komplikationen;"Bei Immungeschwächten kann das die Erkrankung lange anhalten und zu einer Exxikose führen. Bei AIDS Patienten kann es auch zu einer sekundär sklerosierenden Cholangitis kommen.
+";klinik;;;;;
+krankheitsdauer;Die Krankheitdauer bei Immunkompetenten beträgt 1-2 Wochen;klinik;;;;;
+asymptomatik;Es gibt asymptomatische Fälle;klinik;;;;;
+letalität;;klinik;;;;;
+uebertragungswege;"Der Erreger wird häufig über Wasser übertragen, das heißt Trinkwasser und Badewasser. Die Erkrankung kann auch von Mensch-zu-Mensch, von Tier-zu-Mensch oder über Lebensmittel übertragen werden.
+";uebertragungswege hygkowichtig;;;;;
+;;;;;;;IFSG_6_1_2
+;;;;;;;IFSG_7
+;;;;;;;IFSG_34
