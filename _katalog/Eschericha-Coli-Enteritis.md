@@ -29,6 +29,15 @@ inhalte:
   - id: erregergruppenunterschiede
     text: Insbesondere EHEC die Shigatoxin 2 produzieren, können ein Hämolytisch-Urämisches-Syndrom hervorrufen. 
     kategorie: erregerdaten hygkowichtig
+  - id: besonderheiten
+    text: |
+      Ein E.Coli kann in vier Meldekategorien erscheinen 
+      * Als enterotoxischer Erreger wenn EPEC/ETEC/EIEC usw. vorliegt
+      * Als EHEC wenn ein EHEC vorliege
+      * Als HUS wenn ein EHEC, der ein HUS verursacht hat, vorliegt
+      * Als Enterobacteriacae mit bestimmten Reistenzen (MRGN) wenn ein resistenzverursachendes Gen vorliegt
+    kategorie: erregerdaten hygkowichtig
+    
     
 # Vorkommen
   - id: vorkommen_deu
@@ -98,6 +107,7 @@ inhalte:
   - varname: IFSG_6_1_2
   - varname: IFSG_7
   - varname: IFSG_34
+  
   
 aktionsbausteine:
   - varname: GETINFO
