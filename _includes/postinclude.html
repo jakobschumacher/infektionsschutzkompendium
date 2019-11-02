@@ -1,0 +1,163 @@
+<div class="post-container">
+  
+  <div class="post-date"><i class="icon-calendar"></i>{{ page.last_modified_at | date: '%d ' }} {% assign m = page.last_modified_at | date: "%-m" %} {% case m %}
+  {% when '1' %}Januar
+  {% when '2' %}Februar
+  {% when '3' %}M&auml;rz
+  {% when '4' %}April
+  {% when '5' %}Mai
+  {% when '6' %}Juni
+  {% when '7' %}Juli
+  {% when '8' %}August
+  {% when '9' %}September
+  {% when '10' %}Oktober
+  {% when '11' %}November
+  {% when '12' %}Dezember
+{% endcase %}{{ page.last_modified_at | date: ' %Y ' }}</div>
+
+{% assign df = site.data.iddat| where_exp: "item", "item.disease == page.title "%}
+
+
+<h1>{{page.title}}</h1>
+  
+
+{% assign df_kontakt = df | where_exp: "item", "item.player == 'Kontaktperson' "%}
+{% assign df_info = df | where_exp: "item", "item.contentgroup == 'info' "%}
+
+
+<h2>Basisinformationen zur Krankheit</h2>
+
+{% for value in df_info %}
+<ul>
+  <li>{{value.content}}</li>
+</ul>
+
+{% endfor %}
+
+
+
+
+<h2>Was muss die Kontaktperson tun?</h2>
+
+{% for value in df_kontakt %}
+
+  {{value.content}}
+
+{% endfor %}
+
+
+
+  
+  
+  
+  {% comment %}
+  <div class="post-meta">
+     <ul class="post-categories">
+       {% if page.fortbildung %}
+       <li> <span class="blockstyle"><a class="nounderline" href="{{ page.fortbildung | relative_url }}">Präsentation</a></span> </li>
+       {% endif %}
+     </ul>
+     
+   </div>
+  
+  
+  
+  <div class="post">
+  {{ page.basisdaten.kurzbeschreibung}} 
+  <details markdown="block">
+    <summary><h1 id="posts-label">Auflistung wichtiger Daten</h1></summary>
+      {% assign inhalte = page.inhalte  %}
+    {% for item in inhalte %}
+      <li title="Quelle: {{ item.quellename }}"> {{ item.text }} </li>
+    {% endfor %}  
+  
+    {% assign item = page.inhalte | where_exp: "item", "item.varname != nil" %}
+          {% for post in item %}
+          {% assign var = site.data.variablen[post.varname] %}
+            <li title="Quelle: {{ var.beschreibung }}">{{ var.text }}</li>
+          {% endfor %}
+  </details>
+  
+  <details markdown="block">
+    <summary>
+      <h1 id="posts-label">Übliche Maßnahmen des Gesundheitsamtes</h1>
+    </summary>
+    <ul> 
+      {% assign item = page.aktionsbausteine | where_exp: "item", "item.varname != nil" %}
+            {% for post in item %}
+            {% assign var = site.data.variablen[post.varname] %}
+            <li title="{{ var.beschreibung }}"><form style="display:inline;"><input type="checkbox"> 
+              {{ var.text }}<ul>
+                <li>{{ var.beschreibung | markdownify }}</li>
+                </ul>
+            </form></li>  
+            {% endfor %}
+  
+      {% for item in page.aktionsbausteine %}  
+      {% if item.aktion %}
+      <li><form style="display:inline;"><input type="checkbox"> 
+        {{ item.aktion }}<ul>
+          <li>{{ item.beschreibung | markdownify}}</li>
+          </ul>
+      </form></li>  
+      {% endif %}
+        {% endfor %}
+    </ul>
+  </details>
+
+
+  <details markdown="block">
+    <summary>
+      <h1 id="posts-label">Stichpunkte für Interview</h1>
+    </summary>
+    <ul>
+      {% assign item = page.interview | where_exp: "item", "item.varname != nil" %}
+            {% for post in item %}
+            {% assign var = site.data.variablen[post.varname] %}
+            <li title="{{ var.beschreibung }}"><form style="display:inline;"><input type="checkbox"> 
+              {{ var.text }}<ul>
+                <li>{{ var.beschreibung }}</li>
+                </ul>
+            </form></li>  
+            {% endfor %}
+      
+      
+      {% for item in page.interview %}  
+          {% if item.keyword %}<li><form style="display:inline;"><input type="checkbox"> {{ item.question }}
+      </form></li>  
+        {% endif %}
+        {% endfor %}
+    </ul>
+  </details>
+
+  <details markdown="block">
+    <summary>
+      <h1 id="posts-label">Links zu Informationen im Netz</h1>
+    </summary>
+    <ul>
+      {% for item in page.quellen %}
+      <li><a class="menu-item" href="{{ item.webseite }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+</details>
+
+{% endcomment %}
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
