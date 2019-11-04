@@ -1,10 +1,8 @@
 ---
 title: Campylobacter-Enteritis
 layout: post
-date: 2019-02-08
 fortbildung: fortbildung/Campylobacter-Enteritis.html
 
-lastupdated: 22. Oktober 2019
 author: Jakob Schumacher
 
 basisdaten:
