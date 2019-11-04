@@ -3,6 +3,12 @@ GETINFO:
   text: Informationsbeschaffung zum Fall
   beschreibung: Dies erfolgt üblicherweise durch ein Telefonat mit der erkrankten Person
 
+IFSG12:
+  text: Internationale Meldung
+  beschreibung: Der Erreger ist unmittelbar übermittlungspflichtig nach § 12. Details auf der [Webseite des RKI](https://www.rki.de/DE/Content/Infekt/IfSG/Meldeboegen/Meldung_12/uebermittlung_12_inhalt.html)
+
+
+
 TV31: 
   text: Erkrankte Personen dürfen nicht in einer Kindereinrichtung betreut werden oder dort tätig sein. 
   beschreibung: Das ist eine gesetzliche Vorschrift
@@ -30,6 +36,7 @@ UNTERRICHTUNG_GA:
 UNTERRICHTUNG_LEB: 
   text: Unterrichtung der Lebensmittelaufsicht 
   beschreibung: Gesetzliche Vorschrift nach § 27 IfSG sofern ein Lebensmittel aus Ausbruchsvehikel in Frage kommt
+
 
 KUECHENHYGIENE:
   text: Einhaltung Küchenhygiene

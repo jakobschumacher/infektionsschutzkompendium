@@ -6,7 +6,7 @@ fortbildung: fortbildung/Salmonellose.html
 author: Jakob Schumacher
 
 basisdaten:
-  bild: https://upload.wikimedia.org/wikipedia/commons/e/ee/Salmonella_typhimurium.png
+  bild: https://upload.wikimedia.org/wikipedia/commons/c/c0/Salmonella_Typhimurium_Gram.jpg
   kurzbeschreibung: Salmonellose ist neben Campylobacter der häufigste bakterielle Gastroenteritis-Erreger in Deutschland. Salmonellen können Gastroenteritis oder Typhus/Paratyphus hervorrufen. Ausbrüche sind häufig erkennbar.
 
 inhalte:  
