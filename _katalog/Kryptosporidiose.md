@@ -109,10 +109,9 @@ aktionsbausteine:
   - varname: HAENDEHYGIENE
   - varname: WAESCHEHYGIENE
   - varname: ISOLIERUNG
-  - varname: TV34
-  - varname: TV42
   - varname: ESSENAUFREISEN
   - aktion: Ein betroffenes Schwimmbad sollte begangen werden.
+  - aktion: Die betroffene Person sollte bis mindestens 14 Tage nach Abklingen der Symptome nicht schwimmen gehen.
   
 interview:     
   - varname: KRANKHEITSZEICHEN

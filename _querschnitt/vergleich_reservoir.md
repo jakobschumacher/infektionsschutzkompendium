@@ -1,11 +1,11 @@
 ---
-title: Vergleich der Inkubationszeiten
+title: Vergleich der Reservoire
 layout: page
 ---
 
 <table>
   {% for item in site.katalog %}
-  {% assign inhalte = item.inhalte | where_exp: "item", "item.id contains 'inkubationszeit'" %}
+  {% assign inhalte = item.inhalte | where_exp: "item", "item.id contains 'reservoir'" %}
   
   <tr>
     <td>{{item.title}}</td>
@@ -13,3 +13,6 @@ layout: page
   </tr>
   {% endfor %}  
 </table>
+
+
+

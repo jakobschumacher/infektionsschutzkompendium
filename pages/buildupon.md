@@ -4,6 +4,9 @@ layout: page
 # Inhalte
 * Die Inhalte stammen zum größten Teil von den Webseiten des Robert Koch-Instituts
 
+# Bilder 
+* Alle Bilder kommen von Wikipedia.
+
 # Hosting
 * Diese Seite wird gehostet von [Github.com](https://github.com) 
 

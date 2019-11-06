@@ -196,6 +196,7 @@ main {
   height: 150px;
   overflow: hidden;
   border-radius: 50%;
+	
 }
 
 .circular--landscape img {
@@ -213,3 +214,21 @@ main {
 .nounderline {
 	font-decoration: none;
 } 
+
+
+.image-cropper {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+		}
+
+.profile-pic {
+	display: inline;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	 filter: grayscale(100%);
+}

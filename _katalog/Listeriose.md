@@ -6,7 +6,7 @@ author: Jakob Schumacher
 fortbildung: fortbildung/Listeriose.html
 
 basisdaten:
-  bild: https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Listeria_monocytogenes_PHIL_2287_lores.jpg/800px-Listeria_monocytogenes_PHIL_2287_lores.jpg
+  bild: https://upload.wikimedia.org/wikipedia/commons/2/26/Listeria_monocytogenes_-_Columbia_Horse_Blood_Agar_-Detail.jpg
   kurzbeschreibung: Listeriose ist eine infektiöse Erkrankung. Und zählt zu den durch Lebensmittel übertragenen Krankheiten. Ausbrüche durch Lebensmittel kommen häufiger vor. 
 
 inhalte:  
