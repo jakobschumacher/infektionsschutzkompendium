@@ -91,7 +91,7 @@ inhalte:
     text: Die Erkrankung dauert im üblichen Fall bis zu einer Woche
     kategorie: klinik
   - id: asymptomatik
-    text: 73 von 100 infizierten Kontaktpersonen entwickelten keine Symptome
+    text: 
     quelleurl: https://www.tandfonline.com/doi/abs/10.3109/00365549009027077?journalCode=infd19 
     kategorie: klinik
   - id: letalität
