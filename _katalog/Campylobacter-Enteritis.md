@@ -7,6 +7,8 @@ author: Jakob Schumacher
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/a/a4/Campylobacter_fetus_01.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:Campylobacter_fetus_01.jpg
+  bildautor: CDC/ Dr. Patricia Fields, Dr. Collette Fitzgerald
   kurzbeschreibung: Campylobacter ist der häufigste bakterielle Durchfallerreger. Fast täglich erfolgen Meldungen an das Gesundheitsamt
 
 inhalte:  

@@ -9,6 +9,8 @@ author: Jakob Schumacher
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/EscherichiaColi_NIAID.jpg/800px-EscherichiaColi_NIAID.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:EscherichiaColi_NIAID.jpg
+  bildautor: Rocky Mountain Laboratories, NIAID, NIH
   kurzbeschreibung: Eschericha Coli ist ein Darmbwohner. Durch Toxine kann er Erkrankungen auslösen. Er kann in mehreren Kategorien gemeldet werden.
 
 inhalte:  
@@ -137,14 +139,11 @@ interview:
   - varname: KONTAKTIN33
   - varname: LEBENSMITTELARBEIT
   - varname: AUSLANDSAUFENTHALT
+  - varname: ROHMLICH
   - question: Waren sie vor Erkrankungsbeginn im Kontakt mit Wiederkäuern?
     comment: Wiederkäuer sind Rinder, Schafen, Ziegen und ähnliche Tiere. Wenn dies in der Inkubationszeit erfolgt ist sollte das zuständige Veterinäramt informiert werden.
     kategorie: abklaerung 
     keyword: Wiederkäuer
-  - question: Haben Sie vor Erkrankungsbeginn Rohmilch getrunken?
-    comment: Wenn dies in der Inkubationszeit der Fall gewesen ist, sollte eine Meldung an das zuständige Lebensmittelaufsichtsamt erfolgen. Die erkrankte Person sollte Wissen, das Rohmilch vor dem Konsum unbedingt abgekocht werden sollte. In der Vergangenheit hat es Ausbrüche durch Rohmilch gegeben.
-    kategorie: abklaerung
-    keyword: Rohmlich?  
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts

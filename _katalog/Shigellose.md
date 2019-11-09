@@ -8,6 +8,8 @@ fortbildung: fortbildung/Shigellose.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/2/29/Shigella_stool.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:Shigella_stool.jpg
+  bildautor: CDC
   kurzbeschreibung: Shigellose ist in deutschen Gesundheitsämtern eine seltene Erkrankung. Der Erreger ist verwandt mit E.Coli. Ausbrüche können vorkommen. Die meisten Erkrankungsfälle sind importiert.
 
 inhalte:  

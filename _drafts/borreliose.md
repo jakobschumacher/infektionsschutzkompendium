@@ -25,3 +25,24 @@ empfehlungen:
     comment: Wenn eine vollgesogene Zecke gequetscht wird, kann sie den Erreger abgeben.
     keyword: Nicht quetschen
 ---
+
+
+
+---
+## Erkrankungswahrscheinlichkeit
+
+* Etwa 5–35% der Zecken sind mit Borrelien befallen
+* Bei 1% der Fälle ist nach einem Zeckenstich mit einer manifesten Erkrankung zu rechnen. Etwas mehr haben die Erkrankung ohne klinische Symptome zu bekommen.
+* Das Erkrankungsrisiko steigt deutlich mit der Dauer des Saugaktes.
+
+---
+# Labordiagnostik
+* Es gibt viele falsch-positive Befunde (zum Beispiel bei Autoimmunerkrankungen, Syphilis, Epstein-BarrVirus-Infektion, Herpes-Virus-Infektionen und viele weitere)
+
+---
+# Antibiotika
+* Eine generelle prophylaktische Antibiotikagabe nach Zeckenstich wird nicht empfohlen.
+---
+# Borreliose-Community
+* Borreliose ist eine Erkrankung die häufig nicht eindeutig diagnostizierbar ist.
+* Es gibt Menschen, die halten sich für chronisch mit Borrelien infiziert, ohne dass dies medizinisch begründbar ist.

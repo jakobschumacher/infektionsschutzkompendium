@@ -8,6 +8,8 @@ fortbildung: fortbildung/Norovirus-Gastroenteritis.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/a/ae/Norovirus_4.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:Norovirus_4.jpg
+  bildautor: Wikipedia/Graham Beards
   kurzbeschreibung: Norovirus ist der häufigste meldepflichtige Erreger, dementsprechend ist die Ermittlung durch die Gesundheitsämter sehr häufig. Norovirus ist für viele Todesfälle in Ländern mit einem anderen Entwicklungsstadium verantwortlich.
 
 inhalte:  

@@ -9,6 +9,8 @@ fortbildung: fortbildung/Yersiniose.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/PHIL_1918_lores_Floureszenz_Yersinia.jpg/450px-PHIL_1918_lores_Floureszenz_Yersinia.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:PHIL_1918_lores_Floureszenz_Yersinia.jpg
+  bildautor: Wikipedia/Matthias_M.
   kurzbeschreibung: Yersiniose kommt ab und zu mal im Gesundheitsamt vor. Große Ausbrüche sind in Deutschland sehr selten.
 
 inhalte:  

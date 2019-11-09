@@ -7,7 +7,9 @@ author: Jakob Schumacher
 fortbildung: fortbildung/Rotavirus-Gastroenteritis.html
 
 basisdaten:
-  bild: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Multiple_rotavirus_particles.jpg/1024px-Multiple_rotavirus_particles.jpg
+  bild: https://de.wikipedia.org/wiki/Humane_Rotaviren#/media/Datei:Rotavirus_TEM_B82-0337_lores.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:Rotavirus_TEM_B82-0337_lores.jpg
+  bildautor: CDC/Dr. Erskine Palmer 
   kurzbeschreibung: Rotavirus ist eine häufige Durchfallerkrankung, die insbesondere bei Kindern vorkommt. In Ländern mit einem niedrigeren mittleren Einkommen gibt es viele Todesfälle. 
 
 inhalte:  

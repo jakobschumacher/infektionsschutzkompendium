@@ -7,6 +7,8 @@ fortbildung: fortbildung/Cholera.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/f/f6/Vibrio_cholerae.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:Vibrio_cholerae.jpg
+  bildautor: Tom Kirn, Ron Taylor, Louisa Howard - Dartmouth Electron Microscope Facility
   kurzbeschreibung: Cholera ist ein vornehmlich über Trinkwasser übertragener Erreger, der eine starke Dehydratation verursacht. In Deutschland werden nur vereinzelt Fälle nachgewiesen.
 
 inhalte:  

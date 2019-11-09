@@ -6,7 +6,9 @@ author: Jakob Schumacher
 fortbildung: fortbildung/Typhus.html
 
 basisdaten:
-  bild: https://upload.wikimedia.org/wikipedia/commons/e/ee/Salmonella_typhimurium.png
+  bild: https://live.staticflickr.com/5161/5279772517_d5b81fba0e_b.jpg
+  bildcredits: https://www.flickr.com/photos/sanofi-pasteur/5279772517
+  bildautor: Sanofi Pasteur/Alain Grillet
   kurzbeschreibung: Typhus ist eine übertragbare Krankheit. In Deutschland treten die Erkrankungen fast immer im Zusammenhang mit einer Reise auf. 
 
 inhalte:  

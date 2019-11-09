@@ -8,6 +8,8 @@ author: Jakob Schumacher
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/1/11/ClostridiumDifficile.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:ClostridiumDifficile.jpg
+  bildautor: CDC/ Lois S. Wiggs
   kurzbeschreibung: Clostridioides difficile (früher Clostridium difficile) ist ein nosokomialer Erreger, der meist nach einer Antibiotikagabe auftritt. Die Meldungen erfolgen üblicherweise aus einem Krankenhaus.
 
 inhalte:  

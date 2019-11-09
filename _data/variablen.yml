@@ -8,13 +8,16 @@ IFSG12:
   beschreibung: Der Erreger ist unmittelbar übermittlungspflichtig nach § 12. Details auf der [Webseite des RKI](https://www.rki.de/DE/Content/Infekt/IfSG/Meldeboegen/Meldung_12/uebermittlung_12_inhalt.html)
 
 
-
 TV31: 
   text: Erkrankte Personen dürfen nicht in einer Kindereinrichtung betreut werden oder dort tätig sein. 
   beschreibung: Das ist eine gesetzliche Vorschrift
 
 IFSG_6_1_2:
   text: Eine infektiösen Gastroenteritis muss gemeldet werden, wenn mehr als ein Fall auftritt oder die erkrankte Person mit Lebensmitteln arbeitet 
+  beschreibung: Gesetzliche Vorschrift nach § 6.1.2 IfSG
+  
+IFSG_6_1_1:
+  text: Der Verdacht, die Erkrankung oder der Tod sind meldepflichtig.
   beschreibung: Gesetzliche Vorschrift nach § 6.1.2 IfSG
   
 IFSG_7:
@@ -36,6 +39,10 @@ UNTERRICHTUNG_GA:
 UNTERRICHTUNG_LEB: 
   text: Unterrichtung der Lebensmittelaufsicht 
   beschreibung: Gesetzliche Vorschrift nach § 27 IfSG sofern ein Lebensmittel aus Ausbruchsvehikel in Frage kommt
+  
+UNTERRICHTUNG_VET: 
+  text: Unterrichtung des Veterinäramts
+  beschreibung: Gesetzliche Vorschrift nach § 27 IfSG sofern ein Übertragung durch ein Tier in Frage kommt
 
 
 KUECHENHYGIENE:
@@ -141,10 +148,12 @@ KONTAKTIN33:
     Wenn das der Fall ist sollte ein TV nach §34.3. erwogen werden.
 
 TIERKONTAKT:
-  text: Hatten Sie vor der Erkrankung Kontakt zu Tieren?
+  text: Waren Sie 2 Monaten vor der Erkrankung im Kontakt oder in der Nähe von Tieren?
   beschreibung: |
 
-
+ROHMILCH:
+  text : Haben Sie vor Erkrankungsbeginn Rohmilch getrunken?
+  beschreibung: Wenn dies in der Inkubationszeit der Fall gewesen ist, sollte eine Meldung an das zuständige Lebensmittelaufsichtsamt erfolgen. Die erkrankte Person sollte Wissen, das Rohmilch vor dem Konsum unbedingt abgekocht werden sollte. In der Vergangenheit hat es Ausbrüche durch Rohmilch gegeben.
     
 
 LEBENSMITTELARBEIT:
@@ -155,7 +164,7 @@ LEBENSMITTELARBEIT:
 AUSLANDSAUFENTHALT:
   text: Waren Sie vor der Erkrankung im Ausland?
   beschreibung: |
-    Wenn die erkrankte Person während der Inkubationszeit im Ausland war, kann sie sich dort angesteckt haben.
+    Wenn die erkrankte Person während der Inkubationszeit im Ausland war, kann sie sich dort angesteckt haben. Bei Personen, die nicht im Ausland war sollte intensiver nach der Quelle gesucht, werden, da hier möglicherweise Maßnahmen möglich sind.
     
 MSM:
   text: Leben Sie in einer homosexuellen Partnerschaft

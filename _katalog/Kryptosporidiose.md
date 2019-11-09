@@ -7,6 +7,8 @@ fortbildung: fortbildung/Kryptosporidiose.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/d/df/DPDxCrypto_oo_DIC.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:DPDxCrypto_oo_DIC.jpg
+  bildautor: PD - DPDx Image Library;
   kurzbeschreibung: Kryptosporidiose ist eine infektiöse Darmerkrankung. Die Erkrankung wird durch Kryptopsoridien hervorgerufen. 
 
 inhalte:  

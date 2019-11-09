@@ -4,8 +4,15 @@ layout: page
 # Inhalte
 * Die Inhalte stammen zum größten Teil von den Webseiten des Robert Koch-Instituts
 
-# Bilder 
-* Alle Bilder kommen von Wikipedia.
+# Bildnachweis
+<table>
+  {% for item in site.katalog %}
+  <tr>
+    <td>{{item.title}}: 
+    <a href="{{item.basisdaten.bildcredits}}">{{ item.basisdaten.bildautor }}</a></td>
+  </tr>
+  {% endfor %}  
+</table>
 
 # Hosting
 * Diese Seite wird gehostet von [Github.com](https://github.com) 

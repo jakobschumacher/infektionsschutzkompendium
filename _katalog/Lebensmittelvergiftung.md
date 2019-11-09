@@ -6,7 +6,9 @@ fortbildung: fortbildung/Lebensmittelvergiftung.html
 author: Jakob Schumacher
 
 basisdaten:
-  bild: https://upload.wikimedia.org/wikipedia/commons/5/57/Staphylococcus_aureus_01.jpg
+  bild: https://upload.wikimedia.org/wikipedia/commons/7/7b/MRSA7820.jpg
+  bildcredits: https://commons.wikimedia.org/wiki/File:MRSA7820.jpg
+  bildautor: CDC/ Janice Carr/ Deepak Mandhalapu, M.H.S.
   kurzbeschreibung: Lebensmittelvergiftungen entstehen, wenn Toxine mit dem Essen aufgenommen werden. Es kommt zu keiner Vermehrung eines Erregers im Menschen.
 
 inhalte:  
