@@ -6,7 +6,7 @@ fortbildung: fortbildung/Botulismus.html
 author: Jakob Schumacher
 
 basisdaten:
-  bild: hhttps://upload.wikimedia.org/wikipedia/commons/f/f0/Clostridium_botulinum.jpg
+  bild: https://upload.wikimedia.org/wikipedia/commons/f/f0/Clostridium_botulinum.jpg
   bildcredits: https://commons.wikimedia.org/wiki/File:Clostridium_botulinum.jpg
   bildautor: CDC
   kurzbeschreibung: Botulismus ist eine besondere Form der Lebensmittelvergiftung. Nur in seltenen Fällen kommt es zu einer Infektion.
@@ -25,7 +25,7 @@ inhalte:
     kategorie: erregerdaten
   - id: toxine
     text: Clostridium botulinum produziert Toxine, die die Erkrankung hervorrufen. 
-    kategorie: erregerdaten
+    kategorie: erregerdaten hygkowichtig
   - id: erregergruppenunterschiede
     text: 
     kategorie: erregerdaten
@@ -40,32 +40,32 @@ inhalte:
     quellename: Survstat
     quelleurl: https://survstat.rki.de/
   - id: vorkommen_welt
-    text: Der Erreger kommt weltweit vor
+    text: Der Erreger kommt weltweit vor.
     kategorie: vorkommen
   - id: reservoir
-    text: Das Reservoir sind insbesondere Nagetiere. Die nicht erkranken und den Erreger mit dem Urin ausscheiden. Viele Tierarten können Leptospirose bekommen und den Erreger weitertragen.  
+    text: Der Erreger kommt ubiquitär im Boden vor.
     kategorie: vorkommen
     quellename: RKI Ratgeber
   - id: umweltresistenz
-    text: Die Bakterien können in feuchten und warmen Gebieten Monate lang infektiös bleiben. Außerhalb von Organismen können sie sich aber nicht vermehren.
+    text: 
     kategorie: vorkommen 
     quellename: RKI Ratgeber 
 
     
 # Zeiten
   - id: inkubationszeit
-    text: Die Inkubationszeit beträgt 2 bis 30 Tage im Regelfall 7 bis 14 Tage
+    text: Die Latenzzeit beträgt wenige Stunden bis 8 Tage. Bei einem Säuglingsbotulismus oder Wundbotulismus beträgt die Inkubationszeit zwischen 4 und 14 Tagen.
     kategorie: zeiten
   - id: inkubationszeit_min
     text: 
-    nummer: 2
+    nummer: 0.1
     kategorie: zeiten
   - id: inkubationszeit_max
     text:
     kategorie: zeiten
-    nummer: 30
+    nummer: 8
   - id: ansteckungszeit_normal
-    text: Menschen scheiden den Erreger üblicherweise in den ersten zwei Wochen der Erkrankung aus. 
+    text: Eine Ansteckung von Mensch zu Mensch ist theoretisch nur bei Infektionen möglich.
     kategorie: zeiten 
   - id: ansteckungszeit_lang 
     text: 
@@ -75,7 +75,7 @@ inhalte:
 # Übertragungswege
   - id: uebertragungswege
     text: | 
-      Der Erreger wird durch den Urin von Tieren (meist Nagetiere) ausgeschieden, der Erreger verbleibt dann im Schlamm oder Wasser. Menschen können sich über kleine Wunden oder Schleimhäute infizieren.  Eine Übertragung von Mensch zu Mensch ist selten.
+      Bei Lebensmittelbotulismus erfolgt die Aufnahme des Giftes über Lebensmittel in denen sich Clostridium boltulinum unter Luftabschluss vermehren kann. Bei Wundbotulismus erfolgt die Infektion meist nach Injektion, z.B. bei Drogengebrauch. Nach der Aufnahme von belasteten Lebensmittel können sich die Erreger im Darm von Nicht-Immunkompetenten vermehren. 
     kategorie: uebertragungswege hygkowichtig
     quellename: RKI Ratgeber
     
@@ -83,22 +83,24 @@ inhalte:
 # Klinik
   - id: symptome
     text: |
-      Das Krankheitsbild ist variabel und beinhaltet Krankheitszeichen wie bei einer Grippe: Fieber, Gelenkschmerzen, Muskelschmerzen, Abgeschlagenheit. Häufig tritt das Fieber nach einer Besserung erneut auf. 
+      Das Toxin führt zu einer absteigenden symmetrischen Lähmung. Beginnend mit den Kopfnerven. Die Lähmung dauert monatelang
     kategorie: klinik
   - id: komplikationen
-    text: Bei etwa 1 von 10 Erkrankten kann es zu schwerwiegenden Komplikationen kommen. Diese können fast jedes Organ im Körper betreffen. Häufig sind die Schäden an der Niere, der Leber, der Milz und der Lunge. Auch das Herz und die Blutbildung können betroffen sein, ebenso die Hirnhäute.
+    text: Es kann eine Atemlähmung und in Folge dessen der Tod eintreten.
     kategorie: klinik
   - id: krankheitsdauer
     text: 
     kategorie: klinik
   - id: asymptomatik
-    text: Etwa 9 von 10 Erkrankten entwickeln keine oder nur milde Krankheitszeichen.
-    kategorie: klinik
-  - id: letalität
     text: 
     kategorie: klinik
+  - id: letalität
+    text: Unter Behandlung versterben weniger als 10% der erkrankten Personen.
+    kategorie: klinik
+    quelleurl: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5460764/
 
 # Meldung
+  - varname: IFSG_6_1_1
   - varname: IFSG_7
 
 aktionsbausteine:
@@ -106,53 +108,36 @@ aktionsbausteine:
   - varname: UEBERMITTLUNG
   - varname: AUSBRUCHSUNTERSUCHUNG
   - varname: UNTERRICHTUNG_GA
-  - varname: UNTERRICHTUNG_VET
-  - aktion: Überprüfung der Rattenkontrolle im Umfeld der erkrankten Person
-    
+  - varname: UNTERRICHTUNG_LEB
 
 interview:     
   - varname: KRANKHEITSZEICHEN
   - varname: ERKRANKUNGSBEGINN
   - varname: AUSBRUCHSABKLAERUNG
   - varname: HOSPITALISIERUNG
-  - varname: AUSLANDSAUFENTHALT
-  - question: Wo könnten Sie Kontakt zu Nagetieren oder deren Ausscheidungen gehabt haben?
-    comment: Dies ist die wahrscheinlichste Quelle für eine Erkrankung. Hierdurch lässt sich gegebenenfalls die Quelle abstellen.
-    keyword: Nagetierurin
-  - question: Hat die erkrankte Person Haustiere oder anderen Kontakt zu Tieren.
-    comment: Hier müsste gegebenenfalls das Veterinäramt informiert werden. Falls es sich um einen Hund handelt ist der Impfstatus des Hundes zu erfragen
-    keyword: Haustiere
-  - question: Waren Sie Schwimmen oder Baden in Gewässern, die nicht regelmäßig überprüft werden.
-    comment: Es gab Erkrankungsfälle nach Triatholn-Events im Brackwasser.
-    keyword: Unsauberes Badewasser
-  - question: Sie sollten darauf achten, dass für zwei Wochen Niemand mit Ihrem Urin in Berührung kommt.
-    comment: Sekundäre Fälle sind nicht häufig beschrieben, eine Übertragung ist aber möglich.
-    keyword: Urin
-   
+  - question: Welche Produkte haben Sie vor der Erkrankung zu sich genommen?
+    comment: Aufgrund der schwere der Erkrankung ist es sehr wichtig, das betroffene Lebensmittel herauszufinden. 
   
 quellen:
   - name: Ratgeber des Robert Koch-Instituts
     webseite: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Botulismus.html
+  - name: Bundesamt für Risikobewertung
+    webseite: https://www.bfr.bund.de/de/fragen_und_antworten_zu_botulismus-70355.html  
   - name: European center for diesease control (englisch)
     webseite: https://ecdc.europa.eu/en/botulism
   - name: Wikipedia-Eintrag
-    webseite: https://de.wikipedia.org/wiki/Leptospirose
+    webseite: https://de.wikipedia.org/wiki/Botulismus
   - name: US-Center for diesease control (englisch)
-    webseite: https://www.cdc.gov/leptospirosis/index.html
+    webseite: https://www.cdc.gov/botulism/index.html
+  - name: Public Health-England (englisch)
+    webseite: https://www.gov.uk/government/publications/botulism-clinical-and-public-health-management/botulism-clinical-and-public-health-management
   - name: World-Health-Organisation (englisch)
     webseite: https://apps.who.int/iris/bitstream/handle/10665/42667/WHO_CDS_CSR_EPH_2002.23.pdf;jsessionid=23DDE9D9F7F66F977B4701E5D332E6CA?sequence=1
   - name: Pubmed - Sammlung wissenschaftlicher Publikationen (englisch)
-    webseite: https://www.ncbi.nlm.nih.gov/pubmed?term=%22Leptospirosis%22%5BMesh%5D
+    webseite: https://www.ncbi.nlm.nih.gov/pubmed?term=%22Botulism%22%5BMesh%5D
+  - name: AWMF
+    webseite: https://www.awmf.org/uploads/tx_szleitlinien/030-109l_S1_Botulismus_2017-11.pdf
+  - name: Apothekenumschau
+    webseite: https://www.apotheken-umschau.de/Botulismus
 ---
 
-
- ecdc: 
- wikipedia: https://de.wikipedia.org/wiki/Botulismus
- cdc: https://www.cdc.gov/botulism/index.html
- phe: https://www.gov.uk/government/publications/botulism-clinical-and-public-health-management/botulism-clinical-and-public-health-management
- pubmed: https://www.ncbi.nlm.nih.gov/pubmed?term=%22Botulism%22%5BMesh%5D
- aerzteblatt:
- awmf: https://www.awmf.org/uploads/tx_szleitlinien/030-109l_S1_Botulismus_2017-11.pdf
- apothekenumschau: https://www.apotheken-umschau.de/Botulismus
- bfr: https://www.bfr.bund.de/de/fragen_und_antworten_zu_botulismus-70355.html
- ---
