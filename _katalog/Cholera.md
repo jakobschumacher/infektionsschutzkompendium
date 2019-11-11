@@ -4,6 +4,7 @@ layout: post
 author: Jakob Schumacher
 
 fortbildung: fortbildung/Cholera.html
+aktionen: aktionen/Cholera.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/f/f6/Vibrio_cholerae.jpg

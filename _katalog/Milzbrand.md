@@ -4,6 +4,7 @@ layout: post
 author: Jakob Schumacher
 
 fortbildung: fortbildung/Milzbrand.html
+aktionen: aktionen/Milzbrand.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/f/f1/AnthraxBacteria.jpg

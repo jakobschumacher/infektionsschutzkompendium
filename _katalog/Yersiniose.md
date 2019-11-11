@@ -6,6 +6,7 @@ lastupdated: 22. Oktober 2019
 author: Jakob Schumacher
 
 fortbildung: fortbildung/Yersiniose.html
+aktionen: aktionen/Yersiniose.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/PHIL_1918_lores_Floureszenz_Yersinia.jpg/450px-PHIL_1918_lores_Floureszenz_Yersinia.jpg

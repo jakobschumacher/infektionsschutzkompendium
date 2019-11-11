@@ -5,6 +5,7 @@ lastupdated: 11. Oktober 2019
 author: Jakob Schumacher
 
 fortbildung: fortbildung/Shigellose.html
+aktionen: aktionen/Shigellose.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/2/29/Shigella_stool.jpg

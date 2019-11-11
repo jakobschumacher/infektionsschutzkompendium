@@ -2,6 +2,7 @@
 title: Brucellose
 layout: post
 fortbildung: fortbildung/Brucellose.html
+aktionen: aktionen/Brucellose.html
 
 author: Jakob Schumacher
 

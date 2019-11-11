@@ -5,6 +5,7 @@ lastupdated: 11. Oktober 2019
 author: Jakob Schumacher
 
 fortbildung: fortbildung/Norovirus-Gastroenteritis.html
+aktionen: aktionen/Norovirus-Gastroenteritis.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/a/ae/Norovirus_4.jpg

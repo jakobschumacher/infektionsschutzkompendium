@@ -2,6 +2,7 @@
 title: Campylobacter-Enteritis
 layout: post
 fortbildung: fortbildung/Campylobacter-Enteritis.html
+aktionen: aktionen/Campylobacter-Enteritis.html
 
 author: Jakob Schumacher
 

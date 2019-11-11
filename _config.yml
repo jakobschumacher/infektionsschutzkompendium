@@ -44,5 +44,6 @@ collections:
     output: true
   querschnitt:
     output: true
-    
+  aktionen:
+    output: true  
 

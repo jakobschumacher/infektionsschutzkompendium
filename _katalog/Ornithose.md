@@ -2,6 +2,7 @@
 title: Ornithose
 layout: post
 fortbildung: fortbildung/Ornithose.html
+aktionen: aktionen/Ornithose.html
 
 author: Jakob Schumacher
 

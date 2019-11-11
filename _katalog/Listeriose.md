@@ -4,6 +4,7 @@ layout: post
 author: Jakob Schumacher
 
 fortbildung: fortbildung/Listeriose.html
+aktionen: aktionen/Listeriose.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/2/26/Listeria_monocytogenes_-_Columbia_Horse_Blood_Agar_-Detail.jpg

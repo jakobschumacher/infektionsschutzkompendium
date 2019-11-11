@@ -2,6 +2,7 @@
 title: Lebensmittelvergiftung
 layout: post
 fortbildung: fortbildung/Lebensmittelvergiftung.html
+aktionen: aktionen/Lebensmittelvergiftung.html
 
 author: Jakob Schumacher
 

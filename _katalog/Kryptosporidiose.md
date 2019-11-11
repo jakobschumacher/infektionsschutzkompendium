@@ -4,6 +4,7 @@ layout: post
 author: Jakob Schumacher
 
 fortbildung: fortbildung/Kryptosporidiose.html
+aktionen: aktionen/Kryptosporidiose.html
 
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/d/df/DPDxCrypto_oo_DIC.jpg

@@ -2,6 +2,7 @@
 title: Legionellose
 layout: post
 fortbildung: fortbildung/Legionellose.html
+aktionen: aktionen/Legionellose.html
 
 author: Jakob Schumacher
 
@@ -118,7 +119,7 @@ interview:
   - varname: ERKRANKUNGSBEGINN
   - varname: AUSBRUCHSABKLAERUNG
   - varname: HOSPITALISIERUNG
-  - varname: ROHMLICH
+  - varname: ORT
   - varname: AUSLANDSAUFENTHALT
   
 quellen:

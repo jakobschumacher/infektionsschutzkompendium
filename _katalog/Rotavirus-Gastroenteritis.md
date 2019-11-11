@@ -5,6 +5,7 @@ lastupdated: 25. Oktober 2019
 author: Jakob Schumacher
 
 fortbildung: fortbildung/Rotavirus-Gastroenteritis.html
+aktionen: aktionen/Rotavirus-Gastroenteritis.html
 
 basisdaten:
   bild: https://de.wikipedia.org/wiki/Humane_Rotaviren#/media/Datei:Rotavirus_TEM_B82-0337_lores.jpg

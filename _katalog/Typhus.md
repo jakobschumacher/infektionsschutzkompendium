@@ -4,6 +4,7 @@ layout: post
 author: Jakob Schumacher
 
 fortbildung: fortbildung/Typhus.html
+aktionen: aktionen/Typhus.html
 
 basisdaten:
   bild: https://live.staticflickr.com/5161/5279772517_d5b81fba0e_b.jpg

@@ -2,6 +2,7 @@
 title: Salmonellose
 layout: post
 fortbildung: fortbildung/Salmonellose.html
+aktionen: aktionen/Salmonellose.html
 
 author: Jakob Schumacher
 

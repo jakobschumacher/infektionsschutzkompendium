@@ -2,6 +2,7 @@
 title: Botulismus
 layout: post
 fortbildung: fortbildung/Botulismus.html
+aktionen: aktionen/Botulismus.html
 
 author: Jakob Schumacher
 

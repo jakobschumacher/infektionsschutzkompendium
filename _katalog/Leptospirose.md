@@ -2,6 +2,7 @@
 title: Leptospirose
 layout: post
 fortbildung: fortbildung/Leptospirose.html
+aktionen: aktionen/Leptospirose.html
 
 author: Jakob Schumacher
 

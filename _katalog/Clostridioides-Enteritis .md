@@ -2,6 +2,7 @@
 title: Clostridioides-Enteritis 
 layout: post
 fortbildung: fortbildung/Clostridioides-Enteritis .html
+aktionen: aktionen/Clostridioides-Enteritis .html
 
 lastupdated: 22. Oktober 2019
 author: Jakob Schumacher

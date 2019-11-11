@@ -3,6 +3,7 @@ title: Eschericha-Coli-Enteritis
 layout: post
 date: 2019-02-08
 fortbildung: fortbildung/Eschericha-Coli-Enteritis.html
+aktionen: aktionen/Eschericha-Coli-Enteritis.html
 
 lastupdated: 22. Oktober 2019
 author: Jakob Schumacher
