@@ -95,7 +95,7 @@ inhalte:
     text: 
     kategorie: klinik
   - id: asymptomatik
-    text: 
+    text: Asymptomatische Fälle kommen vor.
     kategorie: klinik
   - id: letalität
     text: Etwa 10% der Personen, die eine Legionellosen-Pneumonie entwickeln versterben.
@@ -109,8 +109,9 @@ aktionsbausteine:
   - varname: UEBERMITTLUNG
   - varname: AUSBRUCHSUNTERSUCHUNG
   - varname: UNTERRICHTUNG_GA
-  - varname: UNTERRICHTUNG_VET
-    
+  - aktion: Unterrichtung der Immissionsschutzbehörde 
+    comment: 
+  - aktion: Suche nach einer Quelle  
 
 interview:     
   - varname: KRANKHEITSZEICHEN
@@ -132,6 +133,6 @@ quellen:
   - name: World-Health-Organisation (englisch)
     webseite: https://www.who.int/news-room/fact-sheets/detail/legionellosis
   - name: Pubmed - Sammlung wissenschaftlicher Publikationen (englisch)
-    webseite: https://www.ncbi.nlm.nih.gov/pubmed?term=%22Brucellosis%22%5BMesh%5D
+    webseite: https://www.ncbi.nlm.nih.gov/pubmed?term=%22Legionellosis%22%5BMesh%5D
 ---
 

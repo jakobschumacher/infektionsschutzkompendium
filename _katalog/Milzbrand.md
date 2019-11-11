@@ -105,7 +105,7 @@ aktionsbausteine:
       Für den Fall eines Pulverfundes gibt es [Empfehlungen des RKI](https://www.rki.de/DE/Content/Infekt/Biosicherheit/Poststellen/Poststellen_node.html) 
   
 interview:     
-  - question: Die Abklärung eines Milzbrandfalls sollte in direkter Absprache mit der Landesstelle und dem Robert Koch-Institut erfolgen.
+  - question: Die Abklärung eines Milzbrandfalls oder Milzbrandverdachts sollte in direkter Absprache mit der Landesstelle und dem Robert Koch-Institut erfolgen.
 
     
 quellen:

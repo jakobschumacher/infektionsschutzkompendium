@@ -154,7 +154,10 @@ TIERKONTAKT:
 ROHMILCH:
   text : Haben Sie vor Erkrankungsbeginn Rohmilch getrunken?
   beschreibung: Wenn dies in der Inkubationszeit der Fall gewesen ist, sollte eine Meldung an das zuständige Lebensmittelaufsichtsamt erfolgen. Die erkrankte Person sollte Wissen, das Rohmilch vor dem Konsum unbedingt abgekocht werden sollte. In der Vergangenheit hat es Ausbrüche durch Rohmilch gegeben.
-    
+
+ORT:
+  text: Wo haben Sie sich vor der Erkrankung aufgehalen?
+  beschreibung: Der mögliche Ansteckungsort ist wichtig um eine mögliche Quelle zu identifizieren. Diese Information muss in der Meldesoftware üblicherweise angegeben werden.
 
 LEBENSMITTELARBEIT:
   text: Haben Sie beruflich mit Lebensmitteln zu tun?
