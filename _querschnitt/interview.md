@@ -12,11 +12,18 @@ Bevor man selber Informationen übermittelt sollte sichergestellt werden, dass m
 Der angerufen Person sollte der Hintergrund des Anrufs erläutert wrden. Beispielsweise mit der folgenden Ansage: _Uns wurde gemeldet, dass bei Ihnen eine übertragbare Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern._
 
 ## Besserungswünsche
-_Zuerst hoffe ich, dass es Ihnen gesundheitlich gut geht._
+_ Wie geht es Ihnen im Moment?_
 
 ## Gesprächsverlauf und Dauer
 Damit sich die betroffene Person auf das Gespräch einstellen kann, sollte sie wissen was passiert und wie lange ein Gespräch dauern wird.
 _Ich stelle Ihnen einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 bis 10 min. Würde Ihnen das im Moment passen?_
+
+# Gesprächsbereitschaft?
+_Haben Sie gerade Zeit zum Sprechen?_
+
+# Bei Misstrauen
+Bei besonders misstrauischen Personen kann man Ihnen die Telefonnummer geben und sie um einen Rückruf bitten. 
+_Ich gebe Ihnen meine Telefonnummer durch. Sie können das auf unserer Webseite überprüfen. Rufen Sie mich dann bitte umgehend wieder an._
 
 ## Verständnis
 Wenn die Person so wirkt, als ob sie Schwierigkeiten hat mit dem Verstehen, versuchen Sie eine Möglichkeit zu finden, das zu bessern. 
