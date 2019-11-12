@@ -12,7 +12,7 @@ Bevor man selber Informationen übermittelt sollte sichergestellt werden, dass m
 Der angerufen Person sollte der Hintergrund des Anrufs erläutert wrden. Beispielsweise mit der folgenden Ansage: _Uns wurde gemeldet, dass bei Ihnen eine übertragbare Erkrankung nachgewiesen wurden. Meine Aufgabe ist es die Weiterverbreitung zu verhindern._
 
 ## Besserungswünsche
-_ Wie geht es Ihnen im Moment?_
+_Wie geht es Ihnen im Moment?_
 
 ## Gesprächsverlauf und Dauer
 Damit sich die betroffene Person auf das Gespräch einstellen kann, sollte sie wissen was passiert und wie lange ein Gespräch dauern wird.
@@ -37,7 +37,7 @@ _Vielen Dank für das Gespräch. Von meiner Seite aus bin ich fertig. Haben Sie 
 
 ## Angebot von weiteren Informationen
 Die meisten Menschen nehmen nur bestimmte Informationen war. In den meisten Fällen ist es sinnvoll, Informationen noch Mal schriftlich zu fassen.
-_Soll ich Ihnen noch ein Merkblatt zuschicken oder Ihnen sagen, wo sie es im Internet finden können?_
+_Soll ich Ihnen noch ein Merkblatt zuschicken oder Ihnen sagen, wo sie es im Internet finden können? Soll ich Ihnen noch meine Kontaktdaten geben_
 
 ## Ausblick 
 Möglicherweise müssen Fälle noch Mal angerufen werden. Das sollte vorbereitet werden.
@@ -46,4 +46,7 @@ _Sollten sich noch neue Anhaltspunkte ergeben melde ich mich nochmal. Das könnt
 
 ## Datenschutz und Rechtliches?
 _Soll ich Ihnen die rechtlichen Grundlagen oder etwas zum Datenschutz erläutern?_
+
+# Besserungswünsche
+_ Ich wünsche Ihnen gute Besserung!_
 
