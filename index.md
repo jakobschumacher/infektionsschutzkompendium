@@ -21,9 +21,7 @@ basisdaten:
     <li>
       <h1 id="posts-label">Querschnittsthemen</h1>
     </li>
-
-      
-      
+            
     
 {% assign items = site.querschnitt | sort: 'title' %}
     {% for item in items %}
