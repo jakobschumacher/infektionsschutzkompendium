@@ -1,6 +1,7 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
-gemspec
-gem 'jekyll-last-modified-at'
+gem "github-pages", group: :jekyll_plugins
 gem 'jekyll-include-cache'
+
+# gemspec
+# gem 'jekyll-last-modified-at'
+# gem 'jekyll-include-cache'
