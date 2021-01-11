@@ -41,8 +41,8 @@ inhalte:
     text: Der Erreger kommt weltweit vor.
     kategorie: vorkommen
   - id: reservoir
-    text: Der Erreger kommt in vielen Tierarten, die häufig asymptomatisch sind. S. Typhimurium kommt häufig in Schweinen vor. S. Enteritidis häufig in Geflügel. Seltene Serovare weisen auf ein besondere Infektionsquelle hin.
-    kategorie: vorkommen
+    text: Der Erreger kommt in vielen Tierarten, die häufig asymptomatisch sind. S. Typhimurium kommt häufig in Schweinen vor. S. Enteritidis häufig in Geflügel. Seltene Serovare weisen auf ein besondere Infektionsquelle hin (z.B. Reptilienhaltung).
+    kategorie: vorkommen hygkowichtig
     quellename: RKI Ratgeber
     quelleurl: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Campylobacter.html
   - id: umweltresistenz
@@ -64,7 +64,7 @@ inhalte:
     kategorie: zeiten
     nummer: 3
   - id: ansteckungszeit_normal
-    text: Solange die Person erkrankt ist scheidet sie den Erreger aus. Auch nach dem Ende der Symptome wird der Erreger ausgeschieden
+    text: Solange die Person erkrankt ist scheidet sie den Erreger aus. Auch nach dem Ende der Symptome wird der Erreger ausgeschieden. Aber 48 nach Symptomende ist die Wahrscheinlichkeit der Weitergabe gering
     kategorie: zeiten hygkowichtig
   - id: ansteckungszeit_lang 
     text: Insbesondere Kinder können den Erreger noch über viele Monate ausscheiden.
@@ -131,6 +131,8 @@ interview:
 quellen:
   - name: Ratgeber des Robert Koch-Instituts
     webseite: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Salmonellose.html
+  - name: Wiederzulassungsempfehlungen des Robert Koch-Instituts
+    webseite: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Wiederzulassung/Wiederzulassung_Tabelle.pdf?__blob=publicationFile
   - name: Erregersteckbrief
     webseite: https://www.infektionsschutz.de/erregersteckbriefe/salmonellen/
   - name: European center for diesease control (englisch)
