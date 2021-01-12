@@ -124,7 +124,6 @@ aktionsbausteine:
 
 interview:     
   - varname: KRANKHEITSZEICHEN
-  - varname: ERKRANKUNGSBEGINN
   - varname: AUSBRUCHSABKLAERUNG
   - varname: IN33EINRICHTUNG
   - varname: LEBENSMITTELARBEIT
