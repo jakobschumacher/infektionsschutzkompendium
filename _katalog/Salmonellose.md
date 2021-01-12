@@ -111,9 +111,11 @@ aktionsbausteine:
   - varname: UEBERMITTLUNG
   - varname: AUSBRUCHSUNTERSUCHUNG
   - varname: UNTERRICHTUNG_GA
-  - varname: KUECHENHYGIENE
   - varname: HAENDEHYGIENE
   - varname: TV42
+  - aktion: Die erkrankte Person sollte kein Essen zubereiten (mindestens bis 48 nach Ende der symptome, besser länger bspw. zwei Wochen nach Ende der Symptome). Bei Lebensmittelverarbeitenden im Regelfall nur mit negativem Nachweis.
+  - aktion: Zur Vorbeugung sollten gundsätzlich alle Personen vor der Essenszubereitung Hände waschen. Fleisch muss grundsätzlich als kontaminiert betrachtet werden. Kreuzkontamination verhindern. Fleisch gut durchgaren (>70° länger als 10 min.) 
+  - aktion: Einrichtung müssen die Hygieneregeln der Gemeinschaftsgastronomie des BfR beachten
   - aktion: Unterrichtung der Lebensmittelaufsicht und der Landesstelle über einen außerhäuslichen Essensort bei dem Rohfleisch verzehrt wurde oder hygienische Standards möglicherweise nicht optimal waren ("Dönerbude").
     beschreibung: Die Lebensmittelaufsicht kann bei mehreren Verdachtsfällen am selben Essensort eine Untersuchung einleiten.
 
