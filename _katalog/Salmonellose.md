@@ -113,6 +113,7 @@ aktionsbausteine:
   - varname: UNTERRICHTUNG_GA
   - varname: KUECHENHYGIENE
   - varname: HAENDEHYGIENE
+  - varname: TV42
   - aktion: Unterrichtung der Lebensmittelaufsicht und der Landesstelle über einen außerhäuslichen Essensort bei dem Rohfleisch verzehrt wurde oder hygienische Standards möglicherweise nicht optimal waren ("Dönerbude").
     beschreibung: Die Lebensmittelaufsicht kann bei mehreren Verdachtsfällen am selben Essensort eine Untersuchung einleiten.
 
