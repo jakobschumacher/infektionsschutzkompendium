@@ -98,7 +98,7 @@ inhalte:
     quelleurl: https://www.tandfonline.com/doi/abs/10.3109/00365549009027077?journalCode=infd19 
     kategorie: klinik
   - id: letalität
-    text: Weniger al 1 von 1000 erkrankten Personen verstirbt in Deutschland.
+    text: Weniger als 1 von 1000 erkrankten Personen verstirbt in Deutschland.
     kategorie: klinik
 
 # Meldung
