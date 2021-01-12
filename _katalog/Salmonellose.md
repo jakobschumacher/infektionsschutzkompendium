@@ -119,7 +119,7 @@ aktionsbausteine:
     beschreibung: Zur Vorbeugung sollten gundsätzlich alle Personen vor der Essenszubereitung Hände waschen. Fleisch muss grundsätzlich als kontaminiert betrachtet werden. Kreuzkontamination sollten verhindert werden. Fleisch gut durchgaren (>70° länger als 10 min.) 
   - aktion: Ausbruchsuntersuchung im gastronomischen Bereich
     beschreibung: Unterrichtung der Lebensmittelaufsicht und der Landesstelle über einen außerhäuslichen Essensort bei dem Rohfleisch verzehrt wurde oder hygienische Standards möglicherweise nicht optimal waren. Die Lebensmittelaufsicht kann bei mehreren Verdachtsfällen am selben Essensort eine Untersuchung einleiten.
-  - aktion: Reptilienhaustier
+  - aktion: Reptilienhaustier abklären lassen
     beschreibung: Reptilien kommen als Quelle von Salmonellosen in Betracht. Der Verdacht ergibt sich insbesondere wenn ein seltenes Serovar vorliegt.
 
 interview:     
@@ -129,7 +129,7 @@ interview:
   - varname: IN33EINRICHTUNG
   - varname: LEBENSMITTELARBEIT
   - varname: HOSPITALISIERUNG
-  - question: Haben Sie vor dem Beginn der Erkrankung auswärts rohes Fleisch gegessen? Wenn Ja, wo genau?
+  - question: Haben Sie vor dem Beginn der Erkrankung auswärts gegessen? Wenn Ja, wo genau? Haben Sie Hinweise auf Hygienemängel dort? Was haben Sie dort gegessen?
     comment: Wenn die Person außwärts rohes Fleisch essen war, sollte der Name des Essensortes in einem öffentlichen Kommentar vermerkt werden oder der Lebensmittelaufsicht übermittelt werden. Das hilft der Landestelle einem Ausbruch auf die Spur zu kommen.
     keyword: Geflügelfleisch auswärts?
     kategorie: abklaerung
