@@ -127,7 +127,6 @@ interview:
   - varname: AUSBRUCHSABKLAERUNG
   - varname: IN33EINRICHTUNG
   - varname: LEBENSMITTELARBEIT
-  - varname: HOSPITALISIERUNG
   - question: Haben Sie 2-5 Tage vor Erkrankungsbeginn Rohmilch getrunken?
     comment: Wenn dies der Fall ist, sollte eine Meldung an das zuständige Lebensmittelaufsichtsamt erfolgen. Die erkrankte Person sollte Wissen, das Rohmilch vor dem Konsum unbedingt abgekocht werden sollte. In der Vergangenheit hat es Ausbrüche durch Rohmilch gegeben.
     kategorie: abklaerung
