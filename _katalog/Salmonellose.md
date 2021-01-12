@@ -10,7 +10,7 @@ basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/e/ee/Salmonella_typhimurium.png
   bildcredits: https://commons.wikimedia.org/wiki/File:Salmonella_typhimurium.png
   bildautor: Max Planck Institute for Infection Biology, Berlin/Volker Brinkmann
-  kurzbeschreibung: Salmonellose ist neben Campylobacter der häufigste bakterielle Gastroenteritis-Erreger in Deutschland. Salmonellen können Gastroenteritis oder Typhus/Paratyphus hervorrufen. Ausbrüche sind häufig erkennbar.
+  kurzbeschreibung: Salmonellose ist neben Campylobacter der häufigste bakterielle Gastroenteritis-Erreger in Deutschland. Salmonellen können Gastroenteritis oder Typhus/Paratyphus hervorrufen - als Salmonellose werden nur die Gastroenteritiden bezeichnet. Lebensmittel-Ausbrüche sind häufig erkennbar, da für die Salmonellen häufig Serovare angegeben werden.
 
 inhalte:  
 # Erregerdaten
@@ -114,13 +114,15 @@ aktionsbausteine:
   - varname: HAENDEHYGIENE
   - varname: TV42
   - aktion: Essenszubereitung der erkrankten Person
-    beschreibung: Die erkrankte Person sollte kein Essen zubereiten bis mindestens bis 48 nach Ende der symptome, besser länger bspw. zwei Wochen nach Ende der Symptome. Bei Lebensmittelverarbeitenden im Regelfall nur mit negativem Nachweis.
+    beschreibung: Die erkrankte Person sollte kein Essen zubereiten bis mindestens bis 48 nach Ende der Symptome, besser bis zwei Wochen nach Ende der Symptome. Bei Lebensmittelverarbeitenden im Regelfall bis zu 3x negativem Nachweis (Siehe Wiederzulassungsempfehlungen der Bundesländer). 
   - aktion: Küchenhygiene als Vorbeugung 
     beschreibung: Zur Vorbeugung sollten gundsätzlich alle Personen vor der Essenszubereitung Hände waschen. Fleisch muss grundsätzlich als kontaminiert betrachtet werden. Kreuzkontamination sollten verhindert werden. Fleisch gut durchgaren (>70° länger als 10 min.) 
   - aktion: Hygieneregeln in Gastronomien
     beschreibung: Einrichtung müssen die Hygieneregeln der Gemeinschaftsgastronomie des BfR beachten
   - aktion: Ausbruchsuntersuchung im gastronomischen Bereich
-    beschreibung: Unterrichtung der Lebensmittelaufsicht und der Landesstelle über einen außerhäuslichen Essensort bei dem Rohfleisch verzehrt wurde oder hygienische Standards möglicherweise nicht optimal waren ("Dönerbude"). Die Lebensmittelaufsicht kann bei mehreren Verdachtsfällen am selben Essensort eine Untersuchung einleiten.
+    beschreibung: Unterrichtung der Lebensmittelaufsicht und der Landesstelle über einen außerhäuslichen Essensort bei dem Rohfleisch verzehrt wurde oder hygienische Standards möglicherweise nicht optimal waren. Die Lebensmittelaufsicht kann bei mehreren Verdachtsfällen am selben Essensort eine Untersuchung einleiten.
+  - aktion: Reptilienhaustier
+    beschreibung: Reptilien kommen als Quelle von Salmonellosen in Betracht. Der Verdacht ergibt sich insbesondere wenn ein seltenes Serovar vorliegt.
 
 interview:     
   - varname: KRANKHEITSZEICHEN
@@ -132,6 +134,10 @@ interview:
   - question: Haben Sie vor dem Beginn der Erkrankung auswärts rohes Fleisch gegessen? Wenn Ja, wo genau?
     comment: Wenn die Person außwärts rohes Fleisch essen war, sollte der Name des Essensortes in einem öffentlichen Kommentar vermerkt werden oder der Lebensmittelaufsicht übermittelt werden. Das hilft der Landestelle einem Ausbruch auf die Spur zu kommen.
     keyword: Geflügelfleisch auswärts?
+    kategorie: abklaerung
+  - question: Haben Sie Reptilien als Haustier?
+    comment: Reptilien können Salmonellosen übertragen, da sie Ausscheider sein können ohne zu erkranken. Zumeist haben Reptilien seltene Sovare
+    keyword: Reptilien?
     kategorie: abklaerung
   
 quellen:
