@@ -121,7 +121,7 @@ interview:
   - varname: KRANKHEITSZEICHEN
   - varname: ERKRANKUNGSBEGINN
   - varname: AUSBRUCHSABKLAERUNG
-  - varname: IN23EINRICHTUNG
+  - varname: IN33EINRICHTUNG
   - varname: LEBENSMITTELARBEIT
   - varname: HOSPITALISIERUNG
   - question: Haben Sie vor dem Beginn der Erkrankung auswärts rohes Fleisch gegessen? Wenn Ja, wo genau?
