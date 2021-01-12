@@ -117,8 +117,6 @@ aktionsbausteine:
     beschreibung: Die erkrankte Person sollte kein Essen zubereiten bis mindestens bis 48 nach Ende der Symptome, besser bis zwei Wochen nach Ende der Symptome. Bei Lebensmittelverarbeitenden im Regelfall bis zu 3x negativem Nachweis (Siehe Wiederzulassungsempfehlungen der Bundesländer). 
   - aktion: Küchenhygiene als Vorbeugung 
     beschreibung: Zur Vorbeugung sollten gundsätzlich alle Personen vor der Essenszubereitung Hände waschen. Fleisch muss grundsätzlich als kontaminiert betrachtet werden. Kreuzkontamination sollten verhindert werden. Fleisch gut durchgaren (>70° länger als 10 min.) 
-  - aktion: Hygieneregeln in Gastronomien
-    beschreibung: Einrichtung müssen die Hygieneregeln der Gemeinschaftsgastronomie des BfR beachten
   - aktion: Ausbruchsuntersuchung im gastronomischen Bereich
     beschreibung: Unterrichtung der Lebensmittelaufsicht und der Landesstelle über einen außerhäuslichen Essensort bei dem Rohfleisch verzehrt wurde oder hygienische Standards möglicherweise nicht optimal waren. Die Lebensmittelaufsicht kann bei mehreren Verdachtsfällen am selben Essensort eine Untersuchung einleiten.
   - aktion: Reptilienhaustier
