@@ -15,22 +15,22 @@ basisdaten:
 inhalte:  
 # Erregerdaten
   - id: erregername
-    text: Die Infektionskrankheit Campylobacter-Enteritis wird durch den Erreger Campylobacter hervorgerufen. 
+    text: Die Infektionskrankheit Campylobacter-Enteritis wird durch den Erreger Campylobacter hervorgerufen.
     kategorie: erregerdaten
   - id: erregertyp
-    text: Der Erreger ist ein Bakterium. 
+    text: Der Erreger ist ein Bakterium.
     kategorie: erregerdaten
   - id: erregergruppen
     text: Der Erreger wird in Spezies eingeteilt. C. jejuni, C. coli, C. lari, C. fetus und C. upsaliensis sind häufige Krankheitserreger
-    quellename: RKI-Ratgeber 
+    quellename: RKI-Ratgeber
     kategorie: erregerdaten
   - id: toxine
-    text: 
+    text:
     kategorie: erregerdaten
   - id: erregergruppenunterschiede
-    text: 
+    text:
     kategorie: erregerdaten
-    
+
 # Vorkommen
   - id: vorkommen_deu
     text: Ungefähr 65.000 Fälle werden in Deutschland gemeldet.
@@ -48,15 +48,19 @@ inhalte:
   - id: umweltresistenz
     text: Der Erreger kann sich nur in Organismen vermehren
     kategorie: vorkommen hygkowichtig
-    quellename: RKI Ratgeber 
+    quellename: RKI Ratgeber
+  - id: hühnchenkauf
+    text: Bei in Deutschland gekauftem Hühnchenfleisch muss man davon ausgehen, dass es mit Campylobacter verseucht ist.
+    kategorie: vorkommen hygkowichtig
+    quellname: RKI Ratgeber, Epibull  
 
-    
+
 # Zeiten
   - id: inkubationszeit
     text: Eine Inkubationszeit beträgt im Regelfall 2 bis 5 Tage
     kategorie: zeiten, hygkowichtig
   - id: inkubationszeit_min
-    text: 
+    text:
     nummer: 1 Tag
     kategorie: zeiten
   - id: inkubationszeit_max
@@ -66,23 +70,23 @@ inhalte:
   - id: ansteckungszeit_normal
     text: Solange die Person erkrankt ist scheidet sie den Erreger aus. Auch nach dem Ende der Symptome wird der Erreger über Wochen ausgeschieden
     kategorie: zeiten hygkowichtig
-  - id: ansteckungszeit_lang 
+  - id: ansteckungszeit_lang
     text: Immungeschwächte Personen können den Erreger noch lange Zeit ausscheiden
     kategorie: zeiten
     quellename: RKI Ratgeber
     quelleurl: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Campylobacter.html
   - id: saisonalitaet
     text: Saisonaler Gipfel ist von Juni bis August
-    quellename: Association between the ambient temperature and the occurrence of human Salmonella and Campylobacter infections 
+    quellename: Association between the ambient temperature and the occurrence of human Salmonella and Campylobacter infections
     quelleurl: https://www.nature.com/articles/srep28442
-    kategorie: zeiten, hygkowichtig 
+    kategorie: zeiten, hygkowichtig
 
 # Übertragungswege
   - id: uebertragungswege
-    text: | 
-      Der Erreger wird übertragen 
-      über Lebensmittel insbesondere Geflügelfleisch, Rohmlich, anderes Fleisch. Er wird selten von Mensch zu Mensch übertragen. 
-      Vor allem in Ländern mit niedrigerem Hygienestandards wird er auch über Trinkwasser oder Baden übertragen. C. fetus kann von einer Mutter intrauterin oder perinatal auf das Kind gelangen. 
+    text: |
+      Der Erreger wird übertragen
+      über Lebensmittel insbesondere Geflügelfleisch, Rohmlich, anderes Fleisch. Er wird selten von Mensch zu Mensch übertragen.
+      Vor allem in Ländern mit niedrigerem Hygienestandards wird er auch über Trinkwasser oder Baden übertragen. C. fetus kann von einer Mutter intrauterin oder perinatal auf das Kind gelangen.
     kategorie: uebertragungswege hygkowichtig
     quellename: RKI Ratgeber
     quelleurl: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Campylobacter.html
@@ -90,7 +94,7 @@ inhalte:
 
 # Klinik
   - id: symptome
-    text: Typische Krankheitszeichen sind Durchfall, Bauchschmerzen und Erbrechen. Der Durchfall kann auch blutig sein. Es können Prodromi vor dem Beginn des Durchfalls auftreten. 
+    text: Typische Krankheitszeichen sind Durchfall, Bauchschmerzen und Erbrechen. Der Durchfall kann auch blutig sein. Es können Prodromi vor dem Beginn des Durchfalls auftreten.
     kategorie: klinik
   - id: komplikationen
     text: Komplikationen sind Gelenkentzündungen, ein Guillan-Barré-Syndrom. Diskutiert werden Reizdarmsyndrom und chronisch-entzündliche Darmerkrankungen.
@@ -104,30 +108,26 @@ inhalte:
     quellename: Cohort study of intestinal infection with campylobacter in Mexican children.
     quelleurl: https://www.ncbi.nlm.nih.gov/pubmed/2893920
   - id: letalität
-    text: 
+    text:
     kategorie: klinik
 
 # Meldung
   - varname: IFSG_6_1_2
   - varname: IFSG_7
-  - varname: IFSG_34 
+  - varname: IFSG_34
+  - varname: IFSG_36
 
 aktionsbausteine:
-  - varname: GETINFO
-  - varname: UEBERMITTLUNG
+  - varname: INFOMANAGEMENT
   - varname: AUSBRUCHSUNTERSUCHUNG
-  - varname: UNTERRICHTUNG_GA
-  - varname: KUECHENHYGIENE
-  - varname: HAENDEHYGIENE
-  - aktion: Unterrichtung der Lebensmittelaufsicht über einen außerhäuslichen Essensort bei dem Geflügelfleisch gegessen wurde oder eine andere mögliche Ansteckungsquelle.
-    beschreibung: Die Lebensmittelaufsicht kann bei mehreren Verdachtsfällen am selben Essensort eine Untersuchung einleiten.
+  - varname: KUECHENHYGIENE2
+  - varname: HAENDEHYGIENE2
+  - aktion: Unterrichtung der Lebensmittelaufsicht
+    beschreibung: Wenn ein außerhäuslichen Essensort gefunden wurde, bei dem Geflügelfleisch gegessen wurde oder Rohmilch bezogen wurde sollte man die Lebensmittelaufsicht bzw. das Veterinäramt informieren. Diese kann bei mehreren Verdachtsfällen am selben Essensort/Rohmilchabgabestelle eine Untersuchung einleiten.
 
 interview:     
-  - varname: KRANKHEITSZEICHEN
+  - varname: INFOSAMMLUNG
   - varname: AUSBRUCHSABKLAERUNG
-  - varname: LEBENSMITTELARBEIT
-  - varname: IN33EINRICHTUNG
-  - varname: HOSPITALISIERUNG
   - question: Haben Sie 2-5 Tage vor Erkrankungsbeginn Rohmilch getrunken?
     comment: Wenn dies der Fall ist, sollte eine Meldung an das zuständige Lebensmittelaufsichtsamt erfolgen. Die erkrankte Person sollte Wissen, das Rohmilch vor dem Konsum unbedingt abgekocht werden sollte. In der Vergangenheit hat es Ausbrüche durch Rohmilch gegeben.
     kategorie: abklaerung
@@ -136,8 +136,8 @@ interview:
     comment: Wenn die Person außwärts Geflügelfleisch essen war, sollte der Name des Essensortes in einem öffentlichen Kommentar vermerkt werden. Das hilft der Landestelle einem Ausbruch auf die Spur zu kommen.
     keyword: Geflügelfleisch auswärts?
     kategorie: abklaerung
-  - question: Haben Sie in den letzten fünf Tagen vor der Erkrankung zu Hause Geflügelfleisch gegessen?
-    comment: Wenn das der Fall ist, könnte sich die erkrankte Person dort angesteckt haben. Insbesondere wenn die Person selber gekocht hat
+  - question: Haben Sie 2-5 Tagen vor der Erkrankung zu Hause Geflügelfleisch gegessen?
+    comment: Wenn das der Fall ist, könnte sich die erkrankte Person dort angesteckt haben. Insbesondere wenn die Person selber gekocht hat. Dann sollte die Person dringend über Küchenhygiene aufgeklärt werden.
     keyword: Geflügelfleisch zu Hause?
     kategorie: abklaerung
 

@@ -7,7 +7,7 @@ layout: default
 
 
 <div class="post-container">
-  
+
   <div class="post-date"><i class="icon-calendar"></i>{{ page.last_modified_at | date: '%d ' }} {% case m %}
   {% when '1' %}Januar
   {% when '2' %}Februar
@@ -26,59 +26,61 @@ layout: default
   <a class="post-link" href="{{ page.url | relative_url }}">
     <h2 class="post-title">{{ page.title | escape }}</h2>
   </a>
-  
+
   <div class="post-meta">
      <ul class="post-categories">
        {% if page.fortbildung %}
        <li> <span class="blockstyle"><a class="nounderline" href="{{ page.fortbildung | relative_url }}">Präsentation</a></span> </li>
        {% endif %}
-       {% if page.aktionen %}
+      <!-- {% if page.aktionen %}
        <li> <span class="blockstyle"><a class="nounderline" href="{{ page.aktionen | relative_url }}">Maßnahmen</a></span> </li>
-       {% endif %}
+       {% endif %} -->
      </ul>
-     
+
    </div>
-  
-  
-  
+
+
+
   <div class="post">
-  {{ page.basisdaten.kurzbeschreibung}} 
+  {{ page.basisdaten.kurzbeschreibung}}
   <details markdown="block">
     <summary><h1 id="posts-label">Auflistung wichtiger Daten</h1></summary>
+    <ul>
       {% assign inhalte = page.inhalte  %}
     {% for item in inhalte %}
-      <li title="Quelle: {{ item.quellename }}"> {{ item.text }} </li>
-    {% endfor %}  
-  
+      <li title="Quelle: {{ item.quellename }}"> {% if item.text %} <input type="checkbox"> {{ item.text }} </li> {% endif %}
+    {% endfor %}
+
     {% assign item = page.inhalte | where_exp: "item", "item.varname != nil" %}
           {% for post in item %}
           {% assign var = site.data.variablen[post.varname] %}
-            <li title="Quelle: {{ var.beschreibung }}">{{ var.text }}</li>
+            <li title="Quelle: {{ var.beschreibung }}">{% if var.text %} <input type="checkbox"> {{ var.text }} </li> {% endif %}</li>
           {% endfor %}
+    </ul>
   </details>
-  
+
   <details markdown="block">
     <summary>
       <h1 id="posts-label">Übliche Maßnahmen des Gesundheitsamtes</h1>
     </summary>
-    <ul> 
+    <ul>
       {% assign item = page.aktionsbausteine | where_exp: "item", "item.varname != nil" %}
             {% for post in item %}
             {% assign var = site.data.variablen[post.varname] %}
-            <li title="{{ var.beschreibung }}"><form style="display:inline;"><input type="checkbox"> 
+            <li title="{{ var.beschreibung }}"><form style="display:inline;"><input type="checkbox">
               {{ var.text }}<ul>
                 <li>{{ var.beschreibung | markdownify }}</li>
                 </ul>
-            </form></li>  
+            </form></li>
             {% endfor %}
-  
-      {% for item in page.aktionsbausteine %}  
+
+      {% for item in page.aktionsbausteine %}
       {% if item.aktion %}
-      <li><form style="display:inline;"><input type="checkbox"> 
+      <li><form style="display:inline;"><input type="checkbox">
         {{ item.aktion }}<ul>
           <li>{{ item.beschreibung | markdownify}}</li>
           </ul>
-      </form></li>  
+      </form></li>
       {% endif %}
         {% endfor %}
     </ul>
@@ -93,17 +95,17 @@ layout: default
       {% assign item = page.interview | where_exp: "item", "item.varname != nil" %}
             {% for post in item %}
             {% assign var = site.data.variablen[post.varname] %}
-            <li title="{{ var.beschreibung }}"><form style="display:inline;"><input type="checkbox"> 
+            <li title="{{ var.beschreibung }}"><form style="display:inline;"><input type="checkbox">
               {{ var.text }}<ul>
                 <li>{{ var.beschreibung }}</li>
                 </ul>
-            </form></li>  
+            </form></li>
             {% endfor %}
-      
-      
-      {% for item in page.interview %}  
+
+
+      {% for item in page.interview %}
           {% if item.keyword %}<li><form style="display:inline;"><input type="checkbox"> {{ item.question }}
-      </form></li>  
+      </form></li>
         {% endif %}
         {% endfor %}
     </ul>
@@ -119,6 +121,3 @@ layout: default
       {% endfor %}
     </ul>
 </details>
-
-  
-  

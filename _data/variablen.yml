@@ -1,5 +1,5 @@
 
-GETINFO: 
+GETINFO:
   text: Informationsbeschaffung zum Fall
   beschreibung: Dies erfolgt üblicherweise durch ein Telefonat mit der erkrankten Person
 
@@ -8,18 +8,18 @@ IFSG12:
   beschreibung: Der Erreger ist unmittelbar übermittlungspflichtig nach § 12. Details auf der [Webseite des RKI](https://www.rki.de/DE/Content/Infekt/IfSG/Meldeboegen/Meldung_12/uebermittlung_12_inhalt.html)
 
 
-TV31: 
-  text: Erkrankte Personen dürfen nicht in einer Kindereinrichtung betreut werden oder dort tätig sein. 
+TV31:
+  text: Erkrankte Personen dürfen nicht in einer Kindereinrichtung betreut werden oder dort tätig sein.
   beschreibung: Das ist eine gesetzliche Vorschrift
 
 IFSG_6_1_2:
-  text: Eine infektiösen Gastroenteritis muss gemeldet werden, wenn mehr als ein Fall auftritt oder die erkrankte Person mit Lebensmitteln arbeitet 
+  text: Eine infektiösen Gastroenteritis muss gemeldet werden, wenn mehr als ein Fall auftritt oder die erkrankte Person mit Lebensmitteln arbeitet
   beschreibung: Gesetzliche Vorschrift nach § 6.1.2 IfSG
-  
+
 IFSG_6_1_1:
   text: Der Verdacht, die Erkrankung oder der Tod sind meldepflichtig.
   beschreibung: Gesetzliche Vorschrift nach § 6.1.2 IfSG
-  
+
 IFSG_7:
   text: Ein Labornachweis muss gemeldet werden
   beschreibung: Gesetzliche Vorschrift nach § 7 IfSG
@@ -27,51 +27,67 @@ IFSG_7:
 IFSG_34:
   text: Kindereinrichtungen müssen Gesundheitsämter benachrichtigen
   beschreibung: Gesetzliche Vorschrift nach § 34 IfSG
-  
+
+IFSG_36:
+  text: Gruppenunterkünfte müssen Gesundheitsämter benachrichtigen
+  beschreibung: Gesetzliche Vorschrift nach § 8.1.7 IfSG
+
 UEBERMITTLUNG:
-  text: Übermittlung an die Landesstelle 
+  text: Übermittlung an die Landesstelle
   beschreibung: Gesetzliche Vorschrift nach § 11 IfSG
 
-UNTERRICHTUNG_GA: 
+UNTERRICHTUNG_GA:
   text: Unterrichtung anderer Gesundheitsämter.
   beschreibung: Gesetzliche Vorschrift nach § 27 IfSG wenn die anderen Gesundheitsämter betroffen sind.
 
-UNTERRICHTUNG_LEB: 
-  text: Unterrichtung der Lebensmittelaufsicht 
+UNTERRICHTUNG_LEB:
+  text: Unterrichtung der Lebensmittelaufsicht
   beschreibung: Gesetzliche Vorschrift nach § 27 IfSG sofern ein Lebensmittel aus Ausbruchsvehikel in Frage kommt
-  
-UNTERRICHTUNG_VET: 
+
+UNTERRICHTUNG_VET:
   text: Unterrichtung des Veterinäramts
   beschreibung: Gesetzliche Vorschrift nach § 27 IfSG sofern ein Übertragung durch ein Tier in Frage kommt
+
+INFOMANAGEMENT:
+  text: Informationsbeschaffung, Übermittlung, Unterrichtung
+  beschreibung: Das Gesundheitsamt muss Informationen zum Fall sammeln, üblicherweise durch ein Interview mit der betroffenen Person und den Daten aus den Meldungen. Die Informationen müssen in der Meldesoftware eingegeben und übermittelt werden. Andere Ämter müssen ggf. unterrichtet werden z.B. Gesundheitsämter, Veterinärämter.
+
+KUECHENHYGIENE2:
+  text: Unterrichtung zur Küchenhygiene
+  beschreibung: Die erkrankte Person sollte zur Küchenhygiene unterrichtet werden. Siehe [Empfehlungen BfR](https://www.bfr.bund.de/de/kuechenhygiene-193719.html).
 
 
 KUECHENHYGIENE:
   text: Einhaltung Küchenhygiene
   beschreibung: |
-    * Erkrankte Person: Kein Essen zubereiten bis mindestens 48 Stunden nach Symptomende. 
-    * Alle Personen Vor der Essenszubereitung Hände waschen. Fleisch als kontaminiert betrachten. Kreuzkontamination verhindern. Fleisch gut durchgaren (>70° länger als 10 min.) Kein Rohmlich/Rohmilchkäse zu sich nehmen. Siehe [Empfehlungen BfR](https://www.bfr.bund.de/de/kuechenhygiene-193719.html). 
+    * Erkrankte Person: Kein Essen zubereiten bis mindestens 48 Stunden nach Symptomende.
+    * Alle Personen: Vor der Essenszubereitung Hände waschen. Fleisch als kontaminiert betrachten. Kreuzkontamination verhindern. Fleisch gut durchgaren (>70° länger als 10 min.) Kein Rohmlich/Rohmilchkäse zu sich nehmen. Siehe [Empfehlungen BfR](https://www.bfr.bund.de/de/kuechenhygiene-193719.html).
     * Einrichtung: [Hygieneregeln der Gemeinschaftsgastronomie des BfR](https://www.bfr.bund.de/cm/350/hygieneregeln-in-der-gemeinschaftsgastronomie-deutsch.pdf)
-  
+
 TOILETTENHYGIENE:
   text: Einhaltung Toilettenhygiene.
   beschreibung:  |
-    Erkrankte Person: wenn möglich eigene Toilette benutzen. Die Toilette sollte täglich gewischt werden - wenn möglich desinfizierend. Nach dem Toilettengang Hände mit Seife waschen. Einrichtung: Toilettenhygiene gemäß des eigenen Hygieneplans und den Empfehlungen der KRINKO.   
-  
+    Erkrankte Person: wenn möglich eigene Toilette benutzen. Die Toilette sollte täglich gewischt werden - wenn möglich desinfizierend. Nach dem Toilettengang Hände mit Seife waschen. Einrichtung: Toilettenhygiene gemäß des eigenen Hygieneplans und den Empfehlungen der KRINKO.
+
 HAENDEHYGIENE:
   text: Einhaltung Händehygiene
   beschreibung: |
-    Erkrankte Person: Hände häufig mit Seife waschen, insbesondere nach dem Toilettengang, vor dem Essen, nach dem Husten in die Hände, vor dem Behandeln von Wunden. Einrichtung: Händehygiene gemäß des eigenen Hygieneplans und den Empfehlungen der KRINKO. 
+    Erkrankte Person: Hände häufig mit Seife waschen, insbesondere nach dem Toilettengang, vor dem Essen, nach dem Husten in die Hände, vor dem Behandeln von Wunden. Einrichtung: Händehygiene gemäß des eigenen Hygieneplans und den Empfehlungen der KRINKO.
+
+HAENDEHYGIENE2:
+  text: Unterrichtung zur Händehygiene
+  beschreibung: Die erkrankte Person sollte zur Händehygiene unterrichtet werden. Siehe [Empfehlungen der BzGA](https://www.infektionsschutz.de/haendewaschen.html)
 
 WAESCHEHYGIENE:
   text: Einhaltung der Wäschehygiene
   beschreibung: |
     Erkrankte Person: Wäsche bei mindestens 60° waschen. Wenn möglich unter Verwendung eines desinfizierenden Waschmittels. Einrichtung: Desinfizierende Wäsche nach Hygieneplan und nach der [Desinfektionsmittelliste des RKI](https://www.rki.de/DE/Content/Infekt/Krankenhaushygiene/Desinfektionsmittel/Desinfektionsmittellist/Desinfektionsmittelliste_node.html).
-    
+
 ISOLIERUNG:
   text: Isolierung der erkrankten Person in einer Einrichtung
-  beschreibung: | 
-    Eine Isolierung sollte so weit als möglich eingeführt werden. Dazu sollte der Einrichtungsinterne Hygieneplan Vorgaben enthalten. 
-    
+  beschreibung: |
+    Eine Isolierung sollte so weit als möglich eingeführt werden. Dazu sollte der Einrichtungsinterne Hygieneplan Vorgaben enthalten.
+
 AUSBRUCHSUNTERSUCHUNG:
   text: Ausbruchsuntersuchung
   beschreibung: |
@@ -88,15 +104,15 @@ TV42:
   beschreibung: Eine Person, die den Erreger ausscheidet, darf nicht beruflich mit bestimmten Lebensmittel arbeiten. Siehe Empfehlungen zur Wiederzulassung der Länder.
 
 ESSENAUFREISEN:
-  text: Einhaltung von Lebensmittelhygiene auf Reisen. 
-  beschreibung: | 
+  text: Einhaltung von Lebensmittelhygiene auf Reisen.
+  beschreibung: |
     Nur Wasser sicheren Ursprungs trinken, Nahrungsmittel kochen oder schälen, Fliegen fernhalten. [Länderspezfische Hinweise auf den Seiten des auswärtigen Amtes](https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/reise-und-sicherheitshinweise)
 
 
 NRZ:
   text: Erreger an das NRZ
   beschreibung: |
-    Wenn möglich sollte eine Übersendung des Erregers an das [zuständige Nationale Referenzzenrum](https://www.rki.de/DE/Content/Infekt/NRZ/nrz_liste.pdf?__blob=publicationFile) erfolgen. 
+    Wenn möglich sollte eine Übersendung des Erregers an das [zuständige Nationale Referenzzenrum](https://www.rki.de/DE/Content/Infekt/NRZ/nrz_liste.pdf?__blob=publicationFile) erfolgen.
 
 
 
@@ -106,16 +122,20 @@ NRZ:
 
 
 
-# Interview    
+# Interview
+INFOSAMMLUNG:
+  text: Für die Meldestatistik erhebe ich einige Informationen. Dazu stelle ich Ihnen jetzt ein paar Fragen.
+  beschreibung: Die notwendigen Informationen der Meldesoftware sollten erhoben werden.
+
 KRANKHEITSZEICHEN:
   text: Welche Krankheitszeichen sind bei Ihnen aufgetreten?
-  beschreibung: | 
-    Die Klinik ist relevant zur Einschätzung der Falldefinition. 
+  beschreibung: |
+    Die Klinik ist relevant zur Einschätzung der Falldefinition.
 
 ERKRANKUNGSBEGINN:
   text: Wann hat die Erkrankung genau begonnen?
   beschreibung: |
-    Diese Frage ist relevant um herauszufinden wann und wo eine Ansteckung erfolgt sein könnte und wann andere Personen erkranken können. 
+    Diese Frage ist relevant um herauszufinden wann und wo eine Ansteckung erfolgt sein könnte und wann andere Personen erkranken können.
 
 AUSBRUCHSABKLAERUNG:
   text: Sind in Ihrem Umfeld weitere Personen erkrankt?
@@ -126,14 +146,14 @@ HOSPITALISIERUNG:
   text: Mussten Sie aufgrund Ihrer Erkrankung ins Krankenhaus?
   beschreibung: |
     Diese Frage dient der Einschätzung des Schweregrades der Erkrankung
-    
+
 IN33EINRICHTUNG:
   text: Haben Sie eine Verbindung zu einer Kita oder ähnlichen Einrichtung?
   beschreibung: |
     Wenn eine Verbindung zu einer Einrichtung besteht muss diese in die Maßnahmen mit einbezogen werden
 
 IN36EINRICHTUNG:
-  text: Haben Sie eine Verbindung zu einer Einrichtung, in der sehr viele Menschen untergebracht sind? 
+  text: Haben Sie eine Verbindung zu einer Einrichtung, in der sehr viele Menschen untergebracht sind?
   beschreibung: |
     Beispiele sind: Unterkunft für Asylbewerber, Gefängnis oder Obdachlosenunterkunft. Wenn eine Verbindung zu einer Einrichtung besteht muss diese in die Maßnahmen mit einbezogen werden
 
@@ -163,12 +183,12 @@ LEBENSMITTELARBEIT:
   text: Haben Sie beruflich mit Lebensmitteln zu tun?
   beschreibung: |
     Personen, die mit bestimmten Lebensmitteln arbeiten müssen besonders beachtet werden.
-    
+
 AUSLANDSAUFENTHALT:
   text: Waren Sie vor der Erkrankung im Ausland?
   beschreibung: |
     Wenn die erkrankte Person während der Inkubationszeit im Ausland war, kann sie sich dort angesteckt haben. Bei Personen, die nicht im Ausland war sollte intensiver nach der Quelle gesucht, werden, da hier möglicherweise Maßnahmen möglich sind.
-    
+
 MSM:
   text: Leben Sie in einer homosexuellen Partnerschaft
   beschreibung: |

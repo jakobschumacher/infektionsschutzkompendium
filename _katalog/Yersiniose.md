@@ -20,19 +20,9 @@ inhalte:
     text: Die Yersiniose wird durch Yersinia enterocolitica und Yersinia pseudotuberculosis hervorgerufen. Yersinia pestis ruft dagegen die Pest hervor.
     kategorie: erregerdaten hgkowichtig
   - id: erregertyp
-    text: Der Erreger ist ein Bakterium. 
+    text: Der Erreger ist ein Bakterium.
     kategorie: erregerdaten
-  - id: erregergruppen
-    text: Der Erreger wird unterteilt in Spezies und diese in Biovare.
-    quellename: RKI-Ratgeber 
-    kategorie: erregerdaten 
-  - id: toxine
-    text: 
-    kategorie: erregerdaten
-  - id: erregergruppenunterschiede
-    text: Nur die Spezies Y. enterocolitica und Y. pseudotuberculosis rufen die Erkrankung Yersiniose vor. 
-    kategorie: erregerdaten
-    
+
 # Vorkommen
   - id: vorkommen_deu
     text: Etwa 2600 Fälle werden in Deutschland gemeldet.
@@ -50,36 +40,36 @@ inhalte:
     text: Der Erreger kann sich auch bei Kühlschranktemperatur vermehren
     quellename: RKI Ratgeber
     kategorie: vorkommen hygkowichtig
-    
+
 # Zeiten
   - id: inkubationszeit
     text: Eine Inkubationszeit beträgt im Regelfall 3-7 Tage
     kategorie: zeiten
   - id: inkubationszeit_min
-    text: 
+    text:
     nummer: 3 Tage
-    kategorie: zeiten
+    kategorie: zeiten unwichtig
   - id: inkubationszeit_max
     text:
-    kategorie: zeiten
+    kategorie: zeiten unwichtig
     nummer: 7 Tage
   - id: ansteckungszeit_normal
-    text: Erkrankte Personen sind ansteckend vom Beginn der Krankheitszeichen bis 2-3 Wochen nach Symptom-Ende
+    text: Erkrankte Personen sind ansteckend vom Beginn der Krankheitszeichen bis 2-3 Wochen nach Ende der Krankheitszeichen
     kategorie: zeiten
-  - id: ansteckungszeit_lang 
+  - id: ansteckungszeit_lang
     text: Längere Ausscheidungszeiten sind möglich.
     kategorie: zeiten
     quellename: RKI Ratgeber
 
     # Übertragungswege
   - id: uebertragungswege
-    text: | 
-      Der Erreger wird typischerweise übertragen über Lebensmittel insbesondere Schweinefleisch, Rohmlich, aber auch Salate und andere Rohprodukte 
+    text: |
+      Der Erreger wird typischerweise übertragen über Lebensmittel insbesondere Schweinefleisch, Rohmlich, aber auch Salate und andere Rohprodukte
       vor allem Ländern mit niedrigeren Hygienestandards auch über Trinkwasser oder Baden. Direkte Übertragungen von Mensch zu Mensch sind selten.
     kategorie: uebertragungswege hygkowichtig
     quellename: RKI Ratgeber
 
-    
+
 # Klinik
   - id: symptome
     text: |
@@ -97,10 +87,10 @@ inhalte:
     text: Die Erkrankung dauert zwischen 1 und 3 Wochen
     kategorie: klinik
   - id: asymptomatik
-    text: 
+    text:
     kategorie: klinik
   - id: letalität
-    text: 
+    text:
     kategorie: klinik
 
 
@@ -108,32 +98,24 @@ inhalte:
 # Meldung
   - varname: IFSG_6_1_2
   - varname: IFSG_7
-  - varname: IFSG_34 
+  - varname: IFSG_34
+  - varname: IFSG_36
 
 aktionsbausteine:
-  - varname: GETINFO
-  - varname: UEBERMITTLUNG
+  - varname: INFOMANAGEMENT
   - varname: AUSBRUCHSUNTERSUCHUNG
-  - varname: UNTERRICHTUNG_GA
-  - varname: UNTERRICHTUNG_LEB
-  - varname: KUECHENHYGIENE
-  - varname: TOILETTENHYGIENE
-  - varname: HAENDEHYGIENE
-  - varname: WAESCHEHYGIENE
-  - varname: ISOLIERUNG
+  - varname: KUECHENHYGIENE2
+  - varname: HAENDEHYGIENE2
+  - aktion: Unterrichtung der Lebensmittelaufsicht
+    beschreibung: Wenn ein außerhäuslichen Essensort gefunden wurde, bei dem rohes Schweinefleisch gegessen wurde sollte man die Lebensmittelaufsicht bzw. das Veterinäramt informieren. Diese kann bei mehreren Verdachtsfällen am selben Essensort eine Untersuchung einleiten.
 
 
 interview:     
-  - varname: KRANKHEITSZEICHEN
-  - varname: ERKRANKUNGSBEGINN
+  - varname: INFOSAMMLUNG
   - varname: AUSBRUCHSABKLAERUNG
-  - varname: IN33EINRICHTUNG
-  - varname: IN36EINRICHTUNG
-  - varname: LEBENSMITTELARBEIT
-  - varname: AUSLANDSAUFENTHALT
   - question: Haben Sie vor der Erkrankung rohes Schweinefleisch gegessen?
-    comment: |
-      Wenn dies der Fall ist sollte der Verzehrsort oder der die Herstellerfirma wenn möglich mit Chargennummer in einen öffentlichen Kommentar in die Meldesoftware eingetragen werden und dem Lebensmittelaufsichtsamt mitgeteilt werden. Wenn mehrere Fälle mit einer ähnlichen Exposition auftreten kann dannn eine Ausbruchsuntersuchung erfolgen.
+    comment: Wenn dies der Fall ist sollte der Verzehrsort oder der die Herstellerfirma wenn möglich mit Chargennummer in einen öffentlichen Kommentar in die Meldesoftware eingetragen werden und dem Lebensmittelaufsichtsamt mitgeteilt werden. Wenn mehrere Fälle mit einer ähnlichen Exposition auftreten kann dannn eine Ausbruchsuntersuchung erfolgen.
+    keyword: Schweinefleisch  
 
 
 quellen:
@@ -147,6 +129,6 @@ quellen:
     webseite: https://www.cdc.gov/yersinia/index.html
   - name: Pubmed - Sammlung wissenschaftlicher Publikationen (englisch)
     webseite: https://www.ncbi.nlm.nih.gov/pubmed?term=%22Yersinia+Infections%22%5BMesh%5D
-    
-    
+
+
 ---

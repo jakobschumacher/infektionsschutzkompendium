@@ -16,10 +16,10 @@ basisdaten:
 inhalte:  
 # Erregerdaten
   - id: erregername
-    text: Shigellose wird verursacht durch humanpathogene Shigellen. 
+    text: Shigellose wird verursacht durch humanpathogene Shigellen.
     kategorie: erregerdaten
   - id: erregertyp
-    text: Der Erreger ist ein Bakterium. 
+    text: Der Erreger ist ein Bakterium.
     kategorie: erregerdaten
   - id: erregergruppen
     text: Der Erreger wird unterteilt in Serogruppen A-D. (A Shigella dysenteriae, B Shigella flexneri, C  Shigella boydii, D Shigella sonnei)
@@ -28,12 +28,12 @@ inhalte:
     text: Shigella dysenteriae kann Shiga-Toxin 1 produzieren.
     kategorie: erregerdaten
   - id: erregergruppenunterschiede
-    text: Shigella dysenteriae kann in selten Fällen ein Hämolytisch-urämisches-Syndrom herovorrufen. 
+    text: Shigella dysenteriae kann in selten Fällen ein Hämolytisch-urämisches-Syndrom herovorrufen.
     kategorie: erregerdaten hygkowichtig
   - id: saisonalitaet
     text: Saisonaler Gipfel ist von Juni bis August
-    kategorie: zeiten, hygkowichtig 
-    
+    kategorie: zeiten, hygkowichtig
+
 # Vorkommen
   - id: vorkommen_deu
     text: Ungefähr 500 Fälle werden in Deutschland jährlich gemeldet.
@@ -46,13 +46,13 @@ inhalte:
   - id: reservoir
     text: Das Reservoir ist der Mensch
     kategorie: vorkommen hygkowichtig
-      
+
 # Zeiten
   - id: inkubationszeit
     text: Die Inkubationszeit beträgt 12 bis 96 Stunden
     kategorie: zeiten hygkowichtig
   - id: inkubationszeit_min
-    text: 
+    text:
     nummer: 0.5
     kategorie: zeiten
   - id: inkubationszeit_max
@@ -62,17 +62,17 @@ inhalte:
   - id: ansteckungszeit_normal
     text: Erkrankte Personen sind ansteckend vom Beginn der Krankheitszeichen bis etwa 2 Wochen nach Ende der Krankheitszeichen.
     kategorie: zeiten hygkowichtig
-  - id: ansteckungszeit_lang 
+  - id: ansteckungszeit_lang
     text: In seltenen Fällen wird der Erreger länger als 4 Wochen ausgeschieden.
     kategorie: zeiten
 
 # Klinik
   - id: symptome
-    text: Krankheitszeichen sind wässriger Durchfall der später blutig werden kann. Abdominelle Krämpfe sind typisch. 
+    text: Krankheitszeichen sind wässriger Durchfall der später blutig werden kann. Abdominelle Krämpfe sind typisch.
     kategorie: klinik
   - id: komplikationen
     text: |
-      Als Komplikation kann auftreten: Dehydratation, Kolondilatation, Kolonperforation, Hämolytisch-urämisches Syndrom, Gelenkbeschwerden 
+      Als Komplikation kann auftreten: Dehydratation, Kolondilatation, Kolonperforation, Hämolytisch-urämisches Syndrom, Gelenkbeschwerden
     kategorie: klinik
   - id: krankheitsdauer
     text: Die Krankheitsdauer beträgt üblicherweise 5-7 Tage
@@ -81,45 +81,41 @@ inhalte:
     text: In etwa 20 von 100 Personen entwickeln keine Krankheitszeichen.
     kategorie: klinik
   - id: letalität
-    text: 
+    text:
     kategorie: klinik
 
 # Übertragungswege
   - id: uebertragungswege
-    text: | 
-      Der Erreger wird übertragen 
+    text: |
+      Der Erreger wird übertragen
       von Mensch-zu-Mensch über die Hände,
       über Lebensmittel,
       über Trinkwasser,
       über Badewasser,
       über Fliegen von Fäkalien auf Essen,
-      über Sex, insbesondere bei oro-analen Praktiken. 
+      über Sex, insbesondere bei oro-analen Praktiken.
     kategorie: uebertragungswege hygkowichtig
 
 # Meldung
   - varname: IFSG_6_1_2
   - varname: IFSG_7
-  - varname: IFSG_34 
+  - varname: IFSG_34
+  - varname: IFSG_36
 
 aktionsbausteine:
-  - varname: GETINFO
-  - varname: UEBERMITTLUNG
+  - varname: INFOMANAGEMENT
   - varname: AUSBRUCHSUNTERSUCHUNG
-  - varname: UNTERRICHTUNG_GA
-  - varname: UNTERRICHTUNG_LEB
-  - varname: KUECHENHYGIENE
+  - varname: KUECHENHYGIENE2
+  - varname: HAENDEHYGIENE2
   - varname: TOILETTENHYGIENE
-  - varname: HAENDEHYGIENE
   - varname: WAESCHEHYGIENE
   - varname: ISOLIERUNG
   - varname: TV34
   - varname: TV42
   - varname: ESSENAUFREISEN
-  
+
 interview:     
-  - varname: KRANKHEITSZEICHEN
-  - varname: ERKRANKUNGSBEGINN
-  - varname: HOSPITALISIERUNG
+  - varname: INFOSAMMLUNG
   - varname: AUSBRUCHSABKLAERUNG
   - varname: KONTAKTIN33
   - varname: IN33EINRICHTUNG
@@ -127,10 +123,12 @@ interview:
   - varname: LEBENSMITTELARBEIT
   - varname: AUSLANDSAUFENTHALT
   - varname: MSM
-    
+
 quellen:
   - name: Ratgeber des Robert Koch-Instituts
     webseite: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Shigellose.html
+  - name: Merkblätter für Infektionskrankheiten
+    webseite: https://jakobschumacher.github.io/oegd_merkblaetter/merkblaetter/Shigellose/
   - name: European center for diesease control (englisch)
     webseite: https://ecdc.europa.eu/en/shigellosis
   - name: Wikipedia-Eintrag
