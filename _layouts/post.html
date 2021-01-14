@@ -48,7 +48,7 @@ layout: default
     <ul>
       {% assign inhalte = page.inhalte  %}
     {% for item in inhalte %}
-      <li title="Quelle: {{ item.quellename }}"> {% if item.text %} <input type="checkbox"> {{ item.text }} </li> {% endif %}
+      <li title="Quelle: {{ item.quellename }}"> {% if item.text %} <input type="checkbox"> {% if item.kategorie contains 'hygkowichtig' %} <b> {% endif %} {{ item.text }} {% if item.kategorie contains 'hygkowichtig' %} </b> {% endif %} </li> {% endif %}
     {% endfor %}
 
     {% assign item = page.inhalte | where_exp: "item", "item.varname != nil" %}

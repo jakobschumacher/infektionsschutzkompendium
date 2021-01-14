@@ -32,7 +32,7 @@ inhalte:
     kategorie: erregerdaten hygkowichtig
   - id: saisonalitaet
     text: Saisonaler Gipfel ist von Juni bis August
-    kategorie: zeiten, hygkowichtig
+    kategorie: zeiten
 
 # Vorkommen
   - id: vorkommen_deu
@@ -45,7 +45,7 @@ inhalte:
     kategorie: vorkommen hygkowichtig
   - id: reservoir
     text: Das Reservoir ist der Mensch
-    kategorie: vorkommen hygkowichtig
+    kategorie: vorkommen
 
 # Zeiten
   - id: inkubationszeit

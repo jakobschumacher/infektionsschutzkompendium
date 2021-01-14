@@ -79,7 +79,7 @@ inhalte:
       Fieber,
       Lymphknotenschwellung,
       Pseudoblinddarmentzündung
-    kategorie: klinik hygkowichtig
+    kategorie: klinik
   - id: komplikationen
     text: Als Komplikationen können auftreten Gelenkschmerzen, Erythema nodosum und Reizdarmsyndrom, Organentzündungen
     kategorie: klinik
