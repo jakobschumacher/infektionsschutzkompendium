@@ -27,41 +27,26 @@ layout: default
     <h2 class="post-title">{{ page.title | escape }}</h2>
   </a>
 
-  <div class="post-meta">
-     <ul class="post-categories">
+<!--  <div class="post-meta-start">
+     <ul class="post-categories-block">
        {% if page.fortbildung %}
-       <li> <span class="blockstyle"><a class="nounderline" href="{{ page.fortbildung | relative_url }}">Präsentation</a></span> </li>
+       <li> <span class="blockstyle"><a class="nounderline" href="#Maßnahmen">Maßnahmen</a></span> </li>
        {% endif %}
       <!-- {% if page.aktionen %}
        <li> <span class="blockstyle"><a class="nounderline" href="{{ page.aktionen | relative_url }}">Maßnahmen</a></span> </li>
-       {% endif %} -->
+       {% endif %}
      </ul>
 
-   </div>
-
+   </div> -->
 
 
   <div class="post">
-  {{ page.basisdaten.kurzbeschreibung}}
-  <details markdown="block">
-    <summary><h1 id="posts-label">Auflistung wichtiger Daten</h1></summary>
-    <ul>
-      {% assign inhalte = page.inhalte  %}
-    {% for item in inhalte %}
-      <li title="Quelle: {{ item.quellename }}"> {% if item.text %} <input type="checkbox"> {% if item.kategorie contains 'hygkowichtig' %} <b> {% endif %} {{ item.text }} {% if item.kategorie contains 'hygkowichtig' %} </b> {% endif %} </li> {% endif %}
-    {% endfor %}
 
-    {% assign item = page.inhalte | where_exp: "item", "item.varname != nil" %}
-          {% for post in item %}
-          {% assign var = site.data.variablen[post.varname] %}
-            <li title="Quelle: {{ var.beschreibung }}">{% if var.text %} <input type="checkbox"> {{ var.text }} {% endif %}</li>
-          {% endfor %}
-    </ul>
-  </details>
+  {{ page.basisdaten.kurzbeschreibung}}
 
   <details markdown="block">
     <summary>
-      <h1 id="posts-label">Übliche Maßnahmen des Gesundheitsamtes</h1>
+      <h3 id="Maßnahmen">Übliche Maßnahmen des Gesundheitsamtes</h3>
     </summary>
     <ul>
       {% assign item = page.aktionsbausteine | where_exp: "item", "item.varname != nil" %}
@@ -89,7 +74,7 @@ layout: default
 
   <details markdown="block">
     <summary>
-      <h1 id="posts-label">Stichpunkte für Interview</h1>
+      <h3>Stichpunkte für Interview</h3>
     </summary>
     <ul>
       {% assign item = page.interview | where_exp: "item", "item.varname != nil" %}
@@ -112,8 +97,37 @@ layout: default
   </details>
 
   <details markdown="block">
+    <summary><h3>Die wichtigsten Fakten über den Erreger</h3></summary>
+    <ul>
+      {% assign inhalte = page.inhalte  %}
+    {% for item in inhalte %}
+      <li title="Quelle: {{ item.quellename }}"> {% if item.text %} <input type="checkbox"> {% if item.kategorie contains 'hygkowichtig' %} <b> {% endif %} {{ item.text }} {% if item.kategorie contains 'hygkowichtig' %} </b> {% endif %} </li> {% endif %}
+    {% endfor %}
+
+    {% assign item = page.inhalte | where_exp: "item", "item.varname != nil" %}
+          {% for post in item %}
+          {% assign var = site.data.variablen[post.varname] %}
+            <li title="Quelle: {{ var.beschreibung }}">{% if var.text %} <input type="checkbox"> {{ var.text }} {% endif %}</li>
+          {% endfor %}
+    </ul>
+  </details>
+
+{% assign geschichte = page.geschichte  %}
+
+  <details markdown="block">
+    <summary><h3>Lese eine Geschichte über den Erreger</h3></summary>
+    <ul>
+    {% for item in geschichte %}
+      <li>  {{ item }} </li>
+    {% endfor %}
+    </ul>
+  </details>
+
+
+
+  <details markdown="block">
     <summary>
-      <h1 id="posts-label">Links zu Informationen im Netz</h1>
+      <h3>Links zu Informationen im Netz</h3>
     </summary>
     <ul>
       {% for item in page.quellen %}

@@ -22,14 +22,6 @@ Der angerufen Person sollte der Hintergrund des Anrufs erläutert wrden. Beispie
 Damit sich die betroffene Person auf das Gespräch einstellen kann, sollte sie wissen was passiert und wie lange ein Gespräch dauern wird.
 _Ich stelle Ihnen einige Fragen und gebe Ihnen Hinweise. Das dauert so ca. 5 bis 10 min. Würde Ihnen das im Moment passen?_
 
-## Misstrauen entgegenkommen
-Bei besonders misstrauischen Personen kann man Ihnen die Telefonnummer geben und sie um einen Rückruf bitten.
-_Ich gebe Ihnen meine Telefonnummer durch. Sie können das auf unserer Webseite überprüfen. Rufen Sie mich dann bitte umgehend wieder an._
-
-## Verstehen abklären
-Wenn die Person so wirkt, als ob sie Schwierigkeiten hat mit dem Verstehen, versuchen Sie eine Möglichkeit zu finden, das zu bessern.
-_Haben Sie vorab Fragen? Können Sie mich gut verstehen? Wollen Sie vielleicht noch eine andere Person hinzuholen?_
-
 # Gesprächsende
 
 ## Rückfragen ermöglichen
@@ -43,8 +35,21 @@ _Soll ich Ihnen noch ein Merkblatt zuschicken oder Ihnen sagen, wo sie es im Int
 Möglicherweise müssen Fälle noch Mal angerufen werden. Das sollte vorbereitet werden.
 _Sollten sich noch neue Anhaltspunkte ergeben melde ich mich nochmal. Das könnte zum Beispiel der Fall sein, wenn uns noch viele weitere Fälle gemeldet werden und wir einen Ausbruch vermuten._
 
-## Datenschutz und Rechtliches?
-_Soll ich Ihnen die rechtlichen Grundlagen oder etwas zum Datenschutz erläutern?_
-
 ## Besserungswünsche
 _Ich wünsche Ihnen gute Besserung!_
+
+# Umgang mit Problemen
+
+## Wenn die Person einem Misstraut
+Bei besonders misstrauischen Personen kann man Ihnen die Telefonnummer geben und sie um einen Rückruf bitten.
+_Ich gebe Ihnen meine Telefonnummer durch. Sie können das auf unserer Webseite überprüfen. Rufen Sie mich dann bitte umgehend wieder an._
+
+## Wenn die Person einen nicht versteht
+Wenn die Person so wirkt, als ob sie Schwierigkeiten hat mit dem Verstehen, versuchen Sie eine Möglichkeit zu finden, das zu bessern.
+_Haben Sie vorab Fragen? Können Sie mich gut verstehen? Wollen Sie vielleicht noch eine andere Person hinzuholen?_
+
+## Wenn die Person schwer erkrankt scheint
+Wenn die Person schwerer erkrankt scheint, kann es hilfreich sein die Person medizinisch zu unterstützen. Das heißt man kann der Person Hilfestellung geben, wo sie medizinische Hilfe findet. Auf keinen Fall sollte man über das telefonisch selber medizinische Ratschläge geben. _Haben Sie einen Hausarzt?  Sie können die 116117 anrufen falls Sie keinen Hausarzt haben. Wenn Sie es nicht bis zu einem Hausarzt schaffen können Sie den Kassenärztlichen Bereitschaftsdienst anrufen, der auch die Telefonnummer 116117 hat. Wenn es ganz schlimm ist rufen Sie die 112!_  
+
+## Wenn die Person etwas zum Datenschutz wissen will
+Manche Personen sind besonders datenschutzsensibel. Diesen Personen sollte man die rechtlichen Grundlagen erläutern können. _Soll ich Ihnen die rechtlichen Grundlagen oder etwas zum Datenschutz erläutern? Ihre Daten wurden vom Arzt erhoben. Beim Auftreten von bestimmten Infektionskrankheiten sind Ärzte  gesetzlich gezwungen zu melden. Dies ist im Infektionsschutzgesetz § 6 festgelegt. Sie müssen uns auch bei der Ermittlung helfen, dies ist im § 25 des Infektionsschutzgesetz festgelegt. Das Gesundheitsamt übermittelt pseudonymisierte Daten an die Landesstelle und das Robert Koch-Institut gemäß § 11. Im Gesundheitsamt werden die Daten in der Meldesoftware gespeichert. Nach einer bestimmten Zeitspanne werden personenbezogene Daten gelöscht. Das sind üblicherweise 2 Jahre. Wenn Sie wollen können Sie gerne Kontakt zu unserer*m Datenschützer*in aufnehmen._

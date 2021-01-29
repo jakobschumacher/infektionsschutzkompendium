@@ -10,8 +10,8 @@ aktionen: aktionen/Rotavirus-Gastroenteritis.html
 basisdaten:
   bild: https://upload.wikimedia.org/wikipedia/commons/e/ed/Rotavirus_TEM_B82-0337_lores.jpg
   bildcredits: https://commons.wikimedia.org/wiki/File:Rotavirus_TEM_B82-0337_lores.jpg
-  bildautor: CDC/Dr. Erskine Palmer 
-  kurzbeschreibung: Rotavirus ist eine häufige Durchfallerkrankung, die insbesondere bei Kindern vorkommt. In Ländern mit einem niedrigeren mittleren Einkommen gibt es viele Todesfälle. 
+  bildautor: CDC/Dr. Erskine Palmer
+  kurzbeschreibung: Rotavirus ist eine häufige Durchfallerkrankung, die insbesondere bei Kindern vorkommt. In Ländern mit einem niedrigeren mittleren Einkommen gibt es viele Todesfälle.
 
 inhalte:  
 # Erregerdaten
@@ -25,12 +25,12 @@ inhalte:
     text: Der Erreger wird in sieben Serogruppen unterteilt. Man unterscheidet G-Typen und P-Typen.
     kategorie: erregerdaten
   - id: toxine
-    text: 
+    text:
     kategorie: erregerdaten
   - id: erregergruppenunterschiede
-    text: 
+    text:
     kategorie: erregerdaten
-    
+
 # Vorkommen
   - id: vorkommen_deu
     text: Etwa 30.000 Fälle werden in Deutschland gemeldet.
@@ -46,7 +46,7 @@ inhalte:
   - id: umweltresistenz
     text: Der Erreger ist sehr umweltresistent
     kategorie: vorkommen  hygkowichtig
-    
+
 # Zeiten
   - id: inkubationszeit
     text: Die Inkubationszeit beträgt 1 bis 3 Tage
@@ -60,17 +60,17 @@ inhalte:
   - id: ansteckungszeit_normal
     text: Üblicherweise wird der Erreger nicht länger als 8 Tage mit dem Stuhl ausgeschieden
     kategorie: zeiten
-  - id: ansteckungszeit_lang 
+  - id: ansteckungszeit_lang
     text: Frühgeborene und Immungeschwächte können den Erreger noch lange Zeit ausscheiden
     kategorie: zeiten
 
 
     # Übertragungswege
   - id: uebertragungswege
-    text: | 
-      Der Erreger wird übertragen 
+    text: |
+      Der Erreger wird übertragen
       Von Mensch-zu-Mensch über eine Schmierinfektion häufig also Hände,
-      über Lebensmittel, 
+      über Lebensmittel,
       über Trinkwasser.
     kategorie: uebertragungswege  hygkowichtig
 
@@ -85,14 +85,17 @@ inhalte:
     text: Die Krankheitsdauer beträgt üblicherweise 2-6 Tage
     kategorie: klinik  hygkowichtig
   - id: asymptomatik
-    text: Viele erkranken mit nur geringen oder keinen Symptomen. Insbesondere Erwachsene haben häufig keine Symptome. 
+    text: Viele erkranken mit nur geringen oder keinen Symptomen. Insbesondere Erwachsene haben häufig keine Symptome.
     kategorie: klinik  hygkowichtig
+  - id: immunitaet
+    text: Personen sind nach einer Rotavirus-Gastroenteritis oder Impfung für ein paar Jahre immun
+    kategorie: klinik    
   - id: letalität
     text: 0,1 auf 100.000 Personen versterben.
     nummer: 0.1
     quelle: https://www.who.int/immunization/monitoring_surveillance/burden/estimates/rotavirus/en/
     kategorie: klinik
-      
+
 # Impfung
   - id: impfung
     text: Es existiert ein Impfstoff gegen die Erkrankung
@@ -101,29 +104,31 @@ inhalte:
     text: Die Impfung wird empfohlen für alle Kinder in den ersten Lebenswochen.
     kategorie: impfen  hygkowichtig
 
+# Diagnostik
+  - id: nachweis
+    text: ELISA ist der wichtigste Nachweis
+    kategorie: diagnostik
+
+
 # Meldung
   - varname: IFSG_6_1_2
   - varname: IFSG_7
-  - varname: IFSG_34 
+  - varname: IFSG_34
 
 aktionsbausteine:
-  - varname: GETINFO
-  - varname: UEBERMITTLUNG
+  - varname: INFOMANAGEMENT
   - varname: AUSBRUCHSUNTERSUCHUNG
-  - varname: UNTERRICHTUNG_GA
-  - varname: UNTERRICHTUNG_LEB
-  - varname: KUECHENHYGIENE
+  - varname: KUECHENHYGIENE2
   - varname: TOILETTENHYGIENE
-  - varname: HAENDEHYGIENE
+  - varname: HAENDEHYGIENE2
   - varname: WAESCHEHYGIENE
   - varname: ISOLIERUNG
   - aktion: Weitere Verhaltenshinweise an betroffene Einrichtungen
-    beschreibung: | 
-      Je nach Schwere der Situation sollte eine Einrichtung weitere Maßnahmen unternehmen: Umstellung auf viruzides oder viruzid-plus Mittel, Atemschutz bei Erbrochenem oder Stuhl, Minimierung von Personalbewegung, vermehrte Desinfektion und Reinigung im betroffenen Bereich.
-    
+    beschreibung: |
+      Je nach Schwere der Situation sollte eine Einrichtung weitere Maßnahmen unternehmen: Umstellung auf viruzides oder viruzid-plus Mittel, Minimierung von Personalbewegung, vermehrte Desinfektion und Reinigung im betroffenen Bereich.
+
 interview:     
-  - varname: KRANKHEITSZEICHEN
-  - varname: ERKRANKUNGSBEGINN
+  - varname: INFOSAMMLUNG
   - varname: AUSBRUCHSABKLAERUNG
   - varname: IN33EINRICHTUNG
   - varname: IN36EINRICHTUNG
