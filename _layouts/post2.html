@@ -71,7 +71,7 @@ layout: default
     </ul>
   </details>
 
-
+  {% if page.interview %}
   <details markdown="block">
     <summary>
       <h3>Stichpunkte für Interview</h3>
@@ -95,6 +95,7 @@ layout: default
         {% endfor %}
     </ul>
   </details>
+  {% endif %}
 
   <details markdown="block">
     <summary><h3>Die wichtigsten Fakten über den Erreger</h3></summary>
@@ -112,6 +113,8 @@ layout: default
     </ul>
   </details>
 
+
+  {% if page.geschichte %}
 {% assign geschichte = page.geschichte  %}
 
   <details markdown="block">
@@ -122,7 +125,7 @@ layout: default
     {% endfor %}
     </ul>
   </details>
-
+  {% endif %}
 
 
   <details markdown="block">

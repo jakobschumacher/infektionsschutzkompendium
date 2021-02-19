@@ -1,6 +1,6 @@
 ---
-title: Clostridioides-Enteritis 
-layout: post
+title: Clostridioides-Enteritis
+layout: post2
 fortbildung: fortbildung/Clostridioides-Enteritis .html
 aktionen: aktionen/Clostridioides-Enteritis .html
 
@@ -19,18 +19,18 @@ inhalte:
     text: Clostridioides difficile verursacht Clostridioides-Enteritis
     kategorie: erregerdaten
   - id: erregertyp
-    text: Der Erreger ist ein Bakterium. 
+    text: Der Erreger ist ein Bakterium.
     kategorie: erregerdaten
   - id: erregergruppen
-    text: Der Erreger wird unterteilt in Ribotypen. 
+    text: Der Erreger wird unterteilt in Ribotypen.
     kategorie: erregerdaten
-  - id: 
+  - id:
     text: Nur Toxin-produzierende Clostridioides verursachen eine Erkrankung
     kategorie: erregerdaten hygkowichtig
   - id: erregergruppenunterschiede
     text: Der Ribotyp 027 ist gefährlicher als andere.  
     kategorie: erregerdaten hygkowichtig
-    
+
 # Vorkommen
   - id: vorkommen_deu
     text: Ungefähr 2500 schwere Fälle werden in Deutschland gemeldet.
@@ -41,15 +41,15 @@ inhalte:
     text: Der Erreger kommt weltweit vor.
     kategorie: vorkommen
   - id: reservoir
-    text: Der Erreger kommt ubiquitär vor. In etwa 80% der Kleinkindern und 5% der Erwachsenen tragen den Erreger im Darm. 
+    text: Der Erreger kommt ubiquitär vor. In etwa 80% der Kleinkindern und 5% der Erwachsenen tragen den Erreger im Darm.
     kategorie: vorkommen
-    
+
 # Zeiten
   - id: inkubationszeit_false
     text: Eine Inkubationszeit kann nicht angegeben werden
     kategorie: zeiten
   - id: inkubationszeit_min
-    text: 
+    text:
     kategorie: zeiten
   - id: inkubationszeit_max
     text:
@@ -57,7 +57,7 @@ inhalte:
   - id: ansteckungszeit_normal
     text: Solange die Person erkrankt ist scheidet sie den Erreger aus  (aus pragmatischen Gründen wird empfohlen die Isolierungsmaßnahmen 48h nach Ende der Symptome aufzuheben)
     kategorie: zeiten hygkowichtig
-  - id: ansteckungszeit_lang 
+  - id: ansteckungszeit_lang
     text: Erkrankte Personen können den Erreger noch lange Zeit ausscheiden
     kategorie: zeiten
 
@@ -69,10 +69,10 @@ inhalte:
     text: Komplikationen sind pseudomembranöse Colitis und toxisches Megacolon
     kategorie: klinik
   - id: krankheitsdauer
-    text: 
+    text:
     kategorie: klinik
   - id: asymptomatik
-    text: 
+    text:
     kategorie: klinik
   - id: letalität
     text: Etwa 2 von 100 erkrankten Personen versterben
@@ -80,8 +80,8 @@ inhalte:
 
 # Übertragungswege
   - id: uebertragungswege
-    text: | 
-      Der Erreger wird übertragen 
+    text: |
+      Der Erreger wird übertragen
       von Mensch-zu-Mensch über die Hände (meist nosokomial)
       und selten von Tier oder der Umwelt zum Menschen. Die Erkrankung tritt eigentlich nur auf, wenn zuvor Antibiotika gegeben wurden.
     kategorie: uebertragungswege hygkowichtig
@@ -94,36 +94,33 @@ inhalte:
     kategorie: meldepflicht, hygkowichtig   
 
 aktionsbausteine:
-  - varname: GETINFO
-  - varname: UEBERMITTLUNG
+  - varname: INFOMANAGEMENT
   - varname: AUSBRUCHSUNTERSUCHUNG
-  - varname: UNTERRICHTUNG_GA
-  - varname: WAESCHEHYGIENE
-  - varname: ISOLIERUNG
-  - aktion: Verhaltenshinweise an medizinische Einrichtung
-    beschreibung: Händehygiene ergänzt durch Händewaschen, Isolierung (Heim, Krankenhaus o.ä.), eigene Toilette für erkrankte Personen, Desinfektion (z.B. tägliche Wischdesinfektion), Umstellung auf sporozides Mittel, Steckbettenspüle nach Benutzung sporozid waschen, Minimierung Personalbewegung. Siehe [KRINKO-Empfehlungen zu Clostridioides]() 
+  - aktion: Clostridien-Begehung einer medizinische Einrichtung
+    beschreibung: |
+      - Zählung aller Clostridioides-Meldungen der Einrichtung mit der Frage nach einem Ausbruch
+      - Isolierung der erkrankten Person mit eigener Toilette
+      - Kohortierung von Patienten vermeiden
+      - Handschuhe und langärmliger Kittel im Zimmer
+      - Händehygiene ergänzt durch Händewaschen
+      - Tägliche Wischdesinfektion mit einem sporozides Mittel
+      - Intensive Schlussdesinfektion
+      - Steckbettenspüle nach Benutzung sporozid waschen
+      - Minimierung Personalbewegung
+      - Fortbildung für das Reinigungspersonal
+      - Reduktion des Antibiotikaverbrauchs
+      - Beratung durch einen Mikrobiologen/Pharmakologen für Antibiotika
+      - Messung des Antibiotikaverbrauchs
+      - Reduktion von Protonenpumpeninhibitoren
 
-
-interview:     
-  - question: Wann ist der Patient erkrankt?
-  - question: Welche Symptome hat der Patient?
-  - question: Sind die Empfehlungen der KRINKO eingehalten?
-    comment: |
-      Isolierung des Patienten, Umstellung auf sporozide Desinfektions, z.B. bei Steckbetten. [KRINKO-Empfehlungen zu Clostridien](https://www.rki.de/DE/Content/Infekt/Krankenhaushygiene/ThemenAZ/C/Hygiene_CDI_BGBL_62-7-2019.pdf?__blob=publicationFile)
-  - question: Sind noch weitere Fälle im Krankenhaus aufgetreten?
-    comment: Wenn mehr Fälle als üblich auftreten, könnte eine Ausbruchsuntersuchung erfolgen. 
-  - question: Hat der Patient ein Antibiotikum eingenommen und wenn ja aufgrund welcher Indikation?
-    comment: Antibiotika ist ein Hauptgrund für eine Clostridium difficile Diarrhoe. Die Entscheidung ob ein Antibiotikum gegeben werden sollte oder nicht sollte von einer Ärztin/einem Arzt getroffen werden.
-    keyword: Antibiotika?
-    kategorie: abklaerung
 
 quellen:
   - name: Ratgeber des Robert Koch-Instituts
     webseite: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Clostridium.html
   - name: Erregersteckbrief
     webseite: https://www.infektionsschutz.de/erregersteckbriefe/clostridium-difficile/
-  - name: KRINKO-Empfehlungen
-    webseite: https://www.rki.de/DE/Content/Infekt/Krankenhaushygiene/ThemenAZ/C/Hygiene_CDI_BGBL_62-7-2019.pdf?__blob=publicationFile
+  - name: KRINKO-Empfehlungen für CDI
+    webseite: https://edoc.rki.de/bitstream/handle/176904/6224/2019_Article_Hygienema%c3%9fnahmenBeiClostridioi.pdf
   - name: European center for diesease control (englisch)
     webseite: https://ecdc.europa.eu/en/clostridium-difficile-infections
   - name: Wikipedia-Eintrag
@@ -137,4 +134,3 @@ quellen:
   - name: Ärzteblatt
     webseite: https://www.aerzteblatt.de/archiv/162935/Clostridium-difficile-Infektion
 ---
-
