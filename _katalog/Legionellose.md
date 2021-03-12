@@ -33,7 +33,7 @@ inhalte:
 
 # Vorkommen
   - id: vorkommen_deu
-    text: In Deutschland werden etwa 1000 Fälle pro Jahr gemeldet.
+    text: In Deutschland werden etwa 1000 Fälle pro Jahr gemeldet. Vermutet werden bis zu 30.000 Fälle
     kategorie: vorkommen
     quellename: Survstat
     quelleurl: https://survstat.rki.de/
