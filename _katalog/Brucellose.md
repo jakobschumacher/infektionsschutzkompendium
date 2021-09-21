@@ -12,6 +12,18 @@ basisdaten:
   bildautor: CDC/Courtesy of Larry Stauffer, Oregon State Public Health Laboratory
   kurzbeschreibung: Brucellose ist eine Zoonose, die meist über Lebensmittel übertragen wird. In Deutschland ist sie selten - die Mehrzahl der Fälle wird importiert.
 
+einstufung:
+  magendarm: nein
+  respiratorisch: nein
+  blut: nein
+  nosokomial: nein
+  zoonose: ja
+  impfpräventabel: nein
+  tropenerkrankung: nein
+  bakteriell: nein
+  viral: nein
+  protozoenerkrankung: nein
+
 inhalte:  
 # Erregerdaten
   - id: erregername
