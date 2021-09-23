@@ -12,6 +12,35 @@ basisdaten:
   bildautor: CDC/ Dr. Patricia Fields, Dr. Collette Fitzgerald
   kurzbeschreibung: Campylobacter ist der häufigste bakterielle Durchfallerreger. Fast täglich erfolgen Meldungen an das Gesundheitsamt
 
+einstufung:
+  # Eineilung nach Fachgebiet
+  magendarm: ja
+  respiratorisch: nein
+  blut: nein
+  nosokomial: nein
+  # Besondere Einteilungen
+  zoonose: ja
+  impfpräventabel: nein
+  tropenerkrankung: nein
+  # Einteilung nach Erreger
+  bakteriell: ja
+  grampositiv: nein
+  gramnegativ: ja
+  aerob: ja
+  viral: nein
+  protozoenerkrankung: nein
+  mykose: nein
+  prion: nein
+  # Einteilung nach Übertragung
+  kontaktinfektion: ja
+  tröpfchen: nein
+  aerosol: nein
+  nahrung: ja
+  wasser: ja
+  stillen: nein
+  geburt: ja
+
+
 inhalte:  
 # Erregerdaten
   - id: erregername
@@ -85,8 +114,8 @@ inhalte:
   - id: uebertragungswege
     text: |
       Der Erreger wird übertragen
-      über Lebensmittel insbesondere Geflügelfleisch, Rohmlich, anderes Fleisch. Er wird selten von Mensch zu Mensch übertragen.
-      Vor allem in Ländern mit niedrigerem Hygienestandards wird er auch über Trinkwasser oder Baden übertragen. C. fetus kann von einer Mutter intrauterin oder perinatal auf das Kind gelangen.
+      über Lebensmittel insbesondere Geflügelfleisch, Rohmlich, anderes Fleisch. Haustiere können Campylobacter übertragen (Katzen/Hunde).
+      Vor allem in Ländern mit niedrigerem Hygienestandards wird er auch über Trinkwasser oder Baden übertragen. Er wird selten von Mensch zu Mensch übertragen. C. fetus kann von einer Mutter intrauterin oder perinatal auf das Kind gelangen. 
     kategorie: uebertragungswege hygkowichtig
     quellename: RKI Ratgeber
     quelleurl: https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Campylobacter.html
@@ -94,10 +123,10 @@ inhalte:
 
 # Klinik
   - id: symptome
-    text: Typische Krankheitszeichen sind Durchfall, Bauchschmerzen und Erbrechen. Der Durchfall kann auch blutig sein. Es können Prodromi vor dem Beginn des Durchfalls auftreten.
+    text: Typische Krankheitszeichen sind Durchfall, Bauchschmerzen und Erbrechen. Der Durchfall kann auch blutig sein. Es können Prodromi (z.B. Fieber) vor dem Beginn des Durchfalls auftreten.
     kategorie: klinik
   - id: komplikationen
-    text: Komplikationen sind Gelenkentzündungen, ein Guillan-Barré-Syndrom. Diskutiert werden Reizdarmsyndrom und chronisch-entzündliche Darmerkrankungen.
+    text: Komplikationen sind Gelenkentzündungen (1%), ein Guillan-Barré-Syndrom. Diskutiert werden Reizdarmsyndrom und chronisch-entzündliche Darmerkrankungen.
     kategorie: klinik
   - id: krankheitsdauer
     text: Die Erkrankung dauert im üblichen Fall eine Woche
@@ -108,8 +137,11 @@ inhalte:
     quellename: Cohort study of intestinal infection with campylobacter in Mexican children.
     quelleurl: https://www.ncbi.nlm.nih.gov/pubmed/2893920
   - id: letalität
-    text:
+    text: 0,001 %
     kategorie: klinik
+    quelleurl: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216867
+  - id: immunität
+    text: Langanhaltende Immunität gegenüber der jeweiligen Campylobacter-Spezies ist die Regel. 
 
 # Meldung
   - varname: IFSG_6_1_2
