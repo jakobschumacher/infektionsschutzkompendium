@@ -53,16 +53,19 @@ inhalte:
 
 # Zeiten
   - id: inkubationszeit
-    text: Eine Inkubationszeit beträgt im Regelfall 6h bis 3 Tage
+    text: Eine Inkubationszeit beträgt im Regelfall 12h bis 4 Tage
     kategorie: zeiten, hygkowichtig
+    quelle: https://www.cambridge.org/core/journals/epidemiology-and-infection/article/incubation-period-for-outbreakassociated-nontyphoidal-salmonellosis-cases-minnesota-20002015/923FDA40A6AD8C6727F86C52269DEF3D
   - id: inkubationszeit_min
     text:
     nummer: 0.25
     kategorie: zeiten
+    quelle: https://www.cambridge.org/core/journals/epidemiology-and-infection/article/incubation-period-for-outbreakassociated-nontyphoidal-salmonellosis-cases-minnesota-20002015/923FDA40A6AD8C6727F86C52269DEF3D
   - id: inkubationszeit_max
     text:
     kategorie: zeiten
-    nummer: 3
+    nummer: 16
+    quelle: https://www.cambridge.org/core/journals/epidemiology-and-infection/article/incubation-period-for-outbreakassociated-nontyphoidal-salmonellosis-cases-minnesota-20002015/923FDA40A6AD8C6727F86C52269DEF3D
   - id: ansteckungszeit_normal
     text: Solange die Person erkrankt ist scheidet sie den Erreger aus. Auch nach dem Ende der Symptome wird der Erreger ausgeschieden. Aber 48 nach Symptomende ist die Wahrscheinlichkeit der Weitergabe gering
     kategorie: zeiten hygkowichtig
