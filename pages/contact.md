@@ -11,12 +11,11 @@ layout: page
 
 
 ## Impressum
-* Jakob Schumacher
-![Kontaktadresse](/assets/em.png)
+![Kontaktadresse]({{ site.url }}{{ site.baseurl }}/assets/img/em.png)
 
 ## Kontaktmöglichkeit
 
-* Die beste Möglichkeit die Macher der Seite zu kontaktieren ist entweder ein "Issue" auf der Github-Seite zu starten oder eine E-Mail an jakob.schumacher@web.de zu schicken
+* Die beste Möglichkeit die Macher der Seite zu kontaktieren ist entweder ein "Issue" auf der Github-Seite zu starten oder eine E-Mail zu schicken
 
 ## Haftung für Inhalte
 Die Betreiber des Infektionsschutzkompendiums übernehmen keine Gewähr für die Aktualität, Richtigkeit oder Vollständigkeit der von ihnen bereitgestellten Informationen. Alle Angebote sind freibleibend und unverbindlich. Haftungsansprüche gegen die Betreiber, welche sich auf direkte oder indirekte Schäden materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen oder verlinkten Informationen verursacht wurden, sind grundsätzlich ausgeschlossen. Durch die Nutzung werden auch keine Rechte oder Pflichten zwischen den Betreibern und der Nutzerin oder dem Nutzer der Onlineangebote oder Dritten begründet. Die Betreiber des Infektionsschutzkompendiums behalten sich ausdrücklich vor, Teile der Angebote oder die gesamten Angebote ohne vorherige Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen. Die Inhalte stellen die persönliche Meinung der Autoren wieder.

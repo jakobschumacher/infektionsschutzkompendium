@@ -5,3 +5,5 @@ gem 'jekyll-include-cache'
 # gemspec
 # gem 'jekyll-last-modified-at'
 # gem 'jekyll-include-cache'
+
+gem "webrick", "~> 1.7"
