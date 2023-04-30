@@ -41,8 +41,8 @@ inhalte:
     quellename: Survstat
     quelleurl: https://survstat.rki.de/
   - id: vorkommen_welt
-    text: In Afrika, Südamerika und Südostasien ist die Erkrankung häufig, insbesondere in Indien, Pakistan und Bangladesh
-    kategorie: vorkommen
+    text: Meist wird der Erreger importiert. In Afrika, Südamerika und Südostasien ist die Erkrankung häufig, insbesondere in Indien, Pakistan und Bangladesh
+    kategorie: vorkommen hygkowichtig
   - id: reservoir
     text: Der Erreger kommt nur im Menschen vor
     kategorie: vorkommen
@@ -56,7 +56,10 @@ inhalte:
       Typhus und Paratyphus werden über Lebensmittel und Trinkwasser übertragen. Diese werden kontaminiert durch Urin- oder Stuhlreste. Selten können Typhus und Paratyphus auch direkt von Mensch zu Mensch über eine Schmierinfektion übertragen werden.
     kategorie: uebertragungswege 
 
-  
+# Impfung
+  - id: impfung
+    text: Es existiert ein Impfstoff gegen die Erkrankung
+    kategorie: impfen  hygkowichtig  
       
 # Zeiten
   - id: inkubationszeit
@@ -82,7 +85,7 @@ inhalte:
 # Klinik
   - id: symptome
     text: Bei einem typischen Verlauf kommt es zu hohem Fieber, starkem Krankheitsgefühl, Abgeschlagenheit, Verstopfung, Übelkeit, Erbrechen, abdominellen Schmerzen und Hauterscheinungen auf dem Bauch. Im weiteren Verlauf kann es zu Durchfällen kommen. Häufig kommt es zu einem verlangsamten Herzschlag. 
-    kategorie: klinik
+    kategorie: klinik hygkowichtig
   - id: komplikationen
     text: |
       Es kann zu schweren Infektionen vieler Organe kommen

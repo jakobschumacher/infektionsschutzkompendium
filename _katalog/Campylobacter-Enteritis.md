@@ -62,8 +62,8 @@ inhalte:
 
 # Vorkommen
   - id: vorkommen_deu
-    text: Ungefähr 65.000 Fälle werden in Deutschland gemeldet.
-    kategorie: vorkommen
+    text: Ungefähr 65.000 Fälle werden in Deutschland gemeldet. (Einer der häufigsten Erreger)
+    kategorie: vorkommen hygkowichtig
     quellename: Survstat
     quelleurl: https://survstat.rki.de/
   - id: vorkommen_welt

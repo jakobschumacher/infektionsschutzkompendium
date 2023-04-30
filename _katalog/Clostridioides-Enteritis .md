@@ -30,6 +30,9 @@ inhalte:
   - id: erregergruppenunterschiede
     text: Der Ribotyp 027 ist gefährlicher als andere.  
     kategorie: erregerdaten hygkowichtig
+  - id: resistenz
+    text: Clostridioides sind sehr umweltresistent, da sie Sporen bilden könnten  
+    kategorie: erregerdaten hygkowichtig
 
 # Vorkommen
   - id: vorkommen_deu
