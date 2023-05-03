@@ -71,18 +71,18 @@ inhalte:
 
 
 # Klinik
-  - id: symptome
-    text: Krankheitszeichen bei immunkompetenten Personen sind Durchfall und leichtes Fieber.
+  - id: asymptomatik
+    text: Die meisten Immunkompetenten entwickeln keine Krankheitszeichen
     kategorie: klinik hygkowichtig
+  - id: symptome
+    text: Wenn Krankheitszeichen bei immunkompetenten Personen auftreten ist es zumeist Durchfall und leichtes Fieber.
+    kategorie: klinik 
   - id: komplikationen
     text: |
       Bei Immungeschwächten kann das Vollbild einer Listeriose auftreten: Es kann zu den folgenden Symptomen kommen: Gastroenteritis, Zeichen eines grippalen Infekts, Sepsis, eitrige Meningitis und Tod. 
     kategorie: klinik hygkowichtig
   - id: krankheitsdauer
     text: 
-    kategorie: klinik
-  - id: asymptomatik
-    text: Die meisten Immunkompetenten entwickeln keine Krankheitszeichen
     kategorie: klinik
   - id: letalität
     text: 7 von 100 erkrankten Personen versterben.
