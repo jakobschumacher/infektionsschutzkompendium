@@ -137,7 +137,7 @@ inhalte:
     quellename: Cohort study of intestinal infection with campylobacter in Mexican children.
     quelleurl: https://www.ncbi.nlm.nih.gov/pubmed/2893920
   - id: letalität
-    text: 0,001 %
+    text: Campylobacter hat in Deutschland nur eine sehr geringe Letalität (~0,001 %)
     kategorie: klinik
     quelleurl: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0216867
   - id: immunität
