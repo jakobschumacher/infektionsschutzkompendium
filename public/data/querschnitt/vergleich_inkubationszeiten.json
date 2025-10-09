@@ -1,0 +1,6 @@
+{
+  "slug": "vergleich_inkubationszeiten",
+  "title": "Vergleich der Inkubationszeiten",
+  "content": "<table>\n  {% for item in site.katalog %}\n  {% assign inhalte = item.inhalte | where_exp: \"item\", \"item.id contains 'inkubationszeit'\" %}\n  \n  <tr>\n    <td>{{item.title}}</td>\n    <td>{% for item in inhalte %} {{ item.text | markdownify }}{% endfor %}</td>\n  </tr>\n  {% endfor %}  \n</table>",
+  "layout": "page"
+}

@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #faf8f1;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  padding: 3rem 0 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+header h1 {
+  margin-bottom: 0.3rem;
+  font-size: 1.5rem;
+}
+
+header .header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+header .header-logo {
+  height: 120px;
+  width: auto;
+  border-radius: 50%;
+}
+
+header h1 a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+header .subtitle {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-weight: 300;
+}
+
+main {
+  min-height: 60vh;
+  padding: 2rem 0;
+}
+
+footer {
+  background: var(--bg-accent);
+  color: var(--text-primary);
+  padding: 2rem 0;
+  margin-top: 4rem;
+  text-align: center;
+  border-top: 1px solid var(--border-color);
+}
+
+footer a {
+  color: var(--accent-primary);
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: #2c3e50;
+  margin: 2rem 0 1rem;
+}
+
+h3 {
+  color: #34495e;
+  margin: 1rem 0 0.5rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.disease-list li, .topic-list li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.disease-list a, .topic-list a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.disease-list h3 {
+  color: #2c3e50;
+  margin: 0 0 0.5rem 0;
+}
+
+.disease-list .description {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.disease-header {
+  display: flex;
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+img {
+  border-radius: 12px;
+}
+
+.disease-image {
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 1rem 0;
+}
+
+.disease-nav {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  padding: 1rem 0;
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+  flex-wrap: wrap;
+}
+
+.disease-nav button {
+  padding: 0.5rem 1rem;
+  background: var(--accent-primary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  min-width: fit-content;
+}
+
+.disease-nav button:hover {
+  background: var(--accent-hover);
+}
+
+.disease-nav button.active {
+  background: var(--accent-hover);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.content-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+}
+
+.content-section ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+.content-section li {
+  margin-bottom: 0.75rem;
+}
+
+.content-section li.important-item {
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent-primary);
+  background: var(--bg-accent);
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin-left: -0.5rem;
+  border-radius: 4px;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+.slide {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  min-height: 300px;
+}
+
+.slide-nav {
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.slide-nav a {
+  padding: 0.75rem 1.5rem;
+  background: #2c3e50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}

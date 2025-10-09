@@ -1,0 +1,6 @@
+{
+  "slug": "hygko_wichtig",
+  "title": "Essentielles Wissen",
+  "content": "{% for item in site.katalog %}\n  {% assign inhalte = item.inhalte | where_exp: \"item\", \"item.kategorie contains 'hygkowichtig'\" %}\n  <h2>{{item.title}}</h2><ul>\n  {% for item in inhalte %}<li title=\"Quelle: {{ item.quellename }}\">{{ item.text | markdownify }} </li>\n  {% endfor %}  \n  </ul>\n  {% endfor %}",
+  "layout": "page"
+}

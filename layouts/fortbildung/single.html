@@ -1,0 +1,89 @@
+{{ define "main" }}
+{{ $title := .Title }}
+{{ $katalogPage := .Site.GetPage (printf "/katalog/%s" .File.ContentBaseName) }}
+{{ with $katalogPage }}
+<article class="presentation">
+  <div class="slide center middle">
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <div class="slide center middle">
+    {{ with .Params.basisdaten.bild }}
+      <img src="{{ . }}" width="80%">
+    {{ end }}
+  </div>
+
+  {{ with .Params.inhalte }}
+    {{ $erregerdaten := slice }}
+    {{ range . }}
+      {{ if in .kategorie "erregerdaten" }}
+        {{ $erregerdaten = $erregerdaten | append . }}
+      {{ end }}
+    {{ end }}
+    {{ if $erregerdaten }}
+    <div class="slide">
+      <h2>Über den Erreger</h2>
+      <ul>
+      {{ range $erregerdaten }}
+        {{ with .text }}<li>{{ . }}</li>{{ end }}
+      {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{ $uebertragungswege := slice }}
+    {{ range . }}
+      {{ if in .kategorie "uebertragungswege" }}
+        {{ $uebertragungswege = $uebertragungswege | append . }}
+      {{ end }}
+    {{ end }}
+    {{ if $uebertragungswege }}
+    <div class="slide">
+      <h2>Übertragungswege</h2>
+      <ul>
+      {{ range $uebertragungswege }}
+        {{ with .text }}<li>{{ . }}</li>{{ end }}
+      {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{ $zeiten := slice }}
+    {{ range . }}
+      {{ if in .kategorie "zeiten" }}
+        {{ $zeiten = $zeiten | append . }}
+      {{ end }}
+    {{ end }}
+    {{ if $zeiten }}
+    <div class="slide">
+      <h2>Zeiten</h2>
+      <ul>
+      {{ range $zeiten }}
+        {{ with .text }}<li>{{ . }}</li>{{ end }}
+      {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{ $klinik := slice }}
+    {{ range . }}
+      {{ if in .kategorie "klinik" }}
+        {{ $klinik = $klinik | append . }}
+      {{ end }}
+    {{ end }}
+    {{ if $klinik }}
+    <div class="slide">
+      <h2>Krankheitszeichen</h2>
+      <ul>
+      {{ range $klinik }}
+        {{ with .text }}<li>{{ . }}</li>{{ end }}
+      {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+  {{ end }}
+</article>
+{{ else }}
+<p>Keine Daten für {{ $title }} gefunden.</p>
+{{ end }}
+{{ end }}
