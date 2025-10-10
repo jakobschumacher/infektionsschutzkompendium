@@ -72,11 +72,22 @@ function Querschnitt() {
           <div className="note">Diese Ansicht wird noch implementiert</div>
         </section>
       )
+    } else if (topic.sections && topic.sections.length > 0) {
+      // Topics with structured sections
+      return topic.sections.map((section, idx) => (
+        <section key={idx} className="content-section">
+          <h2>{section.title}</h2>
+          <ul>
+            {section.items.map((item, itemIdx) => (
+              <li key={itemIdx}>{item}</li>
+            ))}
+          </ul>
+        </section>
+      ))
     } else {
-      // General topics with markdown content
       return (
         <section className="content-section">
-          <div dangerouslySetInnerHTML={{ __html: topic.content }} />
+          <p>Keine Inhalte verfügbar</p>
         </section>
       )
     }

@@ -1,6 +1,51 @@
 {
   "slug": "massnahmen",
   "title": "Überblick über mögliche Maßnahmen",
-  "content": "## Informationsbeschaffung\n*   Informationsbeschaffung zum Fall (Befragung der erkrankten Person, meldenden Person,  Verwandten, Freunden, Einrichtung, Kontaktpersonen)\n*   Informationsbeschaffung zu Kontaktpersonen (Impfpassüberprüfung)\n*   Epidemiologische Untersuchung (Begehung, Ausbruchsuntersuchung)\n*   Mikrobiologische Untersuchung (erkrankte Person, Kontaktperson, Umfeld, Einrichtung)\n\n## Unterbrechung der Weitergabe\n*   Tätigkeitsverbot/Teilnahmeverbot nach § 34.1\n*   Tätigkeitsverbot/Teilnahmeverbot  nach § 34.2\n*   Tätigkeitsverbot/Teilnahmeverbot  nach § 34.3\n*   Tätigkeitsverbot  nach § 42\n*   Tätigkeitsverbot nach § 31\n*   Isolierung nach § 30\n*   Beobachtung nach § 29\n*   Anordnung nach § 28 \n*   Sperrung von Bereichen \n*   Postexpositionsprophylaxe  für Kontakte (Impfung, Antibiotika, Antikörper)\n*   Anordnung einer Desinfektion nach § 18\n\n\n## Informationsweitergabe\n*   Patient (Verhaltenshinweise akuter Fall oder zukünftige Verhinderung)\n*   Kontaktperson (Verhaltenshinweise akuter Fall oder zukünftige Verhinderung)\n*   Einrichtung (Verhaltenshinweise akuter Fall oder zukünftige Verhinderung)\n*   Informationsweitergabe im Amt\n*   Informationsweitergabe an andere Ämter\n    *   Übermittlung nach § 11\n    *   Land/Bund/Ausland nach § 12\n    *   Gesundheitsämter nach § 27.1\n    *   Lebensmittelaufsicht nach § 27.2\n    *   Veterinärämter nach § 27.3\n    *   Immissionsschutzbehörde nach § 27.4\n    *   Medikamentenherstellung nach § 27.5\n    *   Blut/Transplantation  nach § 27.6\n*   Öffentlichkeitsarbeit",
+  "sections": [
+    {
+      "title": "Informationsbeschaffung",
+      "items": [
+        "Informationsbeschaffung zum Fall (Befragung der erkrankten Person, meldenden Person,  Verwandten, Freunden, Einrichtung, Kontaktpersonen)",
+        "Informationsbeschaffung zu Kontaktpersonen (Impfpassüberprüfung)",
+        "Epidemiologische Untersuchung (Begehung, Ausbruchsuntersuchung)",
+        "Mikrobiologische Untersuchung (erkrankte Person, Kontaktperson, Umfeld, Einrichtung)"
+      ]
+    },
+    {
+      "title": "Unterbrechung der Weitergabe",
+      "items": [
+        "Tätigkeitsverbot/Teilnahmeverbot nach § 34.1",
+        "Tätigkeitsverbot/Teilnahmeverbot  nach § 34.2",
+        "Tätigkeitsverbot/Teilnahmeverbot  nach § 34.3",
+        "Tätigkeitsverbot  nach § 42",
+        "Tätigkeitsverbot nach § 31",
+        "Isolierung nach § 30",
+        "Beobachtung nach § 29",
+        "Anordnung nach § 28",
+        "Sperrung von Bereichen",
+        "Postexpositionsprophylaxe  für Kontakte (Impfung, Antibiotika, Antikörper)",
+        "Anordnung einer Desinfektion nach § 18"
+      ]
+    },
+    {
+      "title": "Informationsweitergabe",
+      "items": [
+        "Patient (Verhaltenshinweise akuter Fall oder zukünftige Verhinderung)",
+        "Kontaktperson (Verhaltenshinweise akuter Fall oder zukünftige Verhinderung)",
+        "Einrichtung (Verhaltenshinweise akuter Fall oder zukünftige Verhinderung)",
+        "Informationsweitergabe im Amt",
+        "Informationsweitergabe an andere Ämter",
+        "Übermittlung nach § 11",
+        "Land/Bund/Ausland nach § 12",
+        "Gesundheitsämter nach § 27.1",
+        "Lebensmittelaufsicht nach § 27.2",
+        "Veterinärämter nach § 27.3",
+        "Immissionsschutzbehörde nach § 27.4",
+        "Medikamentenherstellung nach § 27.5",
+        "Blut/Transplantation  nach § 27.6",
+        "Öffentlichkeitsarbeit"
+      ]
+    }
+  ],
   "layout": "page"
 }

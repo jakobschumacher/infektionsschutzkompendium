@@ -24,7 +24,6 @@ function Home() {
     <div>
       <section className="section">
         <h2>Infektionskrankheiten</h2>
-        <p>Gesprächsleitfäden für alle meldepflichtigen Infektionskrankheiten</p>
         <ul className="disease-list">
           {data?.diseases?.map(disease => (
             <li key={disease.slug}>
@@ -41,7 +40,6 @@ function Home() {
 
       <section className="section">
         <h2>Querschnittsthemen</h2>
-        <p>Übergreifende Themen im Infektionsschutz</p>
         <ul className="topic-list">
           {data?.topics?.map(topic => (
             <li key={topic.slug}>

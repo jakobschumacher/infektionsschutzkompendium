@@ -2,7 +2,6 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Disease from './pages/Disease'
 import Querschnitt from './pages/Querschnitt'
-import ThemeSwitcher from './components/ThemeSwitcher'
 import './App.css'
 
 function App() {
@@ -39,8 +38,6 @@ function App() {
           </p>
         </div>
       </footer>
-
-      <ThemeSwitcher />
     </div>
   )
 }

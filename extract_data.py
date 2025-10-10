@@ -79,6 +79,42 @@ def process_katalog():
     return diseases
 
 
+def parse_markdown_sections(content):
+    """Parse markdown content into sections based on headers."""
+    sections = []
+    current_section = None
+    current_items = []
+
+    for line in content.split('\n'):
+        line = line.strip()
+
+        # Check if it's a header (## Title)
+        if line.startswith('##'):
+            # Save previous section
+            if current_section:
+                sections.append({
+                    'title': current_section,
+                    'items': current_items
+                })
+            # Start new section
+            current_section = line.replace('##', '').strip()
+            current_items = []
+        # Check if it's a list item
+        elif line.startswith('*'):
+            item = line.replace('*', '').strip()
+            if item:
+                current_items.append(item)
+
+    # Add last section
+    if current_section:
+        sections.append({
+            'title': current_section,
+            'items': current_items
+        })
+
+    return sections
+
+
 def process_querschnitt():
     """Process _querschnitt directory."""
     querschnitt_dir = Path('_querschnitt')
@@ -93,11 +129,14 @@ def process_querschnitt():
         if frontmatter:
             slug = md_file.stem.lower()
 
+            # Parse markdown content into structured sections
+            sections = parse_markdown_sections(content)
+
             topic_data = {
                 'slug': slug,
                 'title': frontmatter.get('title', md_file.stem),
-                'content': content,
-                **frontmatter
+                'sections': sections,
+                'layout': frontmatter.get('layout', 'page')
             }
 
             with open(output_dir / f'{slug}.json', 'w', encoding='utf-8') as f:
