@@ -1,3 +1,0 @@
----
-title: Eschericha-Coli-Enteritis
----
