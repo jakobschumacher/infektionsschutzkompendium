@@ -7,25 +7,14 @@ function Impressum() {
         <h2>Angaben gemäß § 5 TMG</h2>
         <p>
           <strong>Verantwortlich für den Inhalt:</strong><br />
-          [Name des Verantwortlichen]<br />
-          [Straße und Hausnummer]<br />
-          [PLZ und Ort]
-        </p>
-      </div>
-
-      <div className="content-section">
-        <h2>Kontakt</h2>
-        <p>
-          E-Mail: [E-Mail-Adresse]<br />
-          Telefon: [Telefonnummer]
+          Jakob Schumacher
         </p>
       </div>
 
       <div className="content-section">
         <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
         <p>
-          [Name]<br />
-          [Adresse]
+          Jakob Schumacher
         </p>
       </div>
 

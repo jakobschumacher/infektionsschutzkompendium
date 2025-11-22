@@ -93,7 +93,7 @@ function Datenschutz() {
           Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
         </p>
         <p>
-          [Name und Anschrift aus dem Impressum]
+          Jakob Schumacher
         </p>
         <p>
           Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen
