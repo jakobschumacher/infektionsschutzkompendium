@@ -74,16 +74,27 @@ function Querschnitt() {
       )
     } else if (topic.sections && topic.sections.length > 0) {
       // Topics with structured sections
-      return topic.sections.map((section, idx) => (
-        <section key={idx} className="content-section">
-          <h2>{section.title}</h2>
-          <ul>
-            {section.items.map((item, itemIdx) => (
-              <li key={itemIdx}>{item}</li>
-            ))}
-          </ul>
-        </section>
-      ))
+      return topic.sections.map((section, idx) => {
+        // Skip sections with empty items (used as headers)
+        if (!section.items || section.items.length === 0) {
+          return (
+            <h2 key={idx} style={{ marginTop: '2rem', fontSize: '1.8rem', color: 'var(--text-primary)' }}>
+              {section.title}
+            </h2>
+          )
+        }
+
+        return (
+          <section key={idx} className="content-section">
+            <h2>{section.title}</h2>
+            <ul>
+              {section.items.map((item, itemIdx) => (
+                <li key={itemIdx}>{item}</li>
+              ))}
+            </ul>
+          </section>
+        )
+      })
     } else {
       return (
         <section className="content-section">
@@ -96,6 +107,11 @@ function Querschnitt() {
   return (
     <article className="querschnitt">
       <h1>{topic.title}</h1>
+      {topic.intro && (
+        <div className="content-section">
+          <p className="lead">{topic.intro}</p>
+        </div>
+      )}
       {renderContent()}
     </article>
   )
