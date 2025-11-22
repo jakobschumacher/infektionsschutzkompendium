@@ -119,19 +119,42 @@ function Disease() {
   }
 
   const renderErregerFakten = () => {
+    const renderItem = (item, idx) => {
+      let content = null
+      let isImportant = item.isImportant
+
+      if (item.text) {
+        content = item.text
+      } else if (item.varname && variablen) {
+        const varData = variablen[item.varname]
+        if (varData) {
+          content = (
+            <>
+              <strong>{varData.text}</strong>
+              {varData.beschreibung && (
+                <div className="note">{varData.beschreibung}</div>
+              )}
+            </>
+          )
+        }
+      }
+
+      if (!content) return null
+
+      return (
+        <li key={idx} className={isImportant ? 'important-item' : ''}>
+          {content}
+        </li>
+      )
+    }
+
     return (
       <>
         {grouped.erregerdaten && (
           <section className="content-section">
             <h2>Fakten über den Erreger</h2>
             <ul>
-              {grouped.erregerdaten.map((item, idx) => (
-                item.text && (
-                  <li key={idx} className={item.isImportant ? 'important-item' : ''}>
-                    {item.text}
-                  </li>
-                )
-              ))}
+              {grouped.erregerdaten.map((item, idx) => renderItem(item, idx))}
             </ul>
           </section>
         )}
@@ -139,13 +162,7 @@ function Disease() {
           <section key={category} className="content-section">
             <h2>{getCategoryTitle(category)}</h2>
             <ul>
-              {items.map((item, idx) => (
-                item.text && (
-                  <li key={idx} className={item.isImportant ? 'important-item' : ''}>
-                    {item.text}
-                  </li>
-                )
-              ))}
+              {items.map((item, idx) => renderItem(item, idx))}
             </ul>
           </section>
         ))}
@@ -176,6 +193,8 @@ function Disease() {
 
   return (
     <article className="disease">
+      <h1>{disease.title}</h1>
+
       <div className="disease-header">
         {disease.basisdaten?.bild && (
           <img
@@ -184,12 +203,9 @@ function Disease() {
             className="disease-image"
           />
         )}
-        <div>
-          <h1>{disease.title}</h1>
-          {disease.basisdaten?.kurzbeschreibung && (
-            <p className="lead">{disease.basisdaten.kurzbeschreibung}</p>
-          )}
-        </div>
+        {disease.basisdaten?.kurzbeschreibung && (
+          <p className="lead">{disease.basisdaten.kurzbeschreibung}</p>
+        )}
       </div>
 
       <nav className="disease-nav">
