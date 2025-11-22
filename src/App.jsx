@@ -3,6 +3,8 @@ import Home from './pages/Home'
 import Disease from './pages/Disease'
 import Querschnitt from './pages/Querschnitt'
 import About from './pages/About'
+import Impressum from './pages/Impressum'
+import Datenschutz from './pages/Datenschutz'
 import './App.css'
 
 function App() {
@@ -40,11 +42,19 @@ function App() {
             <Route path="/katalog/:slug" element={<Disease />} />
             <Route path="/querschnitt/:slug" element={<Querschnitt />} />
             <Route path="/about" element={<About />} />
+            <Route path="/impressum" element={<Impressum />} />
+            <Route path="/datenschutz" element={<Datenschutz />} />
           </Routes>
         </main>
 
         <footer>
-          <p>&copy; 2025 Infektionsschutzkompendium</p>
+          <p>
+            &copy; 2025 Infektionsschutzkompendium
+            {' | '}
+            <Link to="/impressum">Impressum</Link>
+            {' | '}
+            <Link to="/datenschutz">Datenschutz</Link>
+          </p>
         </footer>
       </div>
     </div>

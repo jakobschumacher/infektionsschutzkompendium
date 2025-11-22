@@ -98,6 +98,17 @@ footer {
   font-size: 0.9rem;
 }
 
+footer a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
 @media (max-width: 1024px) {
   .sidebar {
     width: 280px;
