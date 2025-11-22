@@ -15,8 +15,8 @@ function Querschnitt() {
       .then(([topicData, indexData]) => {
         setTopic(topicData)
 
-        // Load all diseases for cross-cutting topics
-        if (slug === 'hygko_wichtig') {
+        // Load all diseases for cross-cutting topics and comparisons
+        if (slug === 'hygko_wichtig' || slug.startsWith('vergleich_')) {
           Promise.all(
             indexData.diseases.map(d =>
               fetch(`/infektionsschutzkompendium/data/krankheiten/${d.slug}.json`).then(res => res.json())
@@ -65,11 +65,72 @@ function Querschnitt() {
         )
       })
     } else if (slug.startsWith('vergleich_')) {
-      // Comparison topics - show as table or list
+      // Comparison topics - show as table
+      // Determine which field to search for based on the slug
+      let searchId = ''
+      if (slug === 'vergleich_inkubationszeiten') {
+        searchId = 'inkubationszeit'
+      } else if (slug === 'vergleich_reservoir') {
+        searchId = 'reservoir'
+      } else if (slug === 'vergleich_uebertragungswege') {
+        searchId = 'uebertragungswege'
+      }
+
+      // Build comparison data
+      const comparisonData = diseases
+        .map(disease => {
+          const items = disease.inhalte?.filter(item =>
+            item.id?.includes(searchId)
+          ) || []
+
+          if (items.length === 0) return null
+
+          return {
+            title: disease.title,
+            content: items.map(item => item.text || '').join(', ')
+          }
+        })
+        .filter(item => item !== null)
+
       return (
         <section className="content-section">
-          <p>Vergleichsübersicht für {topic.title}</p>
-          <div className="note">Diese Ansicht wird noch implementiert</div>
+          <table style={{
+            width: '100%',
+            borderCollapse: 'collapse',
+            marginTop: '1rem'
+          }}>
+            <thead>
+              <tr>
+                <th style={{
+                  textAlign: 'left',
+                  padding: '0.75rem',
+                  borderBottom: '2px solid var(--border-color)',
+                  fontWeight: '600'
+                }}>Krankheit</th>
+                <th style={{
+                  textAlign: 'left',
+                  padding: '0.75rem',
+                  borderBottom: '2px solid var(--border-color)',
+                  fontWeight: '600'
+                }}>{topic.title.replace('Vergleich der ', '')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {comparisonData.map((row, idx) => (
+                <tr key={idx}>
+                  <td style={{
+                    padding: '0.75rem',
+                    borderBottom: '1px solid var(--border-color)',
+                    fontWeight: '500'
+                  }}>{row.title}</td>
+                  <td style={{
+                    padding: '0.75rem',
+                    borderBottom: '1px solid var(--border-color)'
+                  }}>{row.content}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </section>
       )
     } else if (topic.sections && topic.sections.length > 0) {
