@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jakobschumacher.github.io/infektionsschutzkompendium/sitemap.xml

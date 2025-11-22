@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.npm-cache/
+
+# Build outputs
+dist/
+
+# Vite/React dev
+.vite/
+
+# R Project
+.Rproj.user
+*.Rproj
+
+# OS files
+.DS_Store
+
+# Temporary/Old files
+Norovirus-Gastroenteritis.html
+Norovirus-Gastroenteritis-Dateien/

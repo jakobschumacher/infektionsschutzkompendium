@@ -1,0 +1,135 @@
+{
+  "diseases": [
+    {
+      "slug": "salmonellose",
+      "title": "Salmonellose",
+      "kurzbeschreibung": "Salmonellose ist neben Campylobacter der häufigste bakterielle Gastroenteritis-Erreger in Deutschland. Salmonellen können Gastroenteritis oder Typhus/Paratyphus hervorrufen - als Salmonellose werden nur die Gastroenteritiden bezeichnet. Lebensmittel-Ausbrüche sind häufig erkennbar, da für die Salmonellen häufig Serovare angegeben werden."
+    },
+    {
+      "slug": "lebensmittelvergiftung",
+      "title": "Lebensmittelvergiftung",
+      "kurzbeschreibung": "Lebensmittelvergiftungen entstehen, wenn Toxine mit dem Essen aufgenommen werden. Es kommt zu keiner Vermehrung eines Erregers im Menschen."
+    },
+    {
+      "slug": "typhus",
+      "title": "Typhus",
+      "kurzbeschreibung": "Typhus ist eine übertragbare Krankheit. In Deutschland treten die Erkrankungen fast immer im Zusammenhang mit einer Reise auf."
+    },
+    {
+      "slug": "leptospirose",
+      "title": "Leptospirose",
+      "kurzbeschreibung": "Leptopsirose ist eine Zoonose. In Deutschland ist sie selten. Die Ansteckung erfolgt meist über Kot und Urin von Ratten bzw. damit kontaminierter Schlamm oder Wasser."
+    },
+    {
+      "slug": "q-fieber",
+      "title": "Q-Fieber",
+      "kurzbeschreibung": "Q-Fieber ist eine Zoonose, die grippeähnliche Symptome verursacht. Sie tritt in Gebieten mit Schafshaltung auf. Der Erreger ähnelt der Legionellose."
+    },
+    {
+      "slug": "ornithose",
+      "title": "Ornithose",
+      "kurzbeschreibung": "Ornithose ist eine Zoonose, die grippeähnliche Symptome verursacht. Der Erreger ist üblicherweise in Vögeln zu finden."
+    },
+    {
+      "slug": "legionellose",
+      "title": "Legionellose",
+      "kurzbeschreibung": "Legionellose ist eine durch Wasser übetragbare Krankheit. Im Gesundheitsamt spielen Legionellen eine besondere Rolle aufgrund der Maßnahmen bei einem Legionellenfund im Trinkwasser."
+    },
+    {
+      "slug": "milzbrand",
+      "title": "Milzbrand",
+      "kurzbeschreibung": "Milzbrand ist eine Zoonose und Geonose. In Deutschland  kommt die Erkrankung nur in Ausnahmefällen vor. Milzbrand kann als Bioterroristische Waffe eingesetzt werden."
+    },
+    {
+      "slug": "campylobacter-enteritis",
+      "title": "Campylobacter-Enteritis",
+      "kurzbeschreibung": "Campylobacter ist der häufigste bakterielle Durchfallerreger. Fast täglich erfolgen Meldungen an das Gesundheitsamt"
+    },
+    {
+      "slug": "botulismus",
+      "title": "Botulismus",
+      "kurzbeschreibung": "Botulismus ist eine besondere Form der Lebensmittelvergiftung. Nur in seltenen Fällen kommt es zu einer Infektion."
+    },
+    {
+      "slug": "kryptosporidiose",
+      "title": "Kryptosporidiose",
+      "kurzbeschreibung": "Kryptosporidiose ist eine infektiöse Darmerkrankung. Die Erkrankung wird durch Kryptopsoridien hervorgerufen."
+    },
+    {
+      "slug": "yersiniose",
+      "title": "Yersiniose",
+      "kurzbeschreibung": "Yersiniose kommt ab und zu mal im Gesundheitsamt vor. Große Ausbrüche sind in Deutschland sehr selten."
+    },
+    {
+      "slug": "clostridioides-enteritis ",
+      "title": "Clostridioides-Enteritis",
+      "kurzbeschreibung": "Clostridioides difficile (früher Clostridium difficile) ist ein nosokomialer Erreger, der meist nach einer Antibiotikagabe auftritt. Die Meldungen erfolgen üblicherweise aus einem Krankenhaus."
+    },
+    {
+      "slug": "eschericha-coli-enteritis",
+      "title": "Eschericha-Coli-Enteritis",
+      "kurzbeschreibung": "Eschericha Coli ist ein Darmbwohner. Durch Toxine kann er Erkrankungen auslösen. Er kann in mehreren Kategorien gemeldet werden."
+    },
+    {
+      "slug": "brucellose",
+      "title": "Brucellose",
+      "kurzbeschreibung": "Brucellose ist eine Zoonose, die meist über Lebensmittel übertragen wird. In Deutschland ist sie selten - die Mehrzahl der Fälle wird importiert."
+    },
+    {
+      "slug": "rotavirus-gastroenteritis",
+      "title": "Rotavirus-Gastroenteritis",
+      "kurzbeschreibung": "Rotavirus ist eine häufige Durchfallerkrankung, die insbesondere bei Kindern vorkommt. In Ländern mit einem niedrigeren mittleren Einkommen gibt es viele Todesfälle."
+    },
+    {
+      "slug": "cholera",
+      "title": "Cholera",
+      "kurzbeschreibung": "Cholera ist ein vornehmlich über Trinkwasser übertragener Erreger, der eine starke Dehydratation verursacht. In Deutschland werden nur vereinzelt Fälle nachgewiesen."
+    },
+    {
+      "slug": "shigellose",
+      "title": "Shigellose",
+      "kurzbeschreibung": "Shigellose ist in deutschen Gesundheitsämtern eine seltene Erkrankung. Der Erreger ist verwandt mit E.Coli. Ausbrüche können vorkommen. Die meisten Erkrankungsfälle sind importiert."
+    },
+    {
+      "slug": "listeriose",
+      "title": "Listeriose",
+      "kurzbeschreibung": "Listeriose ist eine infektiöse Erkrankung. Und zählt zu den durch Lebensmittel übertragenen Krankheiten. Ausbrüche durch Lebensmittel kommen häufiger vor."
+    },
+    {
+      "slug": "norovirus-gastroenteritis",
+      "title": "Norovirus-Gastroenteritis",
+      "kurzbeschreibung": "Norovirus ist der häufigste meldepflichtige Erreger, dementsprechend ist die Ermittlung durch die Gesundheitsämter sehr häufig. Norovirus ist für viele Todesfälle in Ländern mit einem anderen Entwicklungsstadium verantwortlich."
+    }
+  ],
+  "topics": [
+    {
+      "slug": "hygko_wichtig",
+      "title": "Essentielles Wissen"
+    },
+    {
+      "slug": "vergleich_inkubationszeiten",
+      "title": "Vergleich der Inkubationszeiten"
+    },
+    {
+      "slug": "vergleich_reservoir",
+      "title": "Vergleich der Reservoire"
+    },
+    {
+      "slug": "interview",
+      "title": "Interview bei einer Infektionsschutzermittlung"
+    },
+    {
+      "slug": "vergleich_uebertragungswege",
+      "title": "Vergleich der Übertragungswege"
+    },
+    {
+      "slug": "massnahmen",
+      "title": "Überblick über mögliche Maßnahmen"
+    }
+  ],
+  "metadata": {
+    "generated": "2025-10-09",
+    "total_diseases": 20,
+    "total_topics": 6
+  }
+}

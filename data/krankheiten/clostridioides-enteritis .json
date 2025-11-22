@@ -1,0 +1,174 @@
+{
+  "slug": "clostridioides-enteritis ",
+  "title": "Clostridioides-Enteritis",
+  "author": "Jakob Schumacher",
+  "basisdaten": {
+    "bild": "https://upload.wikimedia.org/wikipedia/commons/1/11/ClostridiumDifficile.jpg",
+    "bildcredits": "https://commons.wikimedia.org/wiki/File:ClostridiumDifficile.jpg",
+    "bildautor": "CDC/ Lois S. Wiggs",
+    "kurzbeschreibung": "Clostridioides difficile (früher Clostridium difficile) ist ein nosokomialer Erreger, der meist nach einer Antibiotikagabe auftritt. Die Meldungen erfolgen üblicherweise aus einem Krankenhaus."
+  },
+  "inhalte": [
+    {
+      "id": "erregername",
+      "text": "Clostridioides difficile verursacht Clostridioides-Enteritis",
+      "kategorie": "erregerdaten"
+    },
+    {
+      "id": "erregertyp",
+      "text": "Der Erreger ist ein Bakterium.",
+      "kategorie": "erregerdaten"
+    },
+    {
+      "id": "erregergruppen",
+      "text": "Der Erreger wird unterteilt in Ribotypen.",
+      "kategorie": "erregerdaten"
+    },
+    {
+      "id": null,
+      "text": "Nur Toxin-produzierende Clostridioides verursachen eine Erkrankung",
+      "kategorie": "erregerdaten hygkowichtig"
+    },
+    {
+      "id": "erregergruppenunterschiede",
+      "text": "Der Ribotyp 027 ist gefährlicher als andere.",
+      "kategorie": "erregerdaten hygkowichtig"
+    },
+    {
+      "id": "resistenz",
+      "text": "Clostridioides sind sehr umweltresistent, da sie Sporen bilden könnten",
+      "kategorie": "erregerdaten hygkowichtig"
+    },
+    {
+      "id": "vorkommen_deu",
+      "text": "Ungefähr 2500 schwere Fälle werden in Deutschland gemeldet.",
+      "kategorie": "vorkommen",
+      "quellename": "Survstat",
+      "quelleurl": "https://survstat.rki.de/"
+    },
+    {
+      "id": "vorkommen_welt",
+      "text": "Der Erreger kommt weltweit vor.",
+      "kategorie": "vorkommen"
+    },
+    {
+      "id": "reservoir",
+      "text": "Der Erreger kommt ubiquitär vor. In etwa 80% der Kleinkindern und 5% der Erwachsenen tragen den Erreger im Darm.",
+      "kategorie": "vorkommen"
+    },
+    {
+      "id": "inkubationszeit_false",
+      "text": "Eine Inkubationszeit kann nicht angegeben werden",
+      "kategorie": "zeiten"
+    },
+    {
+      "id": "inkubationszeit_min",
+      "text": null,
+      "kategorie": "zeiten"
+    },
+    {
+      "id": "inkubationszeit_max",
+      "text": null,
+      "kategorie": "zeiten"
+    },
+    {
+      "id": "ansteckungszeit_normal",
+      "text": "Solange die Person erkrankt ist scheidet sie den Erreger aus  (aus pragmatischen Gründen wird empfohlen die Isolierungsmaßnahmen 48h nach Ende der Symptome aufzuheben)",
+      "kategorie": "zeiten hygkowichtig"
+    },
+    {
+      "id": "ansteckungszeit_lang",
+      "text": "Erkrankte Personen können den Erreger noch lange Zeit ausscheiden",
+      "kategorie": "zeiten"
+    },
+    {
+      "id": "symptome",
+      "text": "Krankheitszeichen sind Durchfall mit akutem Beginn und einem  spezifischen fauligen Geruch.",
+      "kategorie": "klinik"
+    },
+    {
+      "id": "komplikationen",
+      "text": "Komplikationen sind pseudomembranöse Colitis und toxisches Megacolon",
+      "kategorie": "klinik"
+    },
+    {
+      "id": "krankheitsdauer",
+      "text": null,
+      "kategorie": "klinik"
+    },
+    {
+      "id": "asymptomatik",
+      "text": null,
+      "kategorie": "klinik"
+    },
+    {
+      "id": "letalität",
+      "text": "Etwa 2 von 100 erkrankten Personen versterben",
+      "kategorie": "klinik"
+    },
+    {
+      "id": "uebertragungswege",
+      "text": "Der Erreger wird übertragen\nvon Mensch-zu-Mensch über die Hände (meist nosokomial)\nund selten von Tier oder der Umwelt zum Menschen. Die Erkrankung tritt eigentlich nur auf, wenn zuvor Antibiotika gegeben wurden.\n",
+      "kategorie": "uebertragungswege hygkowichtig"
+    },
+    {
+      "id": "Meldepflicht",
+      "text": "Clostridioides ist nur meldepflichtig wenn ein schwerer Fall auftritt. Ein schwerer Fall liegt vor wenn aufgrund der Erkrankung eine Aufnahme in ein Krankenhaus erfolgen musste, wenn die erkrankte Person aufgrund der Erkrankung auf eine Intensivstation verlegt werden musste, aufgrund der Erkrankung ein chirurgischer Eingriff erfolgen musste, die Erkrankung zum Tode beiträgt.",
+      "quellename": "IfSG-Meldepflicht-Anpassungsverordnung",
+      "quelleurl": "https://www.gesetze-im-internet.de/ifsgmeldanpv/BJNR051500016.html",
+      "kategorie": "meldepflicht, hygkowichtig"
+    }
+  ],
+  "aktionsbausteine": [
+    {
+      "varname": "INFOMANAGEMENT"
+    },
+    {
+      "varname": "AUSBRUCHSUNTERSUCHUNG"
+    },
+    {
+      "aktion": "Clostridien-Begehung einer medizinische Einrichtung",
+      "beschreibung": "- Zählung aller Clostridioides-Meldungen der Einrichtung mit der Frage nach einem Ausbruch\n- Isolierung der erkrankten Person mit eigener Toilette\n- Kohortierung von Patienten vermeiden\n- Handschuhe und langärmliger Kittel im Zimmer\n- Händehygiene ergänzt durch Händewaschen\n- Tägliche Wischdesinfektion mit einem sporozides Mittel\n- Intensive Schlussdesinfektion\n- Steckbettenspüle nach Benutzung sporozid waschen\n- Minimierung Personalbewegung\n- Fortbildung für das Reinigungspersonal\n- Reduktion des Antibiotikaverbrauchs\n- Beratung durch einen Mikrobiologen/Pharmakologen für Antibiotika\n- Messung des Antibiotikaverbrauchs\n- Reduktion von Protonenpumpeninhibitoren\n"
+    }
+  ],
+  "interview": [],
+  "quellen": [
+    {
+      "name": "Ratgeber des Robert Koch-Instituts",
+      "webseite": "https://www.rki.de/DE/Content/Infekt/EpidBull/Merkblaetter/Ratgeber_Clostridium.html"
+    },
+    {
+      "name": "Erregersteckbrief",
+      "webseite": "https://www.infektionsschutz.de/erregersteckbriefe/clostridium-difficile/"
+    },
+    {
+      "name": "KRINKO-Empfehlungen für CDI",
+      "webseite": "https://edoc.rki.de/bitstream/handle/176904/6224/2019_Article_Hygienema%c3%9fnahmenBeiClostridioi.pdf"
+    },
+    {
+      "name": "European center for diesease control (englisch)",
+      "webseite": "https://ecdc.europa.eu/en/clostridium-difficile-infections"
+    },
+    {
+      "name": "Wikipedia-Eintrag",
+      "webseite": "https://de.wikipedia.org/wiki/Clostridium_difficile"
+    },
+    {
+      "name": "US-Center for diesease control (englisch)",
+      "webseite": "https://www.cdc.gov/cdiff/index.html"
+    },
+    {
+      "name": "Public health england (englisch)",
+      "webseite": "https://www.nhs.uk/conditions/c-difficile/"
+    },
+    {
+      "name": "Pubmed - Sammlung wissenschaftlicher Publikationen (englisch)",
+      "webseite": "https://www.ncbi.nlm.nih.gov/pubmed?term=%22Clostridium+difficile%22%5BMesh%5D"
+    },
+    {
+      "name": "Ärzteblatt",
+      "webseite": "https://www.aerzteblatt.de/archiv/162935/Clostridium-difficile-Infektion"
+    }
+  ],
+  "content": ""
+}
