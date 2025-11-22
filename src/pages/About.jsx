@@ -10,6 +10,11 @@ function About() {
           entstanden. Sie stellt dar, wie Gesundheitsämter beim Auftreten einer Infektionskrankheit
           vorgehen sollten.
         </p>
+        <p>
+          Die fachlichen Inhalte zu den Infektionskrankheiten und Querschnittsthemen sind ohne
+          AI-Unterstützung entstanden. Bei der technischen Erstellung und Migration der Webseite
+          von Jekyll/Hugo zu React hat künstliche Intelligenz geholfen.
+        </p>
       </div>
 
       <div className="content-section">
