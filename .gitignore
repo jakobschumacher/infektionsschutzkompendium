@@ -1,37 +1,14 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
-.Rproj.user
-
 # Dependencies
 node_modules/
 
 # Build outputs
 dist/
-public/404.html
-public/about/
-public/aktionen/
-public/fortbildung/
-public/index.html
-public/index.xml
-public/katalog/
-public/page/
-public/querschnitt/
-public/sitemap.xml
-public/tags/
-public/categories/
-public/*.svg
-public/*.css
-public/*.js
-public/apple-touch-icon.png
-public/theme.png
-!public/logo.png
-!public/data/
 
-# Hugo
-.hugo_build.lock
-themes/
+# Vite/React dev
+.vite/
+
+# R Project
+.Rproj.user
 
 # OS files
 .DS_Store
