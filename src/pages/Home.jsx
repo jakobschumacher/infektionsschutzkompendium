@@ -24,6 +24,9 @@ function Home() {
     <div>
       <section className="section">
         <h2>Infektionskrankheiten</h2>
+        <p className="development-note" role="note" aria-label="Wichtiger Hinweis">
+          Hinweis: Diese Website befindet sich in Entwicklung. Alle Inhalte sind ohne Gewähr; es wird keine Garantie für Richtigkeit, Vollständigkeit oder Aktualität übernommen.
+        </p>
         <ul className="disease-list">
           {data?.diseases?.map(disease => (
             <li key={disease.slug}>

@@ -27,11 +27,29 @@ function Disease() {
   if (loading) return <div>Lädt...</div>
   if (!disease) return <div>Krankheit nicht gefunden</div>
 
+  const resolveVariable = (text) => {
+    if (!text || !variablen) return text
+    return text.replace(/\{\{(\w+)\}\}/g, (match, varName) => {
+      return variablen[varName] || match
+    })
+  }
+
+  const inferCategory = (item) => {
+    const explicitCategory = item?.kategorie?.trim()
+    if (explicitCategory) return explicitCategory
+
+    const marker = `${item?.id || ''} ${item?.varname || ''}`.toLowerCase()
+    if (marker.includes('ifsg') || marker.includes('meldepflicht')) {
+      return 'meldepflicht'
+    }
+
+    return 'andere'
+  }
+
   const groupByCategory = (items) => {
     const groups = {}
     items?.forEach(item => {
-      // Extract main category (remove "hygkowichtig" marker and commas)
-      let cat = item.kategorie || 'andere'
+      let cat = inferCategory(item)
       const isImportant = cat.includes('hygkowichtig')
       cat = cat.replace(/\s*hygkowichtig\s*/g, '')
                 .replace(/,/g, '')
@@ -52,22 +70,51 @@ function Disease() {
       'vorkommen': 'Vorkommen',
       'zeiten': 'Zeiten',
       'uebertragungswege': 'Übertragungswege',
-      'klinik': 'Krankheitszeichen'
+      'klinik': 'Krankheitszeichen',
+      'meldepflicht': 'Meldepflicht',
+      'andere': 'Weitere Fakten'
     }
     return titles[cat] || cat
   }
 
   const grouped = groupByCategory(disease.inhalte)
 
-  const resolveVariable = (text) => {
-    if (!text || !variablen) return text
-    return text.replace(/\{\{(\w+)\}\}/g, (match, varName) => {
-      return variablen[varName] || match
-    })
+  const mapSectionItem = (item, fieldName) => {
+    if (!item) return null
+
+    if (item.varname && variablen) {
+      const varData = variablen[item.varname]
+      if (varData?.text) {
+        return {
+          title: resolveVariable(varData.text),
+          note: resolveVariable(varData.beschreibung)
+        }
+      }
+    }
+
+    if (item[fieldName]) {
+      return {
+        title: resolveVariable(item[fieldName]),
+        note: resolveVariable(item.beschreibung)
+      }
+    }
+
+    return null
   }
 
+  const massnahmenItems = (disease.aktionsbausteine || [])
+    .map(item => mapSectionItem(item, 'aktion'))
+    .filter(Boolean)
+
+  const stichpunkteItems = (disease.interview || [])
+    .map(item => mapSectionItem(item, 'question'))
+    .filter(Boolean)
+
+  const linkItems = (disease.quellen || [])
+    .filter(quelle => quelle?.name && quelle?.webseite)
+
   const renderMassnahmen = () => {
-    if (!disease.aktionsbausteine || !variablen) {
+    if (!massnahmenItems.length) {
       return <div className="content-section">Keine Maßnahmen verfügbar</div>
     }
 
@@ -75,14 +122,12 @@ function Disease() {
       <section className="content-section">
         <h2>Übliche Maßnahmen</h2>
         <ul>
-          {disease.aktionsbausteine.map((item, idx) => {
-            const varData = variablen[item.varname]
-            if (!varData) return null
+          {massnahmenItems.map((item, idx) => {
             return (
               <li key={idx}>
-                <strong>{varData.text}</strong>
-                {varData.beschreibung && (
-                  <div className="note">{varData.beschreibung}</div>
+                <strong>{item.title}</strong>
+                {item.note && (
+                  <div className="note">{item.note}</div>
                 )}
               </li>
             )
@@ -93,7 +138,7 @@ function Disease() {
   }
 
   const renderStichpunkte = () => {
-    if (!disease.interview || !variablen) {
+    if (!stichpunkteItems.length) {
       return <div className="content-section">Keine Interview-Stichpunkte verfügbar</div>
     }
 
@@ -101,14 +146,12 @@ function Disease() {
       <section className="content-section">
         <h2>Stichpunkte für ein Interview</h2>
         <ul>
-          {disease.interview.map((item, idx) => {
-            const varData = variablen[item.varname]
-            if (!varData) return null
+          {stichpunkteItems.map((item, idx) => {
             return (
               <li key={idx}>
-                <strong>{varData.text}</strong>
-                {varData.beschreibung && (
-                  <div className="note">{varData.beschreibung}</div>
+                <strong>{item.title}</strong>
+                {item.note && (
+                  <div className="note">{item.note}</div>
                 )}
               </li>
             )
@@ -121,18 +164,18 @@ function Disease() {
   const renderErregerFakten = () => {
     const renderItem = (item, idx) => {
       let content = null
-      let isImportant = item.isImportant
+      const isImportant = item.isImportant
 
       if (item.text) {
-        content = item.text
+        content = resolveVariable(item.text)
       } else if (item.varname && variablen) {
         const varData = variablen[item.varname]
         if (varData) {
           content = (
             <>
-              <strong>{varData.text}</strong>
+              <strong>{resolveVariable(varData.text)}</strong>
               {varData.beschreibung && (
-                <div className="note">{varData.beschreibung}</div>
+                <div className="note">{resolveVariable(varData.beschreibung)}</div>
               )}
             </>
           )
@@ -150,7 +193,7 @@ function Disease() {
 
     return (
       <>
-        {grouped.erregerdaten && (
+        {grouped.erregerdaten && grouped.erregerdaten.some(item => renderItem(item, -1)) && (
           <section className="content-section">
             <h2>Fakten über den Erreger</h2>
             <ul>
@@ -158,38 +201,58 @@ function Disease() {
             </ul>
           </section>
         )}
-        {Object.entries(grouped).filter(([cat]) => cat !== 'erregerdaten').map(([category, items]) => (
-          <section key={category} className="content-section">
-            <h2>{getCategoryTitle(category)}</h2>
-            <ul>
-              {items.map((item, idx) => renderItem(item, idx))}
-            </ul>
-          </section>
-        ))}
+        {Object.entries(grouped)
+          .filter(([cat]) => cat !== 'erregerdaten')
+          .map(([category, items]) => {
+            const renderedItems = items.map((item, idx) => renderItem(item, idx)).filter(Boolean)
+            if (!renderedItems.length) return null
+
+            return (
+              <section key={category} className="content-section">
+                <h2>{getCategoryTitle(category)}</h2>
+                <ul>{renderedItems}</ul>
+              </section>
+            )
+          })}
       </>
     )
   }
 
   const renderLinks = () => {
+    if (!linkItems.length) {
+      return <div className="content-section">Keine Links verfügbar</div>
+    }
+
     return (
-      <>
-        {disease.quellen && disease.quellen.length > 0 && (
-          <section className="content-section">
-            <h2>Links</h2>
-            <ul>
-              {disease.quellen.map((quelle, idx) => (
-                <li key={idx}>
-                  <a href={quelle.webseite} target="_blank" rel="noopener noreferrer">
-                    {quelle.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-      </>
+      <section className="content-section">
+        <h2>Links</h2>
+        <ul>
+          {linkItems.map((quelle, idx) => (
+            <li key={idx}>
+              <a href={quelle.webseite} target="_blank" rel="noopener noreferrer">
+                {quelle.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
     )
   }
+
+  const hasFakten = Object.values(grouped).some(items =>
+    items.some(item => item.text || (item.varname && variablen?.[item.varname]))
+  )
+
+  const sectionConfig = [
+    { key: 'massnahmen', label: 'Übliche Maßnahmen', available: massnahmenItems.length > 0 },
+    { key: 'stichpunkte', label: 'Interview-Stichpunkte', available: stichpunkteItems.length > 0 },
+    { key: 'fakten', label: 'Fakten', available: hasFakten },
+    { key: 'links', label: 'Links', available: linkItems.length > 0 }
+  ].filter(section => section.available)
+
+  const effectiveActiveSection = sectionConfig.some(section => section.key === activeSection)
+    ? activeSection
+    : sectionConfig[0]?.key
 
   return (
     <article className="disease">
@@ -208,38 +271,28 @@ function Disease() {
         )}
       </div>
 
-      <nav className="disease-nav">
-        <button
-          className={activeSection === 'massnahmen' ? 'active' : ''}
-          onClick={() => setActiveSection('massnahmen')}
-        >
-          Übliche Maßnahmen
-        </button>
-        <button
-          className={activeSection === 'stichpunkte' ? 'active' : ''}
-          onClick={() => setActiveSection('stichpunkte')}
-        >
-          Interview-Stichpunkte
-        </button>
-        <button
-          className={activeSection === 'fakten' ? 'active' : ''}
-          onClick={() => setActiveSection('fakten')}
-        >
-          Fakten
-        </button>
-        <button
-          className={activeSection === 'links' ? 'active' : ''}
-          onClick={() => setActiveSection('links')}
-        >
-          Links
-        </button>
-      </nav>
+      {sectionConfig.length > 0 && (
+        <nav className="disease-nav">
+          {sectionConfig.map(section => (
+            <button
+              key={section.key}
+              className={effectiveActiveSection === section.key ? 'active' : ''}
+              onClick={() => setActiveSection(section.key)}
+            >
+              {section.label}
+            </button>
+          ))}
+        </nav>
+      )}
 
       <div className="disease-content">
-        {activeSection === 'massnahmen' && renderMassnahmen()}
-        {activeSection === 'stichpunkte' && renderStichpunkte()}
-        {activeSection === 'fakten' && renderErregerFakten()}
-        {activeSection === 'links' && renderLinks()}
+        {effectiveActiveSection === 'massnahmen' && renderMassnahmen()}
+        {effectiveActiveSection === 'stichpunkte' && renderStichpunkte()}
+        {effectiveActiveSection === 'fakten' && renderErregerFakten()}
+        {effectiveActiveSection === 'links' && renderLinks()}
+        {!effectiveActiveSection && (
+          <div className="content-section">Für diese Krankheit sind noch keine Inhalte verfügbar.</div>
+        )}
       </div>
     </article>
   )

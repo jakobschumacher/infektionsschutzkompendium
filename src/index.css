@@ -40,6 +40,12 @@ p, li {
   margin-bottom: 3rem;
 }
 
+.development-note {
+  margin: 0 0 1rem;
+  color: #4a4a4a;
+  font-style: italic;
+}
+
 ul {
   list-style: none;
 }
