@@ -4,6 +4,14 @@
     "title": "Essentielles Wissen"
   },
   {
+    "slug": "interview",
+    "title": "Interview bei einer Infektionsschutzermittlung"
+  },
+  {
+    "slug": "massnahmen",
+    "title": "Überblick über mögliche Maßnahmen"
+  },
+  {
     "slug": "vergleich_inkubationszeiten",
     "title": "Vergleich der Inkubationszeiten"
   },
@@ -12,15 +20,7 @@
     "title": "Vergleich der Reservoire"
   },
   {
-    "slug": "interview",
-    "title": "Interview bei einer Infektionsschutzermittlung"
-  },
-  {
     "slug": "vergleich_uebertragungswege",
     "title": "Vergleich der Übertragungswege"
-  },
-  {
-    "slug": "massnahmen",
-    "title": "Überblick über mögliche Maßnahmen"
   }
 ]
