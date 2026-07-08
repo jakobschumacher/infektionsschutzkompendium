@@ -51,3 +51,8 @@ npm run build
 2. `npm run extract` ausfuehren
 3. `npm run build` ausfuehren
 4. Aenderungen committen und Pull Request erstellen
+
+## Sicherheit und Wartung
+
+- Dependabot prueft monatlich auf Abhaengigkeits-Updates und oeffnet dafuer Pull Requests (`.github/dependabot.yml`).
+- Jeder Pull Request und jeder Push auf `main` durchlaeuft einen Build-Check (`.github/workflows/build-check.yml`); nur bei gruenem Check mergen.
